@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">613b3c6182bd0210f4145778213289ed</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">a53b3c6143bd0210cabeb66b1c43d8e1</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-26 00:27:13</sys_created_on>
+        <sys_id>693b3c610fbd0210bb5929d9ea20e7e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_693b3c610fbd0210bb5929d9ea20e7e1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-26 00:27:13</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

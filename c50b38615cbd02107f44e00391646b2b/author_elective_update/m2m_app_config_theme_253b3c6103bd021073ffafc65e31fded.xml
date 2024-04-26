@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability display_value="Public">613b3c6182bd0210f4145778213289ed</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-26 00:27:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>253b3c6103bd021073ffafc65e31fded</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>m2m_app_config_theme_253b3c6103bd021073ffafc65e31fded</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-26 17:33:52</sys_updated_on>
+        <theme display_value="Light Theme">33d190f13cb10210971e455416760315</theme>
+        <ux_app_configuration display_value="DropshipNow Config">9d3b3c615cbd02107f44e00391646b5a</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>m2m_app_config_theme_253b3c6103bd021073ffafc65e31fded</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability display_value="Public">613b3c6182bd0210f4145778213289ed</applicability><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-04-26 00:27:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>253b3c6103bd021073ffafc65e31fded</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>m2m_app_config_theme_253b3c6103bd021073ffafc65e31fded</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-04-26 17:33:52</sys_updated_on><theme display_value="Light Theme">33d190f13cb10210971e455416760315</theme><ux_app_configuration display_value="DropshipNow Config">9d3b3c615cbd02107f44e00391646b5a</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>1141807420</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>490b38615cbd02107f44e00391646b2d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-04-26 17:33:52</sys_created_on>
+        <sys_id>5d36203dd1f102107f4415dde5c92b8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1b787e620000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-26 17:33:52</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>5536203d75f102105a1cb16379209c8c</update_guid>
+        <update_guid_history>5536203d75f102105a1cb16379209c8c:1141807420,52ec5471a7f10210c373c2441b8f1e13:-1232244570,d46c9c3115f102109d0e1a23f8f85376:1178414259,dc6c9c31b6f10210a9ae231b66835074:378085678</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">23a7ecbdd1f102107f4415dde5c92b2f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 17:40:17</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>095f937c91a44b769012fbd4b1db2669</sys_id>
+        <sys_metadata>253b3c6103bd021073ffafc65e31fded</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_253b3c6103bd021073ffafc65e31fded</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_253b3c6103bd021073ffafc65e31fded">5d36203dd1f102107f4415dde5c92b8c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 17:40:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>NAV_ITEM_SELECTED_RELAY_693b3c6108bd02106c837a5d1d030be4</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Link to destination Relay (Landing Page Default)</label>
+        <props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route type"},{"name":"fields","fieldType":"json","interfaceApiName":"global.route","label":"Route fields"},{"name":"params","fieldType":"json","interfaceApiName":"global.route","label":"Optionals parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"Remove previous URL from browser history"},{"name":"passiveNavigation","fieldType":"boolean","interfaceApiName":null,"label":"Load in background (advanced)"},{"name":"title","fieldType":"string","interfaceApiName":null,"label":"Title (advanced)"},{"name":"multiInstField","fieldType":"string","interfaceApiName":null,"label":"Multi-instance field (advanced)"},{"name":"targetRoute","fieldType":"string","interfaceApiName":null,"label":"Sub-navigation route (advanced)"},{"name":"external","fieldType":"json","interfaceApiName":"global.route","label":"External URL object"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-26 00:27:14</sys_created_on>
+        <sys_id>6d3b3c61a8bd0210349b51e2dee58fbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to destination Relay (Landing Page Default)</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_event_6d3b3c61a8bd0210349b51e2dee58fbf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-26 00:27:14</sys_updated_on>
+    </sys_ux_event>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sys_ux_event_6d3b3c61a8bd0210349b51e2dee58fbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>NAV_ITEM_SELECTED_RELAY_693b3c6108bd02106c837a5d1d030be4</event_name><explicit_api_name/><interfaces/><label>Link to destination Relay (Landing Page Default)</label><props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route type"},{"name":"fields","fieldType":"json","interfaceApiName":"global.route","label":"Route fields"},{"name":"params","fieldType":"json","interfaceApiName":"global.route","label":"Optionals parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"Remove previous URL from browser history"},{"name":"passiveNavigation","fieldType":"boolean","interfaceApiName":null,"label":"Load in background (advanced)"},{"name":"title","fieldType":"string","interfaceApiName":null,"label":"Title (advanced)"},{"name":"multiInstField","fieldType":"string","interfaceApiName":null,"label":"Multi-instance field (advanced)"},{"name":"targetRoute","fieldType":"string","interfaceApiName":null,"label":"Sub-navigation route (advanced)"},{"name":"external","fieldType":"json","interfaceApiName":"global.route","label":"External URL object"}]</props><required_translations/><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-04-26 00:27:14</sys_created_on><sys_id>6d3b3c61a8bd0210349b51e2dee58fbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Link to destination Relay (Landing Page Default)</sys_name><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_ux_event_6d3b3c61a8bd0210349b51e2dee58fbf</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-04-26 00:27:14</sys_updated_on></sys_ux_event></record_update>]]></payload>
+        <payload_hash>1796299642</payload_hash>
+        <record_name>Link to destination Relay (Landing Page Default)</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-04-26 00:38:51</sys_created_on>
+        <sys_id>c1ed70655cbd02107f44e00391646b7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f17d736c10000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-26 00:38:51</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>81ed70658abd0210f0158adff56fc47e</update_guid>
+        <update_guid_history>81ed70658abd0210f0158adff56fc47e:1796299642</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-04-26 00:38:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>b907ea58f509484e9f72c2578f467c19</sys_id>
+        <sys_metadata>6d3b3c61a8bd0210349b51e2dee58fbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Link to destination Relay (Landing Page Default)</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_ux_event_6d3b3c61a8bd0210349b51e2dee58fbf</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_6d3b3c61a8bd0210349b51e2dee58fbf">c1ed70655cbd02107f44e00391646b7e</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-26 00:38:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
