@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System (apps/system_user)" source="apps/system_user">4bfafa22b91231107f44ddbd739997e0</dependency>
+        <min_version/>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-04-28 18:05:00</sys_created_on>
+        <sys_id>b48047d2e5f102107f448b9288cb93ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-28 18:05:00</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
