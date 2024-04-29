@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-04-28 18:05:07</sys_created_on>
+        <sys_id>728087d2e5f102107f448b9288cb93cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_dropship_0_vendors.x_cdltd_dropship_0.admin</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_security_acl display_value="x_cdltd_dropship_0_vendors">9a8087d2e5f102107f448b9288cb93c8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_728087d2e5f102107f448b9288cb93cf</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-28 18:05:07</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_dropship_0.admin" name="x_cdltd_dropship_0.admin">d90b38615cbd02107f44e00391646b56</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sys_security_acl_role_728087d2e5f102107f448b9288cb93cf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-04-28 18:05:07</sys_created_on><sys_id>728087d2e5f102107f448b9288cb93cf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_dropship_0_vendors.x_cdltd_dropship_0.admin</sys_name><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_security_acl display_value="x_cdltd_dropship_0_vendors">9a8087d2e5f102107f448b9288cb93c8</sys_security_acl><sys_update_name>sys_security_acl_role_728087d2e5f102107f448b9288cb93cf</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-04-28 18:05:07</sys_updated_on><sys_user_role display_value="x_cdltd_dropship_0.admin" name="x_cdltd_dropship_0.admin">d90b38615cbd02107f44e00391646b56</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1517655877</payload_hash>
+        <record_name>x_cdltd_dropship_0_vendors.x_cdltd_dropship_0.admin</record_name>
+        <reverted_from/>
+        <source>d8cbddbdd1f502107f4415dde5c92b73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-04-28 18:05:07</sys_created_on>
+        <sys_id>3680c7d2e5f102107f448b9288cb931e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f25e1d20f0000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-28 18:05:07</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7a80c7d247f10210862d61341f56041d</update_guid>
+        <update_guid_history>7a80c7d247f10210862d61341f56041d:-1517655877</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_cdltd_dropship_0_vendors.x_cdltd_dropship_0.admin">5c02531ae53502107f448b9288cb932b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-04-28 19:21:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0dea6209337a4c10941395ca7fed6900</sys_id>
+        <sys_metadata>728087d2e5f102107f448b9288cb93cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_dropship_0_vendors.x_cdltd_dropship_0.admin</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent display_value="">9a8087d2e5f102107f448b9288cb93c8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_728087d2e5f102107f448b9288cb93cf</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_728087d2e5f102107f448b9288cb93cf">3680c7d2e5f102107f448b9288cb931e</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-28 19:21:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

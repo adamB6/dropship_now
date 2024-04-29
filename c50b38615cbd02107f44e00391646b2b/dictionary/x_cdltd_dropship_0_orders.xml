@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2bf08316e5f102107f448b9288cb9301" extends="task" label="Orders" max_length="40" name="x_cdltd_dropship_0_orders" type="collection">
+        <element dependent="number" dependent_on_field="number" label="Product" mandatory="true" max_length="32" name="product" reference="sc_cat_item" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" label="Customer ID" max_length="32" name="u_customer_id" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element display="true" label="Quantity" mandatory="true" max_length="40" name="u_quantity" type="integer"/>
+    </element>
+</database>

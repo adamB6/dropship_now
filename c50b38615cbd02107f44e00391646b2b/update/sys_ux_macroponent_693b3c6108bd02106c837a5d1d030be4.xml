@@ -70,7 +70,7 @@
                             "value": {
                                 "code": null,
                                 "comment": "",
-                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt; color: #000000;\"&gt;We connect customers with specialty item vendors&lt;/span&gt;&lt;/p&gt;"
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt; color: #000000;\"&gt;We connect customers with specialty item vendors&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
                             }
                         }
                     },
@@ -179,7 +179,7 @@
                         },
                         "fixedQuery": {
                             "type": "JSON_LITERAL",
-                            "value": "sc_catalogsLIKE392935f683e54210dbc2a8d0deaad3bf"
+                            "value": "requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe"
                         },
                         "groupByField": {
                             "type": "JSON_LITERAL",
@@ -283,7 +283,7 @@
                             "value": {
                                 "code": null,
                                 "comment": "",
-                                "message": "All Active Tasks"
+                                "message": "Order History"
                             }
                         },
                         "maxCharLimit": {
@@ -308,7 +308,7 @@
                         },
                         "table": {
                             "type": "JSON_LITERAL",
-                            "value": "sc_cat_item"
+                            "value": "sc_req_item"
                         },
                         "wordWrap": {
                             "type": "JSON_LITERAL",
@@ -1036,7 +1036,14 @@
         "items": [
             {
                 "element_id": "container_1",
-                "styles": {}
+                "styles": {
+                    "background": "rgb(var(--now-color--neutral-1)) url('x_cdltd_dropship_0.dsnBanner.png') no-repeat center center",
+                    "background-size": "100% 80%",
+                    "border-color": "RGB(var(--now-color--neutral-5))",
+                    "border-style": "solid",
+                    "border-width": "var(--now-static-space--xxs)",
+                    "height": "500px"
+                }
             },
             {
                 "element_id": "container_2",
@@ -1079,13 +1086,13 @@
     }
 ]</props>
         <required_translations>[ {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt; color: #000000;\"&gt;We connect customers with specialty item vendors&lt;/span&gt;&lt;/p&gt;",
-  "comment" : ""
-}, {
   "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 36pt; color: #000000;\"&gt;&lt;strong&gt;DropshipNow&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "All Active Tasks",
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt; color: #000000;\"&gt;We connect customers with specialty item vendors&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "Order History",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -1194,14 +1201,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-04-26 00:27:13</sys_created_on>
         <sys_id>693b3c6108bd02106c837a5d1d030be4</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_693b3c6108bd02106c837a5d1d030be4</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-04-26 19:59:58</sys_updated_on>
+        <sys_updated_on>2024-04-28 21:41:12</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=693b3c6108bd02106c837a5d1d030be4"/>
 </record_update>

@@ -5,85 +5,19 @@
         <name>chrome_menu</name>
         <page display_value="DropshipNow">993b3c615cbd02107f44e00391646b5a</page>
         <required_translations>[ {
+  "message" : "Boubon",
+  "comment" : ""
+}, {
   "message" : "Browse Menu Item 1",
   "comment" : ""
 }, {
-  "message" : "Browse Menu Item 2",
+  "message" : "Cigars",
   "comment" : ""
 }, {
-  "message" : "Browse all Menu Item 1",
-  "comment" : ""
-}, {
-  "message" : "Browse all Menu Item 1.1",
-  "comment" : ""
-}, {
-  "message" : "Browse all Menu Item 1.2",
-  "comment" : ""
-}, {
-  "message" : "Browse all Menu Item 2",
-  "comment" : ""
-}, {
-  "message" : "Browse all Menu Item 2.1",
-  "comment" : ""
-}, {
-  "message" : "Browse all Menu Item 2.2",
-  "comment" : ""
-}, {
-  "message" : "Direct action",
-  "comment" : ""
-}, {
-  "message" : "Menu 1",
-  "comment" : ""
-}, {
-  "message" : "Menu 2",
+  "message" : "Inventory",
   "comment" : ""
 }, {
   "message" : "Menu Item 1",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 1.1",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 1.1.1",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 1.1.2",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 1.2",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 1.2.1",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 1.2.2",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 1.2.3",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 2",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 2.1",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 2.1.1",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 2.1.2",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 2.2",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 2.2.1",
-  "comment" : ""
-}, {
-  "message" : "Menu Item 2.3",
-  "comment" : ""
-}, {
-  "message" : "Perform another action",
   "comment" : ""
 }, {
   "message" : "Report Issue",
@@ -97,466 +31,102 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>613b3c61ddbd0210bf226b3d0943d4bc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>chrome_menu</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_page_property_613b3c61ddbd0210bf226b3d0943d4bc</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-04-26 20:18:26</sys_updated_on>
+        <sys_updated_on>2024-04-28 21:53:35</sys_updated_on>
         <type>json</type>
         <unique_name>x_cdltd_dropship_0.993b3c615cbd02107f44e00391646b5a.root.chrome_menu</unique_name>
         <value>[&#13;
-    {&#13;
-       "value":{&#13;
-          "label": {&#13;
-            "translatable":true, &#13;
-            "message":"Menu 1"&#13;
+  {&#13;
+    "value": {&#13;
+      "label": {&#13;
+        "translatable": true,&#13;
+        "message": "Inventory"&#13;
+      }&#13;
+    },&#13;
+    "children": {&#13;
+      "action": {&#13;
+        "label": {&#13;
+          "translatable": true,&#13;
+          "message": "Report Issue"&#13;
+        },&#13;
+        "type": "route",&#13;
+        "rightIcon": "chevron-right-fill",&#13;
+        "value": {&#13;
+          "route": "catalog",&#13;
+          "reload": true,&#13;
+          "fields": {&#13;
+            "sysId": "/landing/"&#13;
           }&#13;
-       },&#13;
-       "children":{&#13;
-          "action":{&#13;
-             "label": {&#13;
-                "translatable":true, &#13;
-                "message":"Report Issue"&#13;
-              },&#13;
-             "type":"route",&#13;
-             "rightIcon":"chevron-right-fill",&#13;
-             "value":{&#13;
-                "route":"catalog",&#13;
-                "reload":true,&#13;
-                "fields":{&#13;
-                   "sysId": "/landing/"&#13;
-                }&#13;
-             }&#13;
-          },&#13;
-          "items":[&#13;
-             {&#13;
-                "value":{&#13;
-                   "label": {&#13;
-                      "translatable":true, &#13;
-                      "message":"Menu Item 1"&#13;
-                    }&#13;
-                },&#13;
-                "children":{&#13;
-                   "action":{&#13;
-                      "label": {&#13;
-                          "translatable":true, &#13;
-                          "message":"Browse Menu Item 1"&#13;
-                        },&#13;
-                      "type":"route",&#13;
-                      "rightIcon":"chevron-right-fill",&#13;
-                      "value":{&#13;
-                          "route":"article",&#13;
-                            "fields":{&#13;
-                              "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
-                        }&#13;
-                      }&#13;
-                   },&#13;
-                   "items":[&#13;
-                      {&#13;
-                         "value":{&#13;
-                            "label":{&#13;
-                              "translatable":true, &#13;
-                              "message":"Menu Item 1.1"&#13;
-                            },&#13;
-                            "type":"route",&#13;
-                            "value":{&#13;
-                              "route":"article",&#13;
-                                 "fields":{&#13;
-                                    "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
-                              }&#13;
-                            }&#13;
-                          }&#13;
-                      },&#13;
-                      {&#13;
-                         "value":{&#13;
-                            "label":{&#13;
-                              "translatable":true, &#13;
-                              "message":"Menu Item 1.2"&#13;
-                            },&#13;
-                            "type":"route",&#13;
-                            "value":{&#13;
-                              "route":"article",&#13;
-                                 "fields":{&#13;
-                                    "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
-                              }&#13;
-                            }&#13;
-                         }&#13;
-                      }&#13;
-                   ]&#13;
-                }&#13;
-             },&#13;
-             {&#13;
-                "value":{&#13;
-                   "label": {&#13;
-                      "translatable":true, &#13;
-                      "message":"Menu Item 2"&#13;
-                    }&#13;
-                },&#13;
-                "children":{&#13;
-                   "action":{&#13;
-                      "label": {&#13;
-                        "translatable":true, &#13;
-                        "message":"Browse Menu Item 2"&#13;
-                      },&#13;
-                      "type":"route",&#13;
-                      "rightIcon":"chevron-right-fill",&#13;
-                      "value":{&#13;
-                        "route":"article",&#13;
-                            "fields":{&#13;
-                              "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
-                        }&#13;
-                      }&#13;
-                   },&#13;
-                   "items":[&#13;
-                      {&#13;
-                         "value":{&#13;
-                            "label": {&#13;
-                                "translatable":true, &#13;
-                                "message":"Menu Item 2.1"&#13;
-                              },&#13;
-                            "type":"external",&#13;
-                            "rightIcon":"open-link-fill",&#13;
-                            "value":{"href": "www.servicenow.com"}&#13;
-                         }&#13;
-                      },&#13;
-                      {&#13;
-                         "value":{&#13;
-                            "label": {&#13;
-                                "translatable":true, &#13;
-                                "message":"Menu Item 2.2"&#13;
-                              },&#13;
-                            "type":"external",&#13;
-                            "rightIcon":"open-link-fill",&#13;
-                            "value":{"href": "www.servicenow.com"}&#13;
-                         }&#13;
-                      },&#13;
-                      {&#13;
-                         "value":{&#13;
-                            "label": {&#13;
-                                "translatable":true, &#13;
-                                "message":"Menu Item 2.3"&#13;
-                              },&#13;
-                            "type":"external",&#13;
-                            "rightIcon":"open-link-fill",&#13;
-                            "value":{"href": "www.servicenow.com"}&#13;
-                         }&#13;
-                      }&#13;
-                   ]&#13;
-                }&#13;
-             }&#13;
-          ]&#13;
-       }&#13;
-    },&#13;
-    {&#13;
-       "value":{&#13;
-          "label": {&#13;
-              "translatable":true, &#13;
-              "message":"Menu 2"&#13;
+        }&#13;
+      },&#13;
+      "items": [&#13;
+        {&#13;
+          "value": {&#13;
+            "label": {&#13;
+              "translatable": true,&#13;
+              "message": "Menu Item 1"&#13;
             }&#13;
-       },&#13;
-       "children":{&#13;
-          "action":{&#13;
-             "label": {&#13;
-                "translatable":true, &#13;
-                "message":"Perform another action"&#13;
-              },&#13;
-             "type":"route",&#13;
-             "rightIcon":"chevron-right-fill",&#13;
-             "value":{&#13;
-                "route":"article",&#13;
-                    "fields":{&#13;
-                      "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                }&#13;
-             }&#13;
           },&#13;
-          "items":[&#13;
-             {&#13;
-                "value":{&#13;
-                   "label": {&#13;
-                      "translatable":true, &#13;
-                      "message":"Menu Item 1"&#13;
-                    }&#13;
-                },&#13;
-                "children":{&#13;
-                   "action":{&#13;
-                      "label": {&#13;
-                          "translatable":true, &#13;
-                          "message":"Browse all Menu Item 1"&#13;
-                        },&#13;
-                      "type":"route",&#13;
-                      "rightIcon":"chevron-right-fill",&#13;
-                      "value":{&#13;
-                        "route":"article",&#13;
-                            "fields":{&#13;
-                              "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                        }&#13;
-                      }&#13;
-                   },&#13;
-                   "items":[&#13;
-                      {&#13;
-                         "value":{&#13;
-                            "label":{&#13;
-                                "translatable":true, &#13;
-                                "message":"Menu Item 1.1"&#13;
-                              }&#13;
-                         },&#13;
-                         "children":{&#13;
-                            "action":{&#13;
-                               "label":{&#13;
-                                  "translatable":true, &#13;
-                                  "message":"Browse all Menu Item 1.1"&#13;
-                                },&#13;
-                               "type":"route",&#13;
-                               "rightIcon":"chevron-right-fill",&#13;
-                               "value":{&#13;
-                                  "route":"article",&#13;
-                                    "fields":{&#13;
-                                      "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                                  }&#13;
-                               }&#13;
-                            },&#13;
-                            "items":[&#13;
-                               {&#13;
-                                  "value":{&#13;
-                                     "label":{&#13;
-                                        "translatable":true, &#13;
-                                        "message":"Menu Item 1.1.1"&#13;
-                                      },&#13;
-                                     "type":"route",&#13;
-                                     "value":{&#13;
-                                        "route":"article",&#13;
-                                          "fields":{&#13;
-                                            "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                                        }&#13;
-                                      }&#13;
-                                  }&#13;
-                               },&#13;
-                               {&#13;
-                                  "value":{&#13;
-                                     "label": {&#13;
-                                        "translatable":true, &#13;
-                                        "message":"Menu Item 1.1.2"&#13;
-                                      },&#13;
-                                     "value":{&#13;
-                                        "route":"article",&#13;
-                                          "fields":{&#13;
-                                            "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                                          }&#13;
-                                      }&#13;
-                                     &#13;
-                                  }&#13;
-                               }&#13;
-                            ]&#13;
-                         }&#13;
-                      },&#13;
-                      {&#13;
-                         "value":{&#13;
-                            "label":{&#13;
-                                "translatable":true, &#13;
-                                "message":"Menu Item 1.2"&#13;
-                              }&#13;
-                         },&#13;
-                         "children":{&#13;
-                            "action":{&#13;
-                               "label": {&#13;
-                                  "translatable":true, &#13;
-                                  "message":"Browse all Menu Item 1.2"&#13;
-                                },&#13;
-                               "type":"route",&#13;
-                               "rightIcon":"chevron-right-fill",&#13;
-                               "value":{&#13;
-                                  "route":"article",&#13;
-                                    "fields":{&#13;
-                                      "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                                  }&#13;
-                               }&#13;
-                            },&#13;
-                            "items":[&#13;
-                               {&#13;
-                                  "value":{&#13;
-                                     "label": {&#13;
-                                        "translatable":true, &#13;
-                                        "message":"Menu Item 1.2.1"&#13;
-                                      },&#13;
-                                     "type":"external",&#13;
-                                     "rightIcon":"open-link-fill",&#13;
-                                     "value":{"href": "www.servicenow.com"}&#13;
-                                     &#13;
-                                  }&#13;
-                               },&#13;
-                               {&#13;
-                                  "value":{&#13;
-                                     "label": {&#13;
-                                        "translatable":true, &#13;
-                                        "message":"Menu Item 1.2.2"&#13;
-                                      },&#13;
-                                     "type":"external",&#13;
-                                     "rightIcon":"open-link-fill",&#13;
-                                     "value":{"href": "www.servicenow.com"}&#13;
-                                     &#13;
-                                  }&#13;
-                               },&#13;
-                               {&#13;
-                                  "value":{&#13;
-                                     "label":{&#13;
-                                        "translatable":true, &#13;
-                                        "message":"Menu Item 1.2.3"&#13;
-                                      },&#13;
-                                     "type":"external",&#13;
-                                     "rightIcon":"open-link-fill",&#13;
-                                     "value":{"href": "www.servicenow.com"}&#13;
-                                     &#13;
-                                  }&#13;
-                               }&#13;
-                            ]&#13;
-                         }&#13;
-                      }&#13;
-                   ]&#13;
+          "children": {&#13;
+            "action": {&#13;
+              "label": {&#13;
+                "translatable": true,&#13;
+                "message": "Browse Menu Item 1"&#13;
+              },&#13;
+              "type": "route",&#13;
+              "rightIcon": "chevron-right-fill",&#13;
+              "value": {&#13;
+                "route": "article",&#13;
+                "fields": {&#13;
+                  "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
                 }&#13;
-             },&#13;
-             {&#13;
-                "value":{&#13;
-                   "label":{&#13;
-                      "translatable":true, &#13;
-                      "message":"Menu Item 2"&#13;
-                    }&#13;
-                },&#13;
-                "children":{&#13;
-                   "action":{&#13;
-                      "label":{&#13;
-                          "translatable":true, &#13;
-                          "message":"Browse all Menu Item 2"&#13;
-                        },&#13;
-                      "type":"route",&#13;
-                      "rightIcon":"chevron-right-fill",&#13;
-                      "value":{&#13;
-                        "route":"article",&#13;
-                          "fields":{&#13;
-                            "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                        }&#13;
-                      }&#13;
-                   },&#13;
-                   "items":[&#13;
-                      {&#13;
-                         "value":{&#13;
-                            "label":{&#13;
-                                "translatable":true, &#13;
-                                "message":"Menu Item 2.1"&#13;
-                              }&#13;
-                         },&#13;
-                         "children":{&#13;
-                            "action":{&#13;
-                               "label":{&#13;
-                                    "translatable":true, &#13;
-                                    "message":"Browse all Menu Item 2.1"&#13;
-                                  },&#13;
-                               "type":"route",&#13;
-                               "rightIcon":"chevron-right-fill",&#13;
-                               "value":{&#13;
-                                  "route":"article",&#13;
-                                    "fields":{&#13;
-                                      "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                                  }&#13;
-                               }&#13;
-                            },&#13;
-                            "items":[&#13;
-                               {&#13;
-                                  "value":{&#13;
-                                     "label":{&#13;
-                                        "translatable":true, &#13;
-                                        "message":"Menu Item 2.1.1"&#13;
-                                      },&#13;
-                                     "type":"route",&#13;
-                                     "value":{&#13;
-                                        "route":"article",&#13;
-                                          "fields":{&#13;
-                                            "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                                        }&#13;
-                                      }&#13;
-                                  }&#13;
-                               },&#13;
-                               {&#13;
-                                  "value":{&#13;
-                                     "label":{&#13;
-                                          "translatable":true, &#13;
-                                          "message":"Menu Item 2.1.2"&#13;
-                                        },&#13;
-                                     "type":"route",&#13;
-                                     "value":{&#13;
-                                        "route":"article",&#13;
-                                          "fields":{&#13;
-                                            "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                                        }&#13;
-                                      }&#13;
-                                  }&#13;
-                               }&#13;
-                            ]&#13;
-                         }&#13;
-                      },&#13;
-                      {&#13;
-                         "value":{&#13;
-                            "label":{&#13;
-                                "translatable":true, &#13;
-                                "message":"Menu Item 2.2"&#13;
-                              }&#13;
-                         },&#13;
-                         "children":{&#13;
-                            "action":{&#13;
-                               "label":{&#13;
-                                    "translatable":true, &#13;
-                                    "message":"Browse all Menu Item 2.2"&#13;
-                                  },&#13;
-                               "type":"route",&#13;
-                               "rightIcon":"chevron-right-fill",&#13;
-                               "value":{&#13;
-                                  "route":"article",&#13;
-                                    "fields":{&#13;
-                                      "sysId": "8aef1935474321009db4b5b08b9a7113"&#13;
-                                  }&#13;
-                               }&#13;
-                            },&#13;
-                            "items":[&#13;
-                               {&#13;
-                                  "value":{&#13;
-                                     "label":{&#13;
-                                        "translatable":true, &#13;
-                                        "message":"Menu Item 2.2.1"&#13;
-                                      },&#13;
-                                     "type":"external",&#13;
-                                     "rightIcon":"open-link-fill",&#13;
-                                     "value":{"href": "www.servicenow.com"}&#13;
-                                     &#13;
-                                  }&#13;
-                               }&#13;
-                            ]&#13;
-                         }&#13;
-                      }&#13;
-                   ]&#13;
-                }&#13;
-             }&#13;
-          ]&#13;
-       }&#13;
-    },&#13;
-    {&#13;
-       "value":{&#13;
-          "label":{&#13;
-              "translatable":true, &#13;
-              "message":"Direct action"&#13;
+              }&#13;
             },&#13;
-          "target":"",&#13;
-          "type":"route",&#13;
-          "value":{&#13;
-            "route":"article",&#13;
-              "fields":{&#13;
-                "sysId": "7c8f75b5474321009db4b5b08b9a71b5"&#13;
-            }&#13;
+            "items": [&#13;
+              {&#13;
+                "value": {&#13;
+                  "label": {&#13;
+                    "translatable": true,&#13;
+                    "message": "Boubon"&#13;
+                  },&#13;
+                  "type": "route",&#13;
+                  "value": {&#13;
+                    "route": "article",&#13;
+                    "fields": {&#13;
+                      "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
+                    }&#13;
+                  }&#13;
+                }&#13;
+              },&#13;
+              {&#13;
+                "value": {&#13;
+                  "label": {&#13;
+                    "translatable": true,&#13;
+                    "message": "Cigars"&#13;
+                  },&#13;
+                  "type": "route",&#13;
+                  "value": {&#13;
+                    "route": "article",&#13;
+                    "fields": {&#13;
+                      "sysId": "3020c9b1474321009db4b5b08b9a712d"&#13;
+                    }&#13;
+                  }&#13;
+                }&#13;
+              }&#13;
+            ]&#13;
           }&#13;
-       }&#13;
+        }&#13;
+      ]&#13;
     }&#13;
- ]</value>
+  }&#13;
+]&#13;
+</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=613b3c61ddbd0210bf226b3d0943d4bc"/>
 </record_update>

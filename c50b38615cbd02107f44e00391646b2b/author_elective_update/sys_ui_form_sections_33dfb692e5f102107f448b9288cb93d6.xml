@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="33dfb692e5f102107f448b9288cb93d6" sys_domain="global" table="x_cdltd_dropship_0_products" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-04-28 18:02:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54eff692e5f102107f448b9288cb930b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">d4efb692e5f102107f448b9288cb93e0</sys_ui_section>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-04-28 18:02:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-04-28 18:02:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10eff692e5f102107f448b9288cb931b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form>
+            <sys_ui_section caption="Item Details" display_value="Item Details" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">94eff692e5f102107f448b9288cb9317</sys_ui_section>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-04-28 18:02:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-04-28 18:02:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14eff692e5f102107f448b9288cb930f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form>
+            <sys_ui_section caption="Process Engine" display_value="Process Engine" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">98eff692e5f102107f448b9288cb930b</sys_ui_section>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-04-28 18:02:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-04-28 18:02:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10eff692e5f102107f448b9288cb9313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form>
+            <sys_ui_section caption="Picture" display_value="Picture" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">58eff692e5f102107f448b9288cb930f</sys_ui_section>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-04-28 18:02:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-04-28 18:02:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>50eff692e5f102107f448b9288cb9317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form>
+            <sys_ui_section caption="Pricing" display_value="Pricing" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">54eff692e5f102107f448b9288cb9313</sys_ui_section>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-04-28 18:02:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-04-28 18:02:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cefb692e5f102107f448b9288cb93df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form>
+            <sys_ui_section caption="Portal Settings" display_value="Portal Settings" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">98efb692e5f102107f448b9288cb93d9</sys_ui_section>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-04-28 18:02:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cdltd_dropship_0_products</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-04-28 18:02:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33dfb692e5f102107f448b9288cb93d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_dropship_0_products</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_33dfb692e5f102107f448b9288cb93d6</sys_update_name>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-04-28 18:02:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sys_ui_form_sections_33dfb692e5f102107f448b9288cb93d6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="33dfb692e5f102107f448b9288cb93d6" sys_domain="global" table="x_cdltd_dropship_0_products" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-04-28 18:02:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>54eff692e5f102107f448b9288cb930b</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">d4efb692e5f102107f448b9288cb93e0</sys_ui_section><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-04-28 18:02:13</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-04-28 18:02:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>10eff692e5f102107f448b9288cb931b</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form><sys_ui_section caption="Item Details" display_value="Item Details" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">94eff692e5f102107f448b9288cb9317</sys_ui_section><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-04-28 18:02:14</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-04-28 18:02:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>14eff692e5f102107f448b9288cb930f</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form><sys_ui_section caption="Process Engine" display_value="Process Engine" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">98eff692e5f102107f448b9288cb930b</sys_ui_section><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-04-28 18:02:13</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>3</position><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-04-28 18:02:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>10eff692e5f102107f448b9288cb9313</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form><sys_ui_section caption="Picture" display_value="Picture" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">58eff692e5f102107f448b9288cb930f</sys_ui_section><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-04-28 18:02:13</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>4</position><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-04-28 18:02:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>50eff692e5f102107f448b9288cb9317</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form><sys_ui_section caption="Pricing" display_value="Pricing" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">54eff692e5f102107f448b9288cb9313</sys_ui_section><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-04-28 18:02:14</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>5</position><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-04-28 18:02:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5cefb692e5f102107f448b9288cb93df</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_cdltd_dropship_0_products" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">33dfb692e5f102107f448b9288cb93d6</sys_ui_form><sys_ui_section caption="Portal Settings" display_value="Portal Settings" name="x_cdltd_dropship_0_products" sys_domain="global" view="Default view">98efb692e5f102107f448b9288cb93d9</sys_ui_section><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-04-28 18:02:13</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_cdltd_dropship_0_products</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-04-28 18:02:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>33dfb692e5f102107f448b9288cb93d6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_dropship_0_products</sys_name><sys_overrides/><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_ui_form_sections_33dfb692e5f102107f448b9288cb93d6</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-04-28 18:02:12</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-1510494580</payload_hash>
+        <record_name>Products</record_name>
+        <reverted_from/>
+        <source>d8cbddbdd1f502107f4415dde5c92b73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-04-28 18:02:14</sys_created_on>
+        <sys_id>1ceff692e5f102107f448b9288cb931d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f25df2d0e0000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-28 18:02:14</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>10eff69244f10210a3682ac725d2ce1d</update_guid>
+        <update_guid_history>10eff69244f10210a3682ac725d2ce1d:-1510494580,00efb692ccf102102ad51aa1015587d8:-2073603677</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-04-28 19:21:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>01a7945b42494c3f80205b014893e9c1</sys_id>
+        <sys_metadata>33dfb692e5f102107f448b9288cb93d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_dropship_0_products</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent display_value="">5ecfb292e5f102107f448b9288cb93d9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_33dfb692e5f102107f448b9288cb93d6</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_33dfb692e5f102107f448b9288cb93d6">1ceff692e5f102107f448b9288cb931d</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-04-28 19:21:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
