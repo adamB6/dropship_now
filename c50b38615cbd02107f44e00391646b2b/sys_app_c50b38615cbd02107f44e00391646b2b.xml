@@ -21,9 +21,9 @@
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_cdltd_dropship_0</scope>
         <scoped_administration>false</scoped_administration>
-        <short_description>Connecting customers to obscure item vendors</short_description>
+        <short_description>Connecting customers to specialty item vendors</short_description>
         <source>x_cdltd_dropship_0</source>
-        <store_correlation_id>REPOAPP0000002088</store_correlation_id>
+        <store_correlation_id>REPOAPP0000002089</store_correlation_id>
         <store_url/>
         <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
@@ -31,16 +31,16 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-04-26 00:26:17</sys_created_on>
         <sys_id>c50b38615cbd02107f44e00391646b2b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-04-29 21:55:01</sys_updated_on>
+        <sys_updated_on>2024-04-29 22:02:10</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=c50b38615cbd02107f44e00391646b2b"/>
     <sys_attachment action="INSERT_OR_UPDATE">
