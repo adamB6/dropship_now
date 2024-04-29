@@ -2,7 +2,7 @@
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
         <can_edit_in_studio>true</can_edit_in_studio>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
         <ide_created>AES</ide_created>
@@ -14,7 +14,7 @@
         <license_definition/>
         <license_model>none</license_model>
         <logo>eb6894f9d1b102107f4415dde5c92bde</logo>
-        <menu/>
+        <menu display_value="DropshipNow">c18e78f28c7902107f44a273d461561a</menu>
         <name>DropshipNow</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
@@ -23,7 +23,7 @@
         <scoped_administration>false</scoped_administration>
         <short_description>Connecting customers to obscure item vendors</short_description>
         <source>x_cdltd_dropship_0</source>
-        <store_correlation_id>REPOAPP0000002087</store_correlation_id>
+        <store_correlation_id>REPOAPP0000002088</store_correlation_id>
         <store_url/>
         <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
@@ -31,16 +31,16 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-04-26 00:26:17</sys_created_on>
         <sys_id>c50b38615cbd02107f44e00391646b2b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-04-29 21:51:36</sys_updated_on>
+        <sys_updated_on>2024-04-29 21:55:01</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=c50b38615cbd02107f44e00391646b2b"/>
     <sys_attachment action="INSERT_OR_UPDATE">
