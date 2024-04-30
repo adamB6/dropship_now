@@ -378,15 +378,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a53b3c612abd02100daa55d49bcb78ba</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Catalog Item Page Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_screen_a53b3c612abd02100daa55d49bcb78ba</sys_update_name>
-        <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-04-26 19:56:31</sys_updated_on>
+        <sys_updated_by>Antoni</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:27:27</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=a53b3c612abd02100daa55d49bcb78ba"/>
 </record_update>
