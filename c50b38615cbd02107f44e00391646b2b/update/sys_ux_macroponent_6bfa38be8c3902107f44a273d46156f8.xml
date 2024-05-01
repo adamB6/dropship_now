@@ -656,44 +656,98 @@
                                                         },
                                                         "preset": null,
                                                         "propertyValues": {
-                                                            "items": {
-                                                                "container": [
+                                                            "items": null
+                                                        },
+                                                        "slot": null,
+                                                        "styles": null
+                                                    },
+                                                    {
+                                                        "definition": {
+                                                            "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                                            "type": "MACROPONENT"
+                                                        },
+                                                        "elementId": "button_1",
+                                                        "elementLabel": "Button 1",
+                                                        "eventMappings": [
+                                                            {
+                                                                "eventMappingId": "clvnzsfhdaaaablddffhhrddccbbiiswiip",
+                                                                "isConfiguration": false,
+                                                                "offRowStorageId": null,
+                                                                "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                "sourceEventCorrelationId": null,
+                                                                "sourceEventDefinition": {
+                                                                    "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                    "id": null,
+                                                                    "type": "UXEVENT"
+                                                                },
+                                                                "sourceEventSysId": null,
+                                                                "targets": [
                                                                     {
-                                                                        "container": {
-                                                                            "label": {
-                                                                                "type": "TRANSLATION_LITERAL",
-                                                                                "value": {
-                                                                                    "code": null,
-                                                                                    "comment": "",
-                                                                                    "message": "Add to cart"
-                                                                                }
-                                                                            },
-                                                                            "variant": {
+                                                                        "broker": null,
+                                                                        "clientScript": null,
+                                                                        "conditional": null,
+                                                                        "declarativeAction": null,
+                                                                        "event": null,
+                                                                        "operation": {
+                                                                            "dataBrokerId": "beda4252770300108d070d74c810618f",
+                                                                            "operationName": "EXECUTE",
+                                                                            "parentResourceId": "create_record_1",
+                                                                            "payload": {
                                                                                 "type": "JSON_LITERAL",
-                                                                                "value": "secondary-negative"
+                                                                                "value": {
+                                                                                    "table": "x_cdltd_dropship_0_shopping_cart",
+                                                                                    "templateFields": "",
+                                                                                    "useSetDisplayValue": null
+                                                                                }
                                                                             }
                                                                         },
-                                                                        "type": "MAP_CONTAINER"
-                                                                    },
-                                                                    {
-                                                                        "container": {
-                                                                            "label": {
-                                                                                "type": "TRANSLATION_LITERAL",
-                                                                                "value": {
-                                                                                    "code": null,
-                                                                                    "comment": "",
-                                                                                    "message": "Order"
-                                                                                }
-                                                                            },
-                                                                            "variant": {
-                                                                                "type": "JSON_LITERAL",
-                                                                                "value": "secondary-positive"
-                                                                            }
-                                                                        },
-                                                                        "type": "MAP_CONTAINER"
+                                                                        "targetId": "clvnzsfhdaaaabmddffhhryleesliisr",
+                                                                        "type": "DATABROKER_OP"
                                                                     }
-                                                                ],
-                                                                "type": "LIST_CONTAINER"
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "isHidden": {
+                                                            "type": "JSON_LITERAL",
+                                                            "value": null
+                                                        },
+                                                        "preset": null,
+                                                        "propertyValues": {
+                                                            "configAria": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": {}
+                                                            },
+                                                            "disabled": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": false
+                                                            },
+                                                            "icon": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "label": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "Add to cart"
+                                                                }
+                                                            },
+                                                            "size": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "md"
+                                                            },
+                                                            "tooltipContent": {
+                                                                "type": "TRANSLATION_LITERAL",
+                                                                "value": {
+                                                                    "code": null,
+                                                                    "comment": "",
+                                                                    "message": "Enter a label"
+                                                                }
+                                                            },
+                                                            "variant": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "primary-positive"
                                                             }
                                                         },
                                                         "slot": null,
@@ -836,6 +890,10 @@
                                                         "items": [
                                                             {
                                                                 "element_id": "card_base_actions_1",
+                                                                "styles": {}
+                                                            },
+                                                            {
+                                                                "element_id": "button_1",
                                                                 "styles": {}
                                                             },
                                                             {
@@ -1159,6 +1217,69 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "beda4252770300108d070d74c810618f",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "create_record_1",
+        "elementLabel": "Create Record 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "clvnzrmrvaaaabeeddffhhrsgdiizioc",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uxf.DATA_OP_INITIATED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uxf.DATA_OP_INITIATED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": {
+                            "dataBrokerId": "beda4252770300108d070d74c810618f",
+                            "operationName": "EXECUTE",
+                            "parentResourceId": "create_record_1",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "table": "x_cdltd_dropship_0_orders",
+                                    "templateFields": "",
+                                    "useSetDisplayValue": null
+                                }
+                            }
+                        },
+                        "targetId": "clvnzrmrwaaaabffddffhhrygddhhhhduee",
+                        "type": "DATABROKER_OP"
+                    }
+                ]
+            }
+        ],
+        "inputValues": {
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "templateFields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "useSetDisplayValue": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
     }
 ]</data>
         <description/>
@@ -1222,10 +1343,10 @@
   "message" : "Add to cart",
   "comment" : ""
 }, {
-  "message" : "Label",
+  "message" : "Enter a label",
   "comment" : ""
 }, {
-  "message" : "Order",
+  "message" : "Label",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -1237,14 +1358,14 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-04-29 21:38:35</sys_created_on>
         <sys_id>6bfa38be8c3902107f44a273d46156f8</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_6bfa38be8c3902107f44a273d46156f8</sys_update_name>
-        <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-01 13:31:21</sys_updated_on>
+        <sys_updated_by>Antoni</sys_updated_by>
+        <sys_updated_on>2024-05-01 15:49:20</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=6bfa38be8c3902107f44a273d46156f8"/>
 </record_update>
