@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_cdltd_dropship_0_Shopping Cart.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+</j:jelly>]]></html>
+        <name>Shopping Cart</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>wesley.stephens</sys_created_by>
+        <sys_created_on>2024-04-30 18:07:00</sys_created_on>
+        <sys_id>9ebb34cb817502107f441a840b11d763</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shopping Cart</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ui_page_9ebb34cb817502107f441a840b11d763</sys_update_name>
+        <sys_updated_by>wesley.stephens</sys_updated_by>
+        <sys_updated_on>2024-04-30 18:07:00</sys_updated_on>
+    </sys_ui_page>
+</record_update>
