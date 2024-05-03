@@ -4,13 +4,55 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>adam.botens</sys_created_by>
-            <sys_created_on>2024-05-01 18:08:18</sys_created_on>
-            <sys_id>2a0ed29b60f902107f44b4f7aba5bd1a</sys_id>
+            <sys_created_on>2024-05-02 22:30:01</sys_created_on>
+            <sys_id>46832c37ccfd02107f4477bb15d90ccd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_dropship_0_orders" sys_domain="global" view="Default view">220ed29b60f902107f44b4f7aba5bd17</sys_ui_section>
             <sys_updated_by>adam.botens</sys_updated_by>
-            <sys_updated_on>2024-05-01 18:08:18</sys_updated_on>
+            <sys_updated_on>2024-05-02 22:30:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>productid</element>
+            <position>1</position>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-05-02 22:30:01</sys_created_on>
+            <sys_id>4a832c37ccfd02107f4477bb15d90ccd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_dropship_0_orders" sys_domain="global" view="Default view">220ed29b60f902107f44b4f7aba5bd17</sys_ui_section>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-05-02 22:30:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>2</position>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-05-02 22:30:01</sys_created_on>
+            <sys_id>4e832c37ccfd02107f4477bb15d90ccd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_dropship_0_orders" sys_domain="global" view="Default view">220ed29b60f902107f44b4f7aba5bd17</sys_ui_section>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-05-02 22:30:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <position>3</position>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-05-02 22:30:01</sys_created_on>
+            <sys_id>42832c37ccfd02107f4477bb15d90cce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_dropship_0_orders" sys_domain="global" view="Default view">220ed29b60f902107f44b4f7aba5bd17</sys_ui_section>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-05-02 22:30:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

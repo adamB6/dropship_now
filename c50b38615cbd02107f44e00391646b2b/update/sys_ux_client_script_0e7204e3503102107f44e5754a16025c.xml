@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">6bfa38be8c3902107f44a273d46156f8</macroponent>
+        <name>Add to cart </name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * Handles creating a record in the shopping cart table.
+ * @param {Object} params - The parameters object.
+ * @param {Object} params.api - API services available for use.
+ * @param {Object} params.event - The event data associated with this handler.
+ * @param {Object} params.imports - Imported modules or libraries.
+ * @param {Object} params.helpers - Helper functions or utilities.
+ */
+function handler(params) {
+    const { api, event, helpers, imports } = params;
+    const templateFields = 'quantity=' + 11;
+
+    api.data.create_record_1.execute({
+        "table": "x_cdltd_dropship_0_shopping_cart",
+        "templateFields": templateFields,
+    });
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>Antoni</sys_created_by>
+        <sys_created_on>2024-05-02 01:52:13</sys_created_on>
+        <sys_id>0e7204e3503102107f44e5754a16025c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Add to cart </sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_client_script_0e7204e3503102107f44e5754a16025c</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:22:03</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

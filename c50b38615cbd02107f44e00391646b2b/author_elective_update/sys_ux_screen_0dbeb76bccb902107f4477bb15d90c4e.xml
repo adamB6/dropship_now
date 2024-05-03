@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="DropshipNow Config">9d3b3c615cbd02107f44e00391646b5a</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings/>
+        <macroponent display_value="Bourbon2">f4be3b2bccb902107f4477bb15d90cd6</macroponent>
+        <macroponent_config/>
+        <name>Bourbon2</name>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Bourbon">3afaf47e8c3902107f44a273d4615611</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 19:49:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0dbeb76bccb902107f4477bb15d90c4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bourbon2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_screen_0dbeb76bccb902107f4477bb15d90c4e</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 19:49:07</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=0dbeb76bccb902107f4477bb15d90c4e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sys_ux_screen_0dbeb76bccb902107f4477bb15d90c4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="DropshipNow Config">9d3b3c615cbd02107f44e00391646b5a</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><event_mappings/><macroponent display_value="Bourbon2">f4be3b2bccb902107f4477bb15d90cd6</macroponent><macroponent_config/><name>Bourbon2</name><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Bourbon">3afaf47e8c3902107f44a273d4615611</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-02 19:49:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0dbeb76bccb902107f4477bb15d90c4e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bourbon2</sys_name><sys_overrides/><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_ux_screen_0dbeb76bccb902107f4477bb15d90c4e</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-02 19:49:07</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=0dbeb76bccb902107f4477bb15d90c4e"/></record_update>]]></payload>
+        <payload_hash>1381281028</payload_hash>
+        <record_name>Bourbon2</record_name>
+        <reverted_from/>
+        <source>d8cbddbdd1f502107f4415dde5c92b73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 19:49:07</sys_created_on>
+        <sys_id>41beb76bccb902107f4477bb15d90c52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f3ada78760000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 19:49:07</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>85beb76b9db9021079f99647116f2a51</update_guid>
+        <update_guid_history>85beb76b9db9021079f99647116f2a51:1381281028</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 19:51:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>04a3ce94889e4f7c805cb70e8608dec1</sys_id>
+        <sys_metadata>0dbeb76bccb902107f4477bb15d90c4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bourbon2</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_0dbeb76bccb902107f4477bb15d90c4e</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_0dbeb76bccb902107f4477bb15d90c4e">41beb76bccb902107f4477bb15d90c52</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 19:51:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

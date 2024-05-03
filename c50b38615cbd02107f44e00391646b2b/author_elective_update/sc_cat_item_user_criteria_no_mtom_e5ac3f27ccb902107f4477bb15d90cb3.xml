@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="">25ac3f27ccb902107f4477bb15d90cae</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 19:40:08</sys_created_on>
+        <sys_id>e5ac3f27ccb902107f4477bb15d90cb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test.SNC External</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_e5ac3f27ccb902107f4477bb15d90cb3</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 19:40:08</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_e5ac3f27ccb902107f4477bb15d90cb3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="">25ac3f27ccb902107f4477bb15d90cae</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-02 19:40:08</sys_created_on><sys_id>e5ac3f27ccb902107f4477bb15d90cb3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test.SNC External</sys_name><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_e5ac3f27ccb902107f4477bb15d90cb3</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-02 19:40:08</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-1730005370</payload_hash>
+        <record_name>test.SNC External</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 19:41:15</sys_created_on>
+        <sys_id>71ecb767ccb902107f4477bb15d90c53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f3ad344c70000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 19:41:15</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>31ecb76739b902105501877858d0cc53</update_guid>
+        <update_guid_history>31ecb76739b902105501877858d0cc53:-1730005370</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="test.SNC External">71ecb767ccb902107f4477bb15d90c55</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 19:41:15</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>0d9e1125d2e04400816fc048eb3b9000</sys_id>
+        <sys_metadata>e5ac3f27ccb902107f4477bb15d90cb3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test.SNC External</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_e5ac3f27ccb902107f4477bb15d90cb3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_e5ac3f27ccb902107f4477bb15d90cb3">71ecb767ccb902107f4477bb15d90c53</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 19:41:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

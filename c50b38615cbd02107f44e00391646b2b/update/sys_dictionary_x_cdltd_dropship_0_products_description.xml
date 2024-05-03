@@ -29,7 +29,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
-        <max_length>100</max_length>
+        <max_length>400</max_length>
         <name>x_cdltd_dropship_0_products</name>
         <next_element/>
         <primary>false</primary>
@@ -53,7 +53,7 @@
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_dictionary_x_cdltd_dropship_0_products_description</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-01 18:06:10</sys_updated_on>
+        <sys_updated_on>2024-05-01 18:22:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

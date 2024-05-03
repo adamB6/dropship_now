@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{}</macroponent_config>
+        <screen display_value="Default copy">7ffa08b3cc3d02107f4477bb15d90c4a</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 20:42:49</sys_created_on>
+        <sys_id>33fa08b3cc3d02107f4477bb15d90c4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_33fa08b3cc3d02107f4477bb15d90c4e</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:42:49</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sys_uib_screen_test_values_33fa08b3cc3d02107f4477bb15d90c4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{}</macroponent_config><screen display_value="Default copy">7ffa08b3cc3d02107f4477bb15d90c4a</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-02 20:42:49</sys_created_on><sys_id>33fa08b3cc3d02107f4477bb15d90c4e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_uib_screen_test_values_33fa08b3cc3d02107f4477bb15d90c4e</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-02 20:42:49</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>278060879</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d8cbddbdd1f502107f4415dde5c92b73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 20:42:49</sys_created_on>
+        <sys_id>7ffa08b3cc3d02107f4477bb15d90c4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f3b0ba2fc0000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:42:49</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>b3fa08b3f43d021091b961007fe4a14f</update_guid>
+        <update_guid_history>b3fa08b3f43d021091b961007fe4a14f:278060879</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 20:44:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>3686d941c9b641fe901509f9049dcda4</sys_id>
+        <sys_metadata>33fa08b3cc3d02107f4477bb15d90c4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_33fa08b3cc3d02107f4477bb15d90c4e</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_33fa08b3cc3d02107f4477bb15d90c4e">7ffa08b3cc3d02107f4477bb15d90c4f</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:44:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

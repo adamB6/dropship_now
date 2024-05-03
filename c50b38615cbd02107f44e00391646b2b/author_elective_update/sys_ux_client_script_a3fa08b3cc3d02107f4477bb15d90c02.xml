@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default copy">4ffa04b3cc3d02107f4477bb15d90c34</macroponent>
+        <name>Add to cart </name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * Handles creating a record in the shopping cart table.
+ * @param {Object} params - The parameters object.
+ * @param {Object} params.api - API services available for use.
+ * @param {Object} params.event - The event data associated with this handler.
+ * @param {Object} params.imports - Imported modules or libraries.
+ * @param {Object} params.helpers - Helper functions or utilities.
+ */
+function handler(params) {
+    const { api, event, helpers, imports } = params;
+    const templateFields = 'quantity=' + 11;
+
+    api.data.create_record_1.execute({
+        "table": "x_cdltd_dropship_0_shopping_cart",
+        "templateFields": templateFields,
+    });
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 20:42:48</sys_created_on>
+        <sys_id>a3fa08b3cc3d02107f4477bb15d90c02</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Add to cart </sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_client_script_a3fa08b3cc3d02107f4477bb15d90c02</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:42:48</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sys_ux_client_script_a3fa08b3cc3d02107f4477bb15d90c02</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default copy"&gt;4ffa04b3cc3d02107f4477bb15d90c34&lt;/macroponent&gt;&lt;name&gt;Add to cart &lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * Handles creating a record in the shopping cart table.
+ * @param {Object} params - The parameters object.
+ * @param {Object} params.api - API services available for use.
+ * @param {Object} params.event - The event data associated with this handler.
+ * @param {Object} params.imports - Imported modules or libraries.
+ * @param {Object} params.helpers - Helper functions or utilities.
+ */
+function handler(params) {
+    const { api, event, helpers, imports } = params;
+    const templateFields = 'quantity=' + 11;
+
+    api.data.create_record_1.execute({
+        "table": "x_cdltd_dropship_0_shopping_cart",
+        "templateFields": templateFields,
+    });
+}
+]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;adam.botens&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-02 20:42:48&lt;/sys_created_on&gt;&lt;sys_id&gt;a3fa08b3cc3d02107f4477bb15d90c02&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add to cart &lt;/sys_name&gt;&lt;sys_package display_value="DropshipNow" source="x_cdltd_dropship_0"&gt;c50b38615cbd02107f44e00391646b2b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DropshipNow"&gt;c50b38615cbd02107f44e00391646b2b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_a3fa08b3cc3d02107f4477bb15d90c02&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;adam.botens&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-02 20:42:48&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1945522451</payload_hash>
+        <record_name>Add to cart </record_name>
+        <reverted_from/>
+        <source>d8cbddbdd1f502107f4415dde5c92b73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 20:42:50</sys_created_on>
+        <sys_id>840bc4b3cc3d02107f4477bb15d90cf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f3b0ba8cc0000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:42:50</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>4c0bc4b3d73d0210b100857ec1abfef1</update_guid>
+        <update_guid_history>4c0bc4b3d73d0210b100857ec1abfef1:1945522451,a7fa08b36e3d02106b470bf6c85f8c04:977831882</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-02 20:44:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>02093d48110043e481d44699b1657b84</sys_id>
+        <sys_metadata>a3fa08b3cc3d02107f4477bb15d90c02</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add to cart </sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_a3fa08b3cc3d02107f4477bb15d90c02</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_a3fa08b3cc3d02107f4477bb15d90c02">840bc4b3cc3d02107f4477bb15d90cf2</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-02 20:44:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
