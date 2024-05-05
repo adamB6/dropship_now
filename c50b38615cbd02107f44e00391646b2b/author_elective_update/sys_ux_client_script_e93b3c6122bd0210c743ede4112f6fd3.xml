@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="">293b3c61e1bd0210c6b44a42c89afcd9</macroponent>
+        <name>Show Delete Comment Alert</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api
+}) {
+    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "deleteCommentAlert",
+            status: "info",
+            icon: "info-circle-outline",
+            content: "Comment deleted.",
+            action: {
+                type: "dismiss"
+            }
+        }],
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-26 00:27:15</sys_created_on>
+        <sys_id>e93b3c6122bd0210c743ede4112f6fd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Delete Comment Alert</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_client_script_e93b3c6122bd0210c743ede4112f6fd3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-26 00:27:15</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sys_ux_client_script_e93b3c6122bd0210c743ede4112f6fd3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value=""&gt;293b3c61e1bd0210c6b44a42c89afcd9&lt;/macroponent&gt;&lt;name&gt;Show Delete Comment Alert&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[function handler({
+    api
+}) {
+    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "deleteCommentAlert",
+            status: "info",
+            icon: "info-circle-outline",
+            content: "Comment deleted.",
+            action: {
+                type: "dismiss"
+            }
+        }],
+    });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-26 00:27:15&lt;/sys_created_on&gt;&lt;sys_id&gt;e93b3c6122bd0210c743ede4112f6fd3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show Delete Comment Alert&lt;/sys_name&gt;&lt;sys_package display_value="DropshipNow" source="x_cdltd_dropship_0"&gt;c50b38615cbd02107f44e00391646b2b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DropshipNow"&gt;c50b38615cbd02107f44e00391646b2b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_e93b3c6122bd0210c743ede4112f6fd3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-26 00:27:15&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;type/&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1718772945</payload_hash>
+        <record_name>Show Delete Comment Alert</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-05 16:43:26</sys_created_on>
+        <sys_id>12f0b664fd8202107f4412a7f0a64545</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f49a38d360000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-05 16:43:26</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>def0b664cd820210f332ec5c51d58944</update_guid>
+        <update_guid_history>def0b664cd820210f332ec5c51d58944:-1718772945</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-05 16:43:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>bff3c47d4bdd466491e8f434fa2622e4</sys_id>
+        <sys_metadata>e93b3c6122bd0210c743ede4112f6fd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Delete Comment Alert</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_e93b3c6122bd0210c743ede4112f6fd3</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_e93b3c6122bd0210c743ede4112f6fd3">12f0b664fd8202107f4412a7f0a64545</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-05 16:43:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

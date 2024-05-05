@@ -55,11 +55,11 @@
                                     "composition": [
                                         {
                                             "definition": {
-                                                "id": "1f6e0643eca7a637e36bd7833549ec9e",
+                                                "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "heading_2",
-                                            "elementLabel": "Heading 2",
+                                            "elementId": "rich_text_1",
+                                            "elementLabel": "Rich text 1",
                                             "eventMappings": [
                                                 
                                             ],
@@ -69,29 +69,13 @@
                                             },
                                             "preset": null,
                                             "propertyValues": {
-                                                "hasNoMargin": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "label": {
+                                                "html": {
                                                     "type": "TRANSLATION_LITERAL",
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": "DropshipNow Signon"
+                                                        "message": "&lt;p&gt;&lt;span style=\"color: #709199; font-size: 36pt; font-family: verdana, geneva;\"&gt;&lt;strong&gt;DropshipNow &lt;span style=\"color: #709199;\"&gt;|&lt;/span&gt; Signon&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
                                                     }
-                                                },
-                                                "level": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "1"
-                                                },
-                                                "variant": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "header-primary"
-                                                },
-                                                "wontWrap": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
                                                 }
                                             },
                                             "slot": null,
@@ -137,7 +121,7 @@
                                                 },
                                                 "src": {
                                                     "type": "JSON_LITERAL",
-                                                    "value": "x_cdltd_dropship_0.DropshipNow Logo.jpg"
+                                                    "value": "x_cdltd_dropship_0..png"
                                                 },
                                                 "width": {
                                                     "type": "JSON_LITERAL",
@@ -153,12 +137,19 @@
                                             "children": null,
                                             "items": [
                                                 {
-                                                    "element_id": "heading_2",
-                                                    "styles": {}
+                                                    "element_id": "rich_text_1",
+                                                    "styles": {
+                                                        "align-self": "stretch",
+                                                        "text-shadow": "2px 2px #000000"
+                                                    }
                                                 },
                                                 {
                                                     "element_id": "image_1",
-                                                    "styles": {}
+                                                    "styles": {
+                                                        "align-self": "center",
+                                                        "height": "700px",
+                                                        "width": "700px"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -230,11 +221,11 @@
                                     "composition": [
                                         {
                                             "definition": {
-                                                "id": "1f6e0643eca7a637e36bd7833549ec9e",
+                                                "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "heading_1",
-                                            "elementLabel": "Heading 1",
+                                            "elementId": "rich_text_2",
+                                            "elementLabel": "Rich text 2",
                                             "eventMappings": [
                                                 
                                             ],
@@ -244,29 +235,13 @@
                                             },
                                             "preset": null,
                                             "propertyValues": {
-                                                "hasNoMargin": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
-                                                },
-                                                "label": {
+                                                "html": {
                                                     "type": "TRANSLATION_LITERAL",
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": "Please Login Below:"
+                                                        "message": "&lt;p&gt;&lt;span style=\"color: #ba9a71; font-size: 36pt; font-family: verdana, geneva;\"&gt;&lt;strong&gt;Please Login Below&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
                                                     }
-                                                },
-                                                "level": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "1"
-                                                },
-                                                "variant": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "header-primary"
-                                                },
-                                                "wontWrap": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": false
                                                 }
                                             },
                                             "slot": null,
@@ -280,7 +255,49 @@
                                             "elementId": "login_1",
                                             "elementLabel": "Login 1",
                                             "eventMappings": [
-                                                
+                                                {
+                                                    "eventMappingId": "clvquycfwaaaakjjddffhhpaahggibbxtp",
+                                                    "isConfiguration": false,
+                                                    "offRowStorageId": null,
+                                                    "sourceEventApiName": "now_login.NOW_LOGIN#SUCCEEDED",
+                                                    "sourceEventCorrelationId": null,
+                                                    "sourceEventDefinition": {
+                                                        "apiName": "now_login.NOW_LOGIN#SUCCEEDED",
+                                                        "id": null,
+                                                        "type": "UXEVENT"
+                                                    },
+                                                    "sourceEventSysId": null,
+                                                    "targets": [
+                                                        {
+                                                            "broker": null,
+                                                            "clientScript": null,
+                                                            "conditional": null,
+                                                            "declarativeAction": null,
+                                                            "event": {
+                                                                "apiName": "x_cdltd_dropship_0.NAV_ITEM_SELECTED_RELAY_9be96e9b603d02107f44b4f7aba5bd0c",
+                                                                "payload": {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "external": null,
+                                                                        "fields": null,
+                                                                        "multiInstField": null,
+                                                                        "navigationOptions": null,
+                                                                        "params": null,
+                                                                        "passiveNavigation": null,
+                                                                        "redirect": null,
+                                                                        "route": "landing",
+                                                                        "targetRoute": null,
+                                                                        "title": null
+                                                                    }
+                                                                },
+                                                                "sysId": "5836ff7f44b102107f445645091764c4"
+                                                            },
+                                                            "operation": null,
+                                                            "targetId": "clvquycfwaaaakaddffhhpgxbsiiwha",
+                                                            "type": "EVENT"
+                                                        }
+                                                    ]
+                                                }
                                             ],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
@@ -314,15 +331,16 @@
                                             "children": null,
                                             "items": [
                                                 {
-                                                    "element_id": "heading_1",
+                                                    "element_id": "rich_text_2",
                                                     "styles": {
-                                                        "align-self": "center"
+                                                        "align-self": "stretch",
+                                                        "text-shadow": "2px 2px #000000"
                                                     }
                                                 },
                                                 {
                                                     "element_id": "login_1",
                                                     "styles": {
-                                                        "align-self": "center",
+                                                        "align-self": "flex-start",
                                                         "flex": "none"
                                                     }
                                                 }
@@ -557,7 +575,7 @@
     
 ]</data>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>5836ff7f44b102107f445645091764c4</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -572,8 +590,13 @@
             {
                 "element_id": "card_base_container_1",
                 "styles": {
-                    "background": "rgb(var(--now-color--neutral-1))",
+                    "background": "rgb(var(--now-color--neutral-1)) url('x_cdltd_dropship_0..jpg') no-repeat center center",
                     "background-origin": "context-box",
+                    "background-size": "100% 100%",
+                    "border-color": "RGB(var(--now-color--neutral-5))",
+                    "border-style": "solid",
+                    "border-width": "var(--now-static-space--xxs)",
+                    "height": "1000px",
                     "width": "100%"
                 }
             }
@@ -596,10 +619,10 @@
     
 ]</props>
         <required_translations>[ {
-  "message" : "DropshipNow Signon",
+  "message" : "&lt;p&gt;&lt;span style=\"color: #709199; font-size: 36pt; font-family: verdana, geneva;\"&gt;&lt;strong&gt;DropshipNow &lt;span style=\"color: #709199;\"&gt;|&lt;/span&gt; Signon&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "Please Login Below:",
+  "message" : "&lt;p&gt;&lt;span style=\"color: #ba9a71; font-size: 36pt; font-family: verdana, geneva;\"&gt;&lt;strong&gt;Please Login Below&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -611,14 +634,14 @@
         <sys_created_by>dylan.ragsdale</sys_created_by>
         <sys_created_on>2024-05-01 19:00:13</sys_created_on>
         <sys_id>9be96e9b603d02107f44b4f7aba5bd0c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_9be96e9b603d02107f44b4f7aba5bd0c</sys_update_name>
         <sys_updated_by>dylan.ragsdale</sys_updated_by>
-        <sys_updated_on>2024-05-02 15:22:03</sys_updated_on>
+        <sys_updated_on>2024-05-03 18:01:25</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=9be96e9b603d02107f44b4f7aba5bd0c"/>
 </record_update>

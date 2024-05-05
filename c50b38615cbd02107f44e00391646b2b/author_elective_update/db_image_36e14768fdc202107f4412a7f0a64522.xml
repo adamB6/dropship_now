@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="DELETE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>d552cf68fdc202107f4412a7f0a64522</image>
+        <name>x_cdltd_dropship_0.dropship-banner.svg</name>
+        <size_bytes>6888978</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-05 17:57:49</sys_created_on>
+        <sys_id>36e14768fdc202107f4412a7f0a64522</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_cdltd_dropship_0.dropship-banner.svg</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>db_image_36e14768fdc202107f4412a7f0a64522</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-05 17:59:25</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>db_image_36e14768fdc202107f4412a7f0a64522</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image"><db_image action="INSERT_OR_UPDATE"><active>true</active><category/><format/><height/><image>d552cf68fdc202107f4412a7f0a64522</image><name>x_cdltd_dropship_0.dropship-banner.svg</name><size_bytes>6888978</size_bytes><sys_class_name>db_image</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-05 17:57:49</sys_created_on><sys_id>36e14768fdc202107f4412a7f0a64522</sys_id><sys_mod_count>7</sys_mod_count><sys_name>x_cdltd_dropship_0.dropship-banner.svg</sys_name><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>db_image_36e14768fdc202107f4412a7f0a64522</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-05 17:59:25</sys_updated_on><thumbnail/><width/></db_image></record_update>]]></payload>
+        <payload_hash>-842160522</payload_hash>
+        <record_name>x_cdltd_dropship_0.dropship-banner.svg</record_name>
+        <reverted_from/>
+        <source>d8cbddbdd1f502107f4415dde5c92b73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-05 18:03:55</sys_created_on>
+        <sys_id>51638fa8fdc202107f4412a7f0a64546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f49ed3b1b0000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-05 18:03:55</sys_updated_on>
+        <type>Images</type>
+        <update_guid>c5638fa827c20210fd27a68f152eca45</update_guid>
+        <update_guid_history>c5638fa827c20210fd27a68f152eca45:-842160522,fb52cf68bac20210a83d646eab28e829:-1485140697,ae52cf686fc20210415a6289b383af25:-8697242,c1528f68e7c20210cef386d12e11700a:-8697242,a7428f68cac202107157dc36bc5acf06:-17935032,f5424f680ac202104e5fe5d9f1a59733:-17935032,58424f68e6c20210339739ddb4baa22f:-569720213,a6320f688ac202101f0c7cc83c1a1bce:-569720213,d5328b68e3c20210c368a980d6080ee5:708969480,bb22cb6821c20210391545d9e2f8e743:708969480,0e22cb6894c202102c07a3eef815d13f:1098679206,dc228b6861c202103134c382fb9f9ddc:1098679206,8b12076896c20210489c091c57eab594:-558917141,8e120768b7c20210612f9df6470d6991:-558917141,8c02076c368202102badddbf446267c2:-1926116089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_cdltd_dropship_0.dropship-banner.svg">f66387e8fdc202107f4412a7f0a64519</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-05 18:04:01</sys_created_on>
+        <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
+        <sys_id>1942fcbb847e41368ca9bfb05c480549</sys_id>
+        <sys_metadata>36e14768fdc202107f4412a7f0a64522</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_dropship_0.dropship-banner.svg</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>db_image_36e14768fdc202107f4412a7f0a64522</sys_update_name>
+        <sys_update_version display_value="db_image_36e14768fdc202107f4412a7f0a64522">51638fa8fdc202107f4412a7f0a64546</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-05 18:04:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -85,7 +85,7 @@
                         {
                             "element_id": "rich_text_1",
                             "styles": {
-                                "background": "#F8F6ED"
+                                "background": "#FCFBF2"
                             }
                         },
                         {
@@ -1060,7 +1060,7 @@
             {
                 "element_id": "container_1",
                 "styles": {
-                    "background": "rgb(var(--now-color--neutral-1)) url('x_cdltd_dropship_0.dsnBanner.png') no-repeat center center",
+                    "background": "rgb(var(--now-color--neutral-1)) url('x_cdltd_dropship_0.dsnBanner.png') no-repeat center",
                     "background-size": "100% 80%",
                     "border-color": "RGB(var(--now-color--neutral-5))",
                     "border-style": "solid",
@@ -1226,14 +1226,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-04-26 00:27:13</sys_created_on>
         <sys_id>693b3c6108bd02106c837a5d1d030be4</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_693b3c6108bd02106c837a5d1d030be4</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-03 00:28:59</sys_updated_on>
+        <sys_updated_on>2024-05-05 18:07:35</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=693b3c6108bd02106c837a5d1d030be4"/>
 </record_update>

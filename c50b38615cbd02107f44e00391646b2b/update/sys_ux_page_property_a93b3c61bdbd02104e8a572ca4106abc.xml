@@ -6,7 +6,7 @@
         <page display_value="DropshipNow">993b3c615cbd02107f44e00391646b5a</page>
         <required_translations>[]</required_translations>
         <route display_value="Search Page">2d3b3c618fbd02109f081d01c31ddddb</route>
-        <suffix/>
+        <suffix>chrome_header</suffix>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-04-26 00:27:15</sys_created_on>

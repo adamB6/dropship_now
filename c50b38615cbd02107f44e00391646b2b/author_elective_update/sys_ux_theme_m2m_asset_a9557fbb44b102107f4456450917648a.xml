@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset">
+    <sys_ux_theme_m2m_asset action="DELETE">
+        <asset display_value="dsn-logo">4b1337f744b102107f44564509176483</asset>
+        <properties>{"position":"header_logo"}</properties>
+        <sys_class_name>sys_ux_theme_m2m_asset</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-03 13:47:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9557fbb44b102107f4456450917648a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_theme_m2m_asset_a9557fbb44b102107f4456450917648a</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-03 16:06:13</sys_updated_on>
+        <theme display_value="DSN Theme">a93b3c6118bd021099851226d85f80ed</theme>
+    </sys_ux_theme_m2m_asset>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sys_ux_theme_m2m_asset_a9557fbb44b102107f4456450917648a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset"><sys_ux_theme_m2m_asset action="INSERT_OR_UPDATE"><asset display_value="dsn-logo">4b1337f744b102107f44564509176483</asset><properties>{"position":"header_logo"}</properties><sys_class_name>sys_ux_theme_m2m_asset</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-03 13:47:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a9557fbb44b102107f4456450917648a</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_ux_theme_m2m_asset_a9557fbb44b102107f4456450917648a</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-03 16:06:13</sys_updated_on><theme display_value="DSN Theme">a93b3c6118bd021099851226d85f80ed</theme></sys_ux_theme_m2m_asset></record_update>]]></payload>
+        <payload_hash>-1166596703</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d8cbddbdd1f502107f4415dde5c92b73</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-03 16:06:14</sys_created_on>
+        <sys_id>3945504c448602107f445645091764df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f3f34c5600000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-03 16:06:14</sys_updated_on>
+        <type>UX Theme Assets</type>
+        <update_guid>fd45504cde86021025f9164726c4c8de</update_guid>
+        <update_guid_history>fd45504cde86021025f9164726c4c8de:-1166596703,39753b3f87b1021050fba224c07bfaa1:414026702</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-03 16:10:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_theme_m2m_asset">sys_ux_theme_m2m_asset</sys_db_object>
+        <sys_id>55cc0be543e441948bfad3c448ab6f90</sys_id>
+        <sys_metadata>a9557fbb44b102107f4456450917648a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_ux_theme_m2m_asset_a9557fbb44b102107f4456450917648a</sys_update_name>
+        <sys_update_version display_value="sys_ux_theme_m2m_asset_a9557fbb44b102107f4456450917648a">3945504c448602107f445645091764df</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-03 16:10:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

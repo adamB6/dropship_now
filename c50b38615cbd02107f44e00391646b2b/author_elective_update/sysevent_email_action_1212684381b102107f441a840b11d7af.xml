@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Sends an email to the vendor and business owner with the customers info</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello,&nbsp;</p>
+<p>A new order has been placed with the following information.&nbsp;</p>
+<p>Variables: ${variables.}Variables &gt; Blanton's 93 &gt; Credit Card : ${variables.c631e00381b102107f441a840b11d7aa}Variables &gt; Blanton's 93 &gt; Full Name : ${variables.4051640381b102107f441a840b11d7f7}Variables &gt; Blanton's 93 &gt; Shipping Address : ${variables.c861280381b102107f441a840b11d713}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Customer order info</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>515a53d8553502107f44ee5fc850771f,91809b5c55f102107f44ee5fc85077c1</recipient_users>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>New Order </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>Antoni</sys_created_by>
+        <sys_created_on>2024-04-30 14:36:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1212684381b102107f441a840b11d7af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Customer order info</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sysevent_email_action_1212684381b102107f441a840b11d7af</sys_update_name>
+        <sys_updated_by>Antoni</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:46:48</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>d4f63a98dbf5ca943f2c8c3b1396199a</instance_id>
+        <instance_name>adf-apr22-849-006</instance_name>
+        <name>sysevent_email_action_1212684381b102107f441a840b11d7af</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_interval/&gt;&lt;description&gt;Sends an email to the vendor and business owner with the customers info&lt;/description&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;br&gt;&lt;hr&gt;&lt;br&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name/&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hello,&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;A new order has been placed with the following information.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Variables: ${variables.}Variables &amp;gt; Blanton's 93 &amp;gt; Credit Card : ${variables.c631e00381b102107f441a840b11d7aa}Variables &amp;gt; Blanton's 93 &amp;gt; Full Name : ${variables.4051640381b102107f441a840b11d7f7}Variables &amp;gt; Blanton's 93 &amp;gt; Shipping Address : ${variables.c861280381b102107f441a840b11d713}&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;Customer order info&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields/&gt;&lt;recipient_groups/&gt;&lt;recipient_users&gt;515a53d8553502107f44ee5fc850771f,91809b5c55f102107f44ee5fc85077c1&lt;/recipient_users&gt;&lt;reply_to/&gt;&lt;send_self&gt;false&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;New Order &lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Antoni&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-30 14:36:13&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1212684381b102107f441a840b11d7af&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Customer order info&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="DropshipNow" source="x_cdltd_dropship_0"&gt;c50b38615cbd02107f44e00391646b2b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DropshipNow"&gt;c50b38615cbd02107f44e00391646b2b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_1212684381b102107f441a840b11d7af&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Antoni&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-30 14:46:48&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template/&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1360427408</payload_hash>
+        <record_name>Customer order info</record_name>
+        <reverted_from/>
+        <source>db15e84781b102107f441a840b11d7a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Antoni</sys_created_by>
+        <sys_created_on>2024-04-30 14:46:48</sys_created_on>
+        <sys_id>9556a48781b102107f441a840b11d7bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2f78fb1b0000001</sys_recorded_at>
+        <sys_updated_by>Antoni</sys_updated_by>
+        <sys_updated_on>2024-04-30 14:46:48</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>9d56a4875fb10210f4f0fe9ad445e8ba</update_guid>
+        <update_guid_history>9d56a4875fb10210f4f0fe9ad445e8ba:-1360427408,c6e36483c8b102106d86d751f3b91ab4:-1166590445</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-03 18:58:07</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>a0c3cf6fd1d0445a98641769b2abd364</sys_id>
+        <sys_metadata>1212684381b102107f441a840b11d7af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer order info</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent display_value="Sc Req Item">3d41cf2eb99231107f44ddbd7399973b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_1212684381b102107f441a840b11d7af</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_1212684381b102107f441a840b11d7af">9556a48781b102107f441a840b11d7bb</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-03 18:58:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
