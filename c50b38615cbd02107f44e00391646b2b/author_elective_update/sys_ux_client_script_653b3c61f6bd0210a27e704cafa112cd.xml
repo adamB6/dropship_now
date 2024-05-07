@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Landing Page">693b3c6108bd02106c837a5d1d030be4</macroponent>
+        <name>Launch reject alert</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+     const modal_payload = {
+            "modalId": "[component-id$='alert_2']",
+            "showModal": true,
+            "displayOptions": null
+        };
+        const OPEN_MODAL = 'MODAL_SELECTED';
+        api.emit(OPEN_MODAL, modal_payload);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-26 00:27:13</sys_created_on>
+        <sys_id>653b3c61f6bd0210a27e704cafa112cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Launch reject alert</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_client_script_653b3c61f6bd0210a27e704cafa112cd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-26 00:27:13</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>27535d451b8a8e507716415fad4bcbc5</instance_id>
+        <instance_name>adf-may6-482-006</instance_name>
+        <name>sys_ux_client_script_653b3c61f6bd0210a27e704cafa112cd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Landing Page"&gt;693b3c6108bd02106c837a5d1d030be4&lt;/macroponent&gt;&lt;name&gt;Launch reject alert&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+     const modal_payload = {
+            "modalId": "[component-id$='alert_2']",
+            "showModal": true,
+            "displayOptions": null
+        };
+        const OPEN_MODAL = 'MODAL_SELECTED';
+        api.emit(OPEN_MODAL, modal_payload);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;system&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-26 00:27:13&lt;/sys_created_on&gt;&lt;sys_id&gt;653b3c61f6bd0210a27e704cafa112cd&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Launch reject alert&lt;/sys_name&gt;&lt;sys_package display_value="DropshipNow" source="x_cdltd_dropship_0"&gt;c50b38615cbd02107f44e00391646b2b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DropshipNow"&gt;c50b38615cbd02107f44e00391646b2b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_653b3c61f6bd0210a27e704cafa112cd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;system&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-26 00:27:13&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;type/&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1245694762</payload_hash>
+        <record_name>Launch reject alert</record_name>
+        <reverted_from/>
+        <source>8cde7c5d3d4602107f44ab845b21c037</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-07 16:32:07</sys_created_on>
+        <sys_id>d89101513d8602107f44ab845b21c0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f53e5ea220000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-07 16:32:07</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>d0910151ff86021067d48db2b8c66dd1</update_guid>
+        <update_guid_history>d0910151ff86021067d48db2b8c66dd1:-1245694762,fcdec4595c020210d36244c7c1c7d590:-762913622</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-07 17:56:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>803b8a62f1f0463c8c86eef01b595110</sys_id>
+        <sys_metadata>653b3c61f6bd0210a27e704cafa112cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Launch reject alert</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_653b3c61f6bd0210a27e704cafa112cd</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_653b3c61f6bd0210a27e704cafa112cd">d89101513d8602107f44ab845b21c0d1</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-07 17:56:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

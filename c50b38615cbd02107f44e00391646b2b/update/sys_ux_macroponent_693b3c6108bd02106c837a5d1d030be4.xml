@@ -404,410 +404,7 @@
 ]</composition>
         <da_relay_models/>
         <data>[
-    {
-        "definition": {
-            "id": "e6af35d9dbb810106b3982c9689619e5",
-            "type": "COMPOSITE"
-        },
-        "elementId": "evam_mytasks",
-        "elementLabel": "EVAM databroker - My Tasks",
-        "eventMappings": [
-            {
-                "eventMappingId": "claqnxggffccaaddoddddbhhhhdjjvhhkddol",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "clientScript": {
-                            "sysId": "293b3c6116bd02104ae21c5a5fdd54d3"
-                        },
-                        "conditional": null,
-                        "declarativeAction": null,
-                        "event": null,
-                        "operation": null,
-                        "targetId": "claqnxggffccaaddoeeddbhhhhmzqxbbzu",
-                        "type": "CLIENT_SCRIPT"
-                    }
-                ]
-            }
-        ],
-        "inputValues": {
-            "evamDefinitionId": {
-                "type": "JSON_LITERAL",
-                "value": "693b3c61dbbd0210e14b98e560d86bcc"
-            },
-            "filterPreference": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "pageCursor": {
-                "type": "JSON_LITERAL",
-                "value": "Hello world"
-            },
-            "pageNumber": {
-                "type": "JSON_LITERAL",
-                "value": "0"
-            },
-            "pageSize": {
-                "type": "JSON_LITERAL",
-                "value": "20"
-            }
-        },
-        "readEvaluationMode": "EAGER"
-    },
-    {
-        "definition": {
-            "id": "e6af35d9dbb810106b3982c9689619e5",
-            "type": "COMPOSITE"
-        },
-        "elementId": "evam_myrequests",
-        "elementLabel": "EVAM broker - My Requests",
-        "eventMappings": [
-            {
-                "eventMappingId": "claqnuxheeaaddluddbhhhhtposwazp",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "clientScript": {
-                            "sysId": "253b3c6120bd0210393cc7c9bdbf20d1"
-                        },
-                        "conditional": null,
-                        "declarativeAction": null,
-                        "event": null,
-                        "operation": null,
-                        "targetId": "claqnuxheeaaddlvddbhhhhuyywbbkqp",
-                        "type": "CLIENT_SCRIPT"
-                    }
-                ]
-            }
-        ],
-        "inputValues": {
-            "evamDefinitionId": {
-                "type": "JSON_LITERAL",
-                "value": "a53b3c6161bd0210b062d76cc61897cc"
-            },
-            "filterPreference": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "pageCursor": {
-                "type": "JSON_LITERAL",
-                "value": "Hello world"
-            },
-            "pageNumber": {
-                "type": "JSON_LITERAL",
-                "value": "0"
-            },
-            "pageSize": {
-                "type": "JSON_LITERAL",
-                "value": "20"
-            }
-        },
-        "readEvaluationMode": "EAGER"
-    },
-    {
-        "definition": {
-            "id": "e6af35d9dbb810106b3982c9689619e5",
-            "type": "COMPOSITE"
-        },
-        "elementId": "evam_popular_articles",
-        "elementLabel": "EVAM - Popular articles",
-        "eventMappings": [
-            
-        ],
-        "inputValues": {
-            "evamDefinitionId": {
-                "type": "JSON_LITERAL",
-                "value": "2d3b3c6156bd02102a4a56693bb06dcc"
-            },
-            "filterPreference": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "pageCursor": {
-                "type": "JSON_LITERAL",
-                "value": "Hello world"
-            },
-            "pageNumber": {
-                "type": "JSON_LITERAL",
-                "value": "0"
-            },
-            "pageSize": {
-                "type": "JSON_LITERAL",
-                "value": "20"
-            }
-        },
-        "readEvaluationMode": "EAGER"
-    },
-    {
-        "definition": {
-            "id": "9664d48053461010cbc2ddeeff7b128e",
-            "type": "COMPOSITE"
-        },
-        "elementId": "look_up_record_1",
-        "elementLabel": "Look Up Record 1",
-        "eventMappings": [
-            
-        ],
-        "inputValues": {
-            "recordId": {
-                "binding": {
-                    "address": [
-                        "cardID"
-                    ]
-                },
-                "type": "STATE_BINDING"
-            },
-            "returnFieldMetadata": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "returnFields": {
-                "type": "JSON_LITERAL",
-                "value": "sysapproval"
-            },
-            "returnTableMetadata": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "table": {
-                "type": "JSON_LITERAL",
-                "value": "sysapproval_approver"
-            }
-        },
-        "readEvaluationMode": "EAGER"
-    },
-    {
-        "definition": {
-            "id": "dc6e87a5232200100e4bc50947bf654b",
-            "type": "CLIENT_STATE"
-        },
-        "elementId": "glide_form_1",
-        "elementLabel": "Glide Form 1",
-        "eventMappings": [
-            
-        ],
-        "inputValues": {
-            "actionConfigId": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "detailsContext": {
-                "binding": {
-                    "address": [
-                        "activityLogs"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "forcedViewName": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "headerConfigId": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "highlightedValueConfigId": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "query": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "ribbonConfigId": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "showActivityStreamInDetails": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "sysId": {
-                "binding": {
-                    "address": [
-                        "cardID"
-                    ]
-                },
-                "type": "STATE_BINDING"
-            },
-            "table": {
-                "type": "JSON_LITERAL",
-                "value": "sysapproval_approver"
-            },
-            "view": {
-                "type": "JSON_LITERAL",
-                "value": "custom_portal_approval_x_cdltd_dropship_0"
-            },
-            "viewRuleConfigId": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            }
-        },
-        "readEvaluationMode": "EAGER"
-    },
-    {
-        "definition": {
-            "id": "9664d48053461010cbc2ddeeff7b128e",
-            "type": "COMPOSITE"
-        },
-        "elementId": "look_up_record_2",
-        "elementLabel": "Look Up Record 2",
-        "eventMappings": [
-            {
-                "eventMappingId": "ckgumuqmlaaaaeewddhhhiiccbeohdrj",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "clientScript": {
-                            "sysId": "6d3b3c613cbd021096829e6dccf59cd4"
-                        },
-                        "conditional": null,
-                        "declarativeAction": null,
-                        "event": null,
-                        "operation": null,
-                        "targetId": "ckgumuqmlaaaaeexddhhhiitqaayljaaff",
-                        "type": "CLIENT_SCRIPT"
-                    }
-                ]
-            }
-        ],
-        "inputValues": {
-            "recordId": {
-                "binding": {
-                    "address": [
-                        "producedRecordSysId"
-                    ]
-                },
-                "type": "STATE_BINDING"
-            },
-            "returnFieldMetadata": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "returnFields": {
-                "type": "JSON_LITERAL",
-                "value": "sys_id,task"
-            },
-            "returnTableMetadata": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "table": {
-                "type": "JSON_LITERAL",
-                "value": "sc_item_produced_record"
-            }
-        },
-        "readEvaluationMode": "EAGER"
-    },
-    {
-        "definition": {
-            "id": "9664d48053461010cbc2ddeeff7b128e",
-            "type": "COMPOSITE"
-        },
-        "elementId": "look_up_record_3",
-        "elementLabel": "Look Up Record 3",
-        "eventMappings": [
-            {
-                "eventMappingId": "ckgtnfdditaaaaccpddghhiirtzdzsedd",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_uxf.DATA_FETCH_SUCCEEDED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "clientScript": {
-                            "sysId": "293b3c617ebd02109f220442abea9cd6"
-                        },
-                        "conditional": null,
-                        "declarativeAction": null,
-                        "event": null,
-                        "operation": null,
-                        "targetId": "ckgtnfddiuaaaaccqddghhiipwdxggffeeu",
-                        "type": "CLIENT_SCRIPT"
-                    }
-                ]
-            }
-        ],
-        "inputValues": {
-            "recordId": {
-                "binding": {
-                    "address": [
-                        "taskcard"
-                    ]
-                },
-                "type": "STATE_BINDING"
-            },
-            "returnFieldMetadata": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "returnFields": {
-                "type": "JSON_LITERAL",
-                "value": "sysapproval"
-            },
-            "returnTableMetadata": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "table": {
-                "type": "JSON_LITERAL",
-                "value": "sysapproval_approver"
-            }
-        },
-        "readEvaluationMode": "EAGER"
-    },
-    {
-        "definition": {
-            "id": "9b4b978353211010cbc2ddeeff7b1245",
-            "type": "GRAPHQL"
-        },
-        "elementId": "update_record_1",
-        "elementLabel": "Update Record 1",
-        "eventMappings": [
-            
-        ],
-        "inputValues": {},
-        "readEvaluationMode": "EXPLICIT"
-    }
+    
 ]</data>
         <description/>
         <dispatched_events>613b3c61adbd02108db08e7d37cea1c2,e53b3c6106bd02105c229e74e5c76abf</dispatched_events>
@@ -818,174 +415,6 @@
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{
-    "MACROPONENT_PROPERTY_CHANGED": [
-        {
-            "broker": null,
-            "clientScript": null,
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": {
-                "dataBrokerId": "e6af35d9dbb810106b3982c9689619e5",
-                "operationName": "REFRESH",
-                "parentResourceId": "evam_myrequests",
-                "payload": {
-                    "type": "JSON_LITERAL",
-                    "value": {}
-                }
-            },
-            "targetId": "ckhdbbffeaaffaaaaccjjddhiibbgvnhhpfsff",
-            "type": "DATABROKER_OP"
-        },
-        {
-            "broker": null,
-            "clientScript": null,
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": {
-                "dataBrokerId": "e6af35d9dbb810106b3982c9689619e5",
-                "operationName": "REFRESH",
-                "parentResourceId": "evam_mytasks",
-                "payload": {
-                    "type": "JSON_LITERAL",
-                    "value": {}
-                }
-            },
-            "targetId": "ckhdbbffvyuaaaaccaddhiibbhhecfvddak",
-            "type": "DATABROKER_OP"
-        },
-        {
-            "broker": null,
-            "clientScript": {
-                "sysId": "2d3b3c618dbd0210564f774c734117d5"
-            },
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": null,
-            "targetId": "ckhdbbldggmaaaaggggddhiibbmfyadbit",
-            "type": "CLIENT_SCRIPT"
-        }
-    ],
-    "MACROPONENT_READY": [
-        {
-            "broker": null,
-            "clientScript": null,
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": {
-                "dataBrokerId": "e6af35d9dbb810106b3982c9689619e5",
-                "operationName": "REFRESH",
-                "parentResourceId": "evam_mytasks",
-                "payload": {
-                    "type": "JSON_LITERAL",
-                    "value": {}
-                }
-            },
-            "targetId": "ckhvpjjhhxlaaaaaatddhhhrmociiuact",
-            "type": "DATABROKER_OP"
-        }
-    ],
-    "x_cdltd_dropship_0.MY_REQUEST": [
-        {
-            "broker": null,
-            "clientScript": {
-                "sysId": "ad3b3c6197bd0210c2ea6e1a444ef7d9"
-            },
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": null,
-            "targetId": "ckgseejhhhraaaabbjddhhhffggurqgvhdd",
-            "type": "CLIENT_SCRIPT"
-        }
-    ],
-    "x_cdltd_dropship_0.MY_TASKS": [
-        {
-            "broker": null,
-            "clientScript": {
-                "sysId": "ad3b3c618dbd02101b592fc0142fd9cd"
-            },
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": null,
-            "targetId": "ckgujjcchuaaaaaabbjjddghhiimqhhllddvjj",
-            "type": "CLIENT_SCRIPT"
-        }
-    ],
-    "x_cdltd_dropship_0.MY_TASKS_APPROVE": [
-        {
-            "broker": null,
-            "clientScript": {
-                "sysId": "6d3b3c61b8bd02101de798f3fb6ee8d7"
-            },
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": null,
-            "targetId": "ckgsctjjjjsaaaabbpddhhhhhxrjjrohhqn",
-            "type": "CLIENT_SCRIPT"
-        },
-        {
-            "broker": null,
-            "clientScript": null,
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": {
-                "dataBrokerId": "dc6e87a5232200100e4bc50947bf654b",
-                "operationName": "SET_MANDATORY",
-                "parentResourceId": "glide_form_1",
-                "payload": {
-                    "type": "JSON_LITERAL",
-                    "value": {
-                        "fieldName": "comments",
-                        "mandatory": null
-                    }
-                }
-            },
-            "targetId": "ckhxmaagtmaaaaiiiddhiieekyjjbbjjgghn",
-            "type": "DATABROKER_OP"
-        }
-    ],
-    "x_cdltd_dropship_0.MY_TASKS_REJECT": [
-        {
-            "broker": null,
-            "clientScript": {
-                "sysId": "6d3b3c61b8bd02101de798f3fb6ee8d7"
-            },
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": null,
-            "targetId": "ckgscsfjzaaaabbnddhhhhhaiibwjltr",
-            "type": "CLIENT_SCRIPT"
-        },
-        {
-            "broker": null,
-            "clientScript": null,
-            "conditional": null,
-            "declarativeAction": null,
-            "event": null,
-            "operation": {
-                "dataBrokerId": "dc6e87a5232200100e4bc50947bf654b",
-                "operationName": "SET_MANDATORY",
-                "parentResourceId": "glide_form_1",
-                "payload": {
-                    "type": "JSON_LITERAL",
-                    "value": {
-                        "fieldName": "comments",
-                        "mandatory": true
-                    }
-                }
-            },
-            "targetId": "ckhuokfiifaaaabbeeddhiiccnfceddanw",
-            "type": "DATABROKER_OP"
-        }
-    ],
     "x_cdltd_dropship_0.POPULAR_ARTICLES": [
         {
             "broker": null,
@@ -1060,7 +489,7 @@
             {
                 "element_id": "container_1",
                 "styles": {
-                    "background": "rgb(var(--now-color--neutral-1)) url('x_cdltd_dropship_0.dsnBanner.png') no-repeat center",
+                    "background": "rgb(var(--now-color--neutral-1)) url('x_cdltd_dropship_0.dsnBanner.jpg') no-repeat center",
                     "background-size": "100% 80%",
                     "border-color": "RGB(var(--now-color--neutral-5))",
                     "border-style": "solid",
@@ -1108,6 +537,136 @@
         "selectable": false,
         "typeMetadata": null,
         "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaaasccahhlhffhvjjybbb",
+        "inherited": false,
+        "label": "Table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaaatccahhlctoqjjouhh",
+        "inherited": false,
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaaauccahhlujdacctoz",
+        "inherited": false,
+        "label": "query",
+        "mandatory": false,
+        "name": "query",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaaavccahhlxjogbbppaa",
+        "inherited": false,
+        "label": "views",
+        "mandatory": false,
+        "name": "views",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaaawccahhlffffwccjjiieehh",
+        "inherited": false,
+        "label": "activityLogs",
+        "mandatory": false,
+        "name": "activityLogs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaaaxccahhltsdezaagp",
+        "inherited": false,
+        "label": "extraParams",
+        "mandatory": false,
+        "name": "extraParams",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaaayccahhlwddkhvuqg",
+        "inherited": false,
+        "label": "fields",
+        "mandatory": false,
+        "name": "fields",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaaazccahhlpddqgwccaaw",
+        "inherited": false,
+        "label": "screen",
+        "mandatory": false,
+        "name": "screen",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaabaaccahhliikbxkgzn",
+        "inherited": false,
+        "label": "selectedTabIndex",
+        "mandatory": false,
+        "name": "selectedTabIndex",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "clvwoeivuaaaabbbccahhlfyhnbbhbu",
+        "inherited": false,
+        "label": "userPrefs",
+        "mandatory": false,
+        "name": "userPrefs",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
     }
 ]</props>
         <required_translations>[ {
@@ -1125,115 +684,20 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_properties>[
-    {
-        "description": "",
-        "fieldType": "string",
-        "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "label": "cardID",
-        "name": "cardID",
-        "shape": "",
-        "valueType": "string"
-    },
-    {
-        "description": "",
-        "fieldType": "",
-        "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": ""
-        },
-        "label": "cardsysId",
-        "name": "cardsysId",
-        "shape": "",
-        "valueType": ""
-    },
-    {
-        "description": "",
-        "fieldType": "",
-        "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "label": "taskcard",
-        "name": "taskcard",
-        "shape": "",
-        "valueType": ""
-    },
-    {
-        "description": "",
-        "fieldType": "",
-        "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "label": "producedRecordSysId",
-        "name": "producedRecordSysId",
-        "shape": "",
-        "valueType": ""
-    },
-    {
-        "description": "",
-        "fieldType": "",
-        "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "label": "taskApproveSysId",
-        "name": "taskApproveSysId",
-        "shape": "",
-        "valueType": ""
-    },
-    {
-        "description": "",
-        "fieldType": "",
-        "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "label": "taskRejectedSysId",
-        "name": "taskRejectedSysId",
-        "shape": "",
-        "valueType": ""
-    },
-    {
-        "description": "",
-        "fieldType": "json",
-        "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "label": "requestData",
-        "name": "requestData",
-        "shape": "",
-        "valueType": "json"
-    },
-    {
-        "description": "",
-        "fieldType": "json",
-        "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "label": "mytaskData",
-        "name": "mytaskData",
-        "shape": "",
-        "valueType": "json"
-    }
+    
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-04-26 00:27:13</sys_created_on>
         <sys_id>693b3c6108bd02106c837a5d1d030be4</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_693b3c6108bd02106c837a5d1d030be4</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-05 18:07:35</sys_updated_on>
+        <sys_updated_on>2024-05-07 17:56:01</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=693b3c6108bd02106c837a5d1d030be4"/>
 </record_update>

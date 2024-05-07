@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles>[
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_1",
+        "useByReference": false
+    },
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_2",
+        "useByReference": false
+    }
+]</bundles>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "bundleLink": {
+            "bundleInstanceId": "form_2",
+            "elementType": "member"
+        },
+        "definition": {
+            "id": "61c315e9ccb8970546c30f3e2da41a32",
+            "type": "MACROPONENT_VIEWPORT"
+        },
+        "elementId": "modalcontainerviewport_2",
+        "elementLabel": "Modal Container (Viewport) 2",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            {
+                "controllerDependencyMap": null,
+                "controllerElementId": "record",
+                "name": "Record page modals",
+                "sysId": "e38960c1c30301103581a5a1d840dd45"
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "contents": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "fields": {},
+                    "route": ""
+                }
+            },
+            "disableDismiss": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "displayOptions": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "labelledby": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "bundleLink": {
+            "bundleInstanceId": "form_1",
+            "elementType": "member"
+        },
+        "definition": {
+            "id": "61c315e9ccb8970546c30f3e2da41a32",
+            "type": "MACROPONENT_VIEWPORT"
+        },
+        "elementId": "modalcontainerviewport",
+        "elementLabel": "Modal Container (Viewport)",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            {
+                "controllerDependencyMap": null,
+                "controllerElementId": "record",
+                "name": "Record page modals",
+                "sysId": "e38960c1c30301103581a5a1d840dd45"
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "contents": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "fields": {},
+                    "route": ""
+                }
+            },
+            "disableDismiss": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "displayOptions": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "labelledby": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "2b1c080881e05dc63b917044290b233f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "list___simple_1",
+        "elementLabel": "List - Simple 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "columns": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "fixedQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "groupByField": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "hideColumnFiltering": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnGrouping": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnReorder": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnResizing": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideColumnSorting": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideDotwalk": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideEmptyStateImage": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHeader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHighlightContent": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideHighlightedValues": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideInlineEditing": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideLastRefreshedText": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideLinks": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hidePersonalization": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideRefreshButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideRowSelector": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideTitle": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideTitleRowCount": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideViewAll": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "highlightContent": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "color": "",
+                    "patterns": [
+                        
+                    ]
+                }
+            },
+            "highlightedValueConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "listTitle": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "All Active Tasks"
+                }
+            },
+            "maxCharLimit": {
+                "type": "JSON_LITERAL",
+                "value": 4000
+            },
+            "maxColumns": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "overrideWordWrapUserPref": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": "active=true"
+            },
+            "refreshRequested": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_cdltd_dropship_0_shopping_cart"
+            },
+            "wordWrap": {
+                "type": "JSON_LITERAL",
+                "value": false
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "38578e691f58049fe0580323c9551557",
+            "type": "MACROPONENT"
+        },
+        "elementId": "form_record_presence_1",
+        "elementLabel": "Form Record Presence 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "propertyValues": {
+            "isEmailClientEnabled": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "isOpenframeConfigValid": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "sysId": {
+                "type": "JSON_LITERAL",
+                "value": "18779506eb43011008f2951ff152283a"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "sc_req_item"
+            },
+            "userSession": {
+                "binding": {
+                    "address": [
+                        "user"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "afeef20635001010f877265d86f080df",
+            "type": "MACROPONENT"
+        },
+        "elementId": "catalog_item_1",
+        "elementLabel": "Catalog Item 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "engagementChannel": {
+                "type": "JSON_LITERAL",
+                "value": "seismic"
+            },
+            "headerLevel": {
+                "type": "JSON_LITERAL",
+                "value": "1"
+            },
+            "headingOnlyVisibleToScreenReaders": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideOptionsLabel": {
+                "type": "JSON_LITERAL",
+                "value": "false"
+            },
+            "interceptNotifications": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "label": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": ""
+                }
+            },
+            "propagateNotifications": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "referrer": {
+                "type": "JSON_LITERAL",
+                "value": "default"
+            },
+            "requestedForId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "scrollable": {
+                "type": "JSON_LITERAL",
+                "value": "y"
+            },
+            "showRequestForHeader": {
+                "type": "JSON_LITERAL",
+                "value": "true"
+            },
+            "submitPosition": {
+                "type": "JSON_LITERAL",
+                "value": "right"
+            },
+            "sysId": {
+                "type": "JSON_LITERAL",
+                "value": "9036911d3dc602107f44ab845b21c069"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    
+]</data>
+        <description/>
+        <dispatched_events>e0d6915d3dc602107f44ab845b21c0fc</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "list___simple_1",
+                "styles": {}
+            },
+            {
+                "element_id": "form_record_presence_1",
+                "styles": {
+                    "background": "#C52CB0"
+                }
+            },
+            {
+                "element_id": "catalog_item_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ {
+  "message" : "All Active Tasks",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>Antoni</sys_created_by>
+        <sys_created_on>2024-05-07 17:23:32</sys_created_on>
+        <sys_id>2d5d09113dc602107f44ab845b21c0f8</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_macroponent_2d5d09113dc602107f44ab845b21c0f8</sys_update_name>
+        <sys_updated_by>Antoni</sys_updated_by>
+        <sys_updated_on>2024-05-07 18:35:59</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=2d5d09113dc602107f44ab845b21c0f8"/>
+</record_update>

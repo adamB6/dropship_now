@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>order</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>Antoni</sys_created_by>
+        <sys_created_on>2024-05-07 17:22:03</sys_created_on>
+        <sys_id>e3fc8d9d3d8602107f44ab845b21c0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>order</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_screen_type_e3fc8d9d3d8602107f44ab845b21c0cb</sys_update_name>
+        <sys_updated_by>Antoni</sys_updated_by>
+        <sys_updated_on>2024-05-07 17:22:03</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3fc8d9d3d8602107f44ab845b21c0cb"/>
+</record_update>
