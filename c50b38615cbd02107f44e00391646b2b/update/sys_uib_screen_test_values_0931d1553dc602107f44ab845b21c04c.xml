@@ -4,17 +4,16 @@
     "table": "task",
     "sysId": "4ced4be2b99631107f44ddbd739997b9",
     "029f04e053610110ac9bddeeff7b1294": {
-        "activityLogs": "",
-        "detailsContext": "",
-        "fields": "",
-        "forcedViewName": "",
-        "inputExtraParams": "",
-        "inputQuery": "",
-        "inputSysId": "4ced4be2b99631107f44ddbd739997b9",
         "inputTable": "task",
+        "inputSysId": "4ced4be2b99631107f44ddbd739997b9",
+        "inputQuery": "",
+        "forcedViewName": "",
+        "detailsContext": "",
+        "activityLogs": "",
+        "inputExtraParams": "",
+        "fields": "",
         "screen": "",
         "selectedTabIndex": "",
-        "shouldDisplayFormErrorsAsPageAlerts": false,
         "userPrefs": ""
     }
 }</macroponent_config>
@@ -23,13 +22,13 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-07 17:40:26</sys_created_on>
         <sys_id>0931d1553dc602107f44ab845b21c04c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_0931d1553dc602107f44ab845b21c04c</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-07 17:40:26</sys_updated_on>
+        <sys_updated_on>2024-05-09 19:11:13</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

@@ -1270,7 +1270,47 @@
                                                                     "elementId": "button_2",
                                                                     "elementLabel": "Button 2",
                                                                     "eventMappings": [
-                                                                        
+                                                                        {
+                                                                            "eventMappingId": "clvzjiijjjjyaaaaddtddjhhpffbbhhxddaaht",
+                                                                            "isConfiguration": false,
+                                                                            "offRowStorageId": null,
+                                                                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                            "sourceEventCorrelationId": null,
+                                                                            "sourceEventDefinition": {
+                                                                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                                                                "id": null,
+                                                                                "type": "UXEVENT"
+                                                                            },
+                                                                            "sourceEventSysId": null,
+                                                                            "targets": [
+                                                                                {
+                                                                                    "broker": null,
+                                                                                    "clientScript": null,
+                                                                                    "conditional": null,
+                                                                                    "declarativeAction": null,
+                                                                                    "event": {
+                                                                                        "apiName": "x_cdltd_dropship_0.MODAL_SELECTED_RELAY_3a35689d3d8202107f44ab845b21c08f",
+                                                                                        "payload": {
+                                                                                            "type": "JSON_LITERAL",
+                                                                                            "value": {
+                                                                                                "bare": false,
+                                                                                                "displayOptions": null,
+                                                                                                "modalId": "[component-id$='confirm_1']",
+                                                                                                "showModal": true,
+                                                                                                "viewportElementId": null,
+                                                                                                "viewportFields": null,
+                                                                                                "viewportParams": null,
+                                                                                                "viewportRoute": null
+                                                                                            }
+                                                                                        },
+                                                                                        "sysId": "aae99bfd09c202107f44cfc12638c053"
+                                                                                    },
+                                                                                    "operation": null,
+                                                                                    "targetId": "clvzjiijjjjyaaaadduddjhhpjjddaeuxaaq",
+                                                                                    "type": "EVENT"
+                                                                                }
+                                                                            ]
+                                                                        }
                                                                     ],
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
@@ -1748,6 +1788,179 @@
         },
         "slot": null,
         "styles": null
+    },
+    {
+        "definition": {
+            "id": "13ecfe155b630010b913cbd59b81c7d6",
+            "type": "MACROPONENT"
+        },
+        "elementId": "confirm_1",
+        "elementLabel": "Confirm 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "clvzhqmjjbbaaaaeehhddjhhqffffpoxrbb",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_canvas_chrome.NOW_CONFIRM_MODAL#POSITIVE_BUTTON_CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_canvas_chrome.NOW_CONFIRM_MODAL#POSITIVE_BUTTON_CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_cdltd_dropship_0.MODAL_SELECTED_RELAY_3a35689d3d8202107f44ab845b21c08f",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "bare": false,
+                                    "displayOptions": {
+                                        "disableDismiss": true
+                                    },
+                                    "modalId": "[component-id$='confirm_1']",
+                                    "showModal": null,
+                                    "viewportElementId": null,
+                                    "viewportFields": null,
+                                    "viewportParams": null,
+                                    "viewportRoute": null
+                                }
+                            },
+                            "sysId": "aae99bfd09c202107f44cfc12638c053"
+                        },
+                        "operation": null,
+                        "targetId": "clvzhqmjjbbaaaaeeiiddjhhqxiiiccykddg",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "clvzijjhhwjjaaaaeeaddjhhqyaetslkhh",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_canvas_chrome.NOW_CONFIRM_MODAL#NEGATIVE_BUTTON_CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_canvas_chrome.NOW_CONFIRM_MODAL#NEGATIVE_BUTTON_CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_cdltd_dropship_0.NAV_ITEM_SELECTED_RELAY_3a35689d3d8202107f44ab845b21c08f",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "external": null,
+                                    "fields": null,
+                                    "multiInstField": null,
+                                    "navigationOptions": null,
+                                    "params": null,
+                                    "passiveNavigation": null,
+                                    "redirect": null,
+                                    "route": "shopping-cart",
+                                    "targetRoute": null,
+                                    "title": null
+                                }
+                            },
+                            "sysId": "8b1ccd5d3d8602107f44ab845b21c04b"
+                        },
+                        "operation": null,
+                        "targetId": "clvzijjhhwjjaaaaeebddjhhqjjaaaabbgbbkaa",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "content": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "The item has been successfully added to your cart!"
+                }
+            },
+            "defer": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "headerLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Added to cart"
+                }
+            },
+            "preventDefaultPrimaryAction": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "preventDefaultSecondaryAction": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "primaryButtonLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Continue Shopping"
+                }
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "secondaryButtonLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Proceed to Cart"
+                }
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
     }
 ]</composition>
         <da_relay_models/>
@@ -1831,7 +2044,7 @@
     }
 ]</data>
         <description/>
-        <dispatched_events>8b1ccd5d3d8602107f44ab845b21c04b</dispatched_events>
+        <dispatched_events>8b1ccd5d3d8602107f44ab845b21c04b,aae99bfd09c202107f44cfc12638c053</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -1895,13 +2108,25 @@
   "message" : "Add to Cart",
   "comment" : ""
 }, {
+  "message" : "Added to cart",
+  "comment" : ""
+}, {
+  "message" : "Continue Shopping",
+  "comment" : ""
+}, {
   "message" : "Enter a label",
   "comment" : ""
 }, {
   "message" : "Order Now",
   "comment" : ""
 }, {
+  "message" : "Proceed to Cart",
+  "comment" : ""
+}, {
   "message" : "Quantity",
+  "comment" : ""
+}, {
+  "message" : "The item has been successfully added to your cart!",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -1924,14 +2149,14 @@
         <sys_created_by>wesley.stephens</sys_created_by>
         <sys_created_on>2024-05-07 14:28:19</sys_created_on>
         <sys_id>3a35689d3d8202107f44ab845b21c08f</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_3a35689d3d8202107f44ab845b21c08f</sys_update_name>
         <sys_updated_by>wesley.stephens</sys_updated_by>
-        <sys_updated_on>2024-05-07 18:22:08</sys_updated_on>
+        <sys_updated_on>2024-05-09 17:39:45</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=3a35689d3d8202107f44ab845b21c08f"/>
 </record_update>
