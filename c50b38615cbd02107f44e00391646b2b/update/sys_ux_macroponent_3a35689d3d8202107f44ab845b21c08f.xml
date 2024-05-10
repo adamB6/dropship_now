@@ -232,8 +232,7 @@
                                 "align-self": "stretch",
                                 "border-color": "#71929A",
                                 "border-style": "outset",
-                                "border-width": "var(--now-static-space--md)",
-                                "box-shadow": "var(--now-static-drop-shadow--md)"
+                                "border-width": "var(--now-static-space--md)"
                             }
                         }
                     ],
@@ -1366,11 +1365,6 @@
                                                                         {
                                                                             "element_id": "input_1",
                                                                             "styles": {
-                                                                                "background": "rgb(var(--now-color--neutral-1))",
-                                                                                "border-color": "RGB(var(--now-color--neutral-5))",
-                                                                                "border-style": "solid",
-                                                                                "border-width": "var(--now-static-space--xxs)",
-                                                                                "box-shadow": "var(--now-static-drop-shadow--md)",
                                                                                 "width": "100px"
                                                                             }
                                                                         },
@@ -1555,10 +1549,6 @@
                                             "root": null,
                                             "rules": null,
                                             "styles": {
-                                                "background": "rgb(var(--now-color--neutral-1))",
-                                                "border-color": "RGB(var(--now-color--neutral-5))",
-                                                "border-style": "solid",
-                                                "border-width": "var(--now-static-space--xxs)",
                                                 "box-sizing": "border-box",
                                                 "column-gap": "var(--now-scalable-space--xs)",
                                                 "grid-template-columns": "20fr 20fr 20fr 20fr 20fr",
@@ -1578,10 +1568,6 @@
                                                     "root": null,
                                                     "rules": null,
                                                     "styles": {
-                                                        "background": "rgb(var(--now-color--neutral-1))",
-                                                        "border-color": "RGB(var(--now-color--neutral-5))",
-                                                        "border-style": "solid",
-                                                        "border-width": "var(--now-static-space--xxs)",
                                                         "box-sizing": "border-box",
                                                         "column-gap": "var(--now-scalable-space--xs)",
                                                         "grid-template-columns": "1fr",
@@ -1661,10 +1647,6 @@
                                                         "width": "100%"
                                                     },
                                                     "internal": {
-                                                        "background": "rgb(var(--now-color--neutral-1))",
-                                                        "border-color": "RGB(var(--now-color--neutral-5))",
-                                                        "border-style": "solid",
-                                                        "border-width": "var(--now-static-space--xxs)",
                                                         "box-sizing": "border-box",
                                                         "column-gap": "var(--now-scalable-space--xs)",
                                                         "grid-template-rows": "1fr",
@@ -1870,7 +1852,7 @@
                                     "params": null,
                                     "passiveNavigation": null,
                                     "redirect": null,
-                                    "route": "shopping-cart",
+                                    "route": "shopping_cart",
                                     "targetRoute": null,
                                     "title": null
                                 }
@@ -2149,14 +2131,14 @@
         <sys_created_by>wesley.stephens</sys_created_by>
         <sys_created_on>2024-05-07 14:28:19</sys_created_on>
         <sys_id>3a35689d3d8202107f44ab845b21c08f</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_3a35689d3d8202107f44ab845b21c08f</sys_update_name>
-        <sys_updated_by>wesley.stephens</sys_updated_by>
-        <sys_updated_on>2024-05-09 17:39:45</sys_updated_on>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-10 18:08:48</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=3a35689d3d8202107f44ab845b21c08f"/>
 </record_update>

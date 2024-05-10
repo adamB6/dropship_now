@@ -21,11 +21,64 @@
         "definitionId": "d6c0f4f531825510f8773d3775164e01",
         "instanceId": "form_4",
         "useByReference": false
+    },
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_5",
+        "useByReference": false
     }
 ]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
+    {
+        "bundleLink": {
+            "bundleInstanceId": "form_5",
+            "elementType": "member"
+        },
+        "definition": {
+            "id": "61c315e9ccb8970546c30f3e2da41a32",
+            "type": "MACROPONENT_VIEWPORT"
+        },
+        "elementId": "modalcontainerviewport_5",
+        "elementLabel": "Modal Container (Viewport) 5",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            {
+                "controllerDependencyMap": null,
+                "controllerElementId": "record",
+                "name": "Record page modals",
+                "sysId": "e38960c1c30301103581a5a1d840dd45"
+            }
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "preset": {
+            "controllerElementId": "record",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "b76d5b8043432110379ea5dccbb8f297"
+        },
+        "propertyValues": {
+            "pageCollectionMode": {
+                "type": "JSON_LITERAL",
+                "value": true
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
     {
         "bundleLink": {
             "bundleInstanceId": "form_4",
@@ -87,6 +140,10 @@
                 "type": "JSON_LITERAL",
                 "value": ""
             },
+            "pageCollectionMode": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
             "resizableMaxHeight": {
                 "type": "JSON_LITERAL",
                 "value": null
@@ -109,9 +166,7 @@
             }
         },
         "slot": null,
-        "styles": {
-            "width": "100%"
-        }
+        "styles": null
     },
     {
         "bundleLink": {
@@ -174,6 +229,10 @@
                 "type": "JSON_LITERAL",
                 "value": ""
             },
+            "pageCollectionMode": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
             "resizableMaxHeight": {
                 "type": "JSON_LITERAL",
                 "value": null
@@ -196,9 +255,7 @@
             }
         },
         "slot": null,
-        "styles": {
-            "width": "100%"
-        }
+        "styles": null
     },
     {
         "bundleLink": {
@@ -260,6 +317,10 @@
             "labelledby": {
                 "type": "JSON_LITERAL",
                 "value": ""
+            },
+            "pageCollectionMode": {
+                "type": "JSON_LITERAL",
+                "value": true
             },
             "resizableMaxHeight": {
                 "type": "JSON_LITERAL",
@@ -346,6 +407,10 @@
                 "type": "JSON_LITERAL",
                 "value": ""
             },
+            "pageCollectionMode": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
             "resizableMaxHeight": {
                 "type": "JSON_LITERAL",
                 "value": null
@@ -371,88 +436,8 @@
         "styles": null
     },
     {
-        "definition": {
-            "id": "afeef20635001010f877265d86f080df",
-            "type": "MACROPONENT"
-        },
-        "elementId": "catalog_item_1",
-        "elementLabel": "Catalog Item 1",
-        "eventMappings": [
-            
-        ],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "preset": null,
-        "propertyValues": {
-            "bare": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "engagementChannel": {
-                "type": "JSON_LITERAL",
-                "value": "seismic"
-            },
-            "headerLevel": {
-                "type": "JSON_LITERAL",
-                "value": "1"
-            },
-            "headingOnlyVisibleToScreenReaders": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "hideOptionsLabel": {
-                "type": "JSON_LITERAL",
-                "value": "false"
-            },
-            "interceptNotifications": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "label": {
-                "type": "TRANSLATION_LITERAL",
-                "value": {
-                    "code": null,
-                    "comment": "",
-                    "message": ""
-                }
-            },
-            "propagateNotifications": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "referrer": {
-                "type": "JSON_LITERAL",
-                "value": "default"
-            },
-            "requestedForId": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "scrollable": {
-                "type": "JSON_LITERAL",
-                "value": "y"
-            },
-            "showRequestForHeader": {
-                "type": "JSON_LITERAL",
-                "value": "true"
-            },
-            "submitPosition": {
-                "type": "JSON_LITERAL",
-                "value": "right"
-            },
-            "sysId": {
-                "type": "JSON_LITERAL",
-                "value": "9036911d3dc602107f44ab845b21c069"
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
         "bundleLink": {
-            "bundleInstanceId": "form_4",
+            "bundleInstanceId": "form_5",
             "elementType": "root"
         },
         "definition": {
@@ -864,7 +849,6 @@
                         "caption": "example",
                         "captionDisplay": "Example Section",
                         "defaultSection": false,
-                        "deferHeadingAndIcon": true,
                         "expanded": true,
                         "id": 0,
                         "label": "Example Section",
@@ -917,11 +901,11 @@
             },
             "sysId": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": "ed617a17607d02107f44b4f7aba5bd2e"
             },
             "table": {
                 "type": "JSON_LITERAL",
-                "value": null
+                "value": "x_cdltd_dropship_0_shopping_cart"
             },
             "userSession": {
                 "binding": {
@@ -944,15 +928,247 @@
         <da_relay_models/>
         <data>[
     {
+        "bundleLinks": [
+            {
+                "bundleInstanceId": "form_5",
+                "elementType": "controller"
+            }
+        ],
         "definition": {
             "id": "029f04e053610110ac9bddeeff7b1294",
             "type": "CONTROLLER"
         },
         "dependencies": {},
-        "elementId": "form_1",
-        "elementLabel": "Form 1",
+        "elementId": "record",
+        "elementLabel": "Form Controller",
         "eventMappings": [
-            
+            {
+                "eventMappingId": "srp_on_load_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_uib_base_aw.SRP_UI_CTRL#ADD_NOTIFICATIONS",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_5",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": null
+                        },
+                        "operation": null,
+                        "targetId": "srp_on_load_notification",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_add_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#ADD_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_5",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_clear_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_ALL_NOTIFICATIONS_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_5",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#CLEAR_NOTIFICATIONS",
+                            "payload": {}
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_remove_notification",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#REMOVE_NOTIFICATION_REQUESTED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_5",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#REMOVE_NOTIFICATIONS",
+                            "payload": {
+                                "container": {
+                                    "items": {
+                                        "binding": {
+                                            "address": [
+                                                "items"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            }
+                        },
+                        "operation": null,
+                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrffb0",
+                        "type": "EVENT"
+                    }
+                ]
+            },
+            {
+                "eventMappingId": "srp_ui_ctrl_handle_set_loading_state",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "bundleLinks": [
+                            {
+                                "bundleInstanceId": "form_5",
+                                "elementType": "eventMappingTarget"
+                            }
+                        ],
+                        "clientScript": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#SET_LOADING_STATE",
+                            "payload": {
+                                "container": {
+                                    "label": {
+                                        "binding": {
+                                            "address": [
+                                                "label"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    },
+                                    "loading": {
+                                        "binding": {
+                                            "address": [
+                                                "loading"
+                                            ]
+                                        },
+                                        "type": "EVENT_PAYLOAD_BINDING"
+                                    }
+                                },
+                                "type": "MAP_CONTAINER"
+                            },
+                            "sysId": "0404f68486f1baab1dc7ef2a27a3de50"
+                        },
+                        "operation": null,
+                        "targetId": "formSetLoadingState",
+                        "type": "EVENT"
+                    }
+                ]
+            }
         ],
         "inputValues": {
             "activityLogs": {
@@ -1010,12 +1226,22 @@
                 "type": "CONTEXT_BINDING"
             },
             "inputSysId": {
-                "type": "JSON_LITERAL",
-                "value": "ca5435513d8a02107f44ab845b21c049"
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
             },
             "inputTable": {
-                "type": "JSON_LITERAL",
-                "value": "sc_cart"
+                "binding": {
+                    "address": [
+                        "table"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
             },
             "screen": {
                 "binding": {
@@ -1034,10 +1260,6 @@
                     "category": "props"
                 },
                 "type": "CONTEXT_BINDING"
-            },
-            "shouldDisplayFormErrorsAsPageAlerts": {
-                "type": "JSON_LITERAL",
-                "value": false
             },
             "userPrefs": {
                 "binding": {
@@ -1075,13 +1297,6 @@
         "children": null,
         "items": [
             {
-                "element_id": "catalog_item_1",
-                "styles": {
-                    "padding-left": "var(--now-scalable-space--lg)",
-                    "padding-right": "var(--now-scalable-space--lg)"
-                }
-            },
-            {
                 "element_id": "form_default",
                 "styles": {
                     "background-color": "inherit",
@@ -1109,7 +1324,7 @@
         "fieldType": "string",
         "id": "clvznhoqtaaaaiiaccahhnddrbbbbiiin",
         "inherited": false,
-        "label": "table",
+        "label": "Table",
         "mandatory": false,
         "name": "table",
         "readOnly": false,
@@ -1263,14 +1478,14 @@
         <sys_created_by>Antoni</sys_created_by>
         <sys_created_on>2024-05-07 17:23:32</sys_created_on>
         <sys_id>2d5d09113dc602107f44ab845b21c0f8</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_2d5d09113dc602107f44ab845b21c0f8</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-09 19:38:53</sys_updated_on>
+        <sys_updated_on>2024-05-10 18:10:41</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=2d5d09113dc602107f44ab845b21c0f8"/>
 </record_update>
