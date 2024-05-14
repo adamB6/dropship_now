@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a96dd95f088a02107f448feca1e91206" label="Shopping Cart" max_length="40" name="x_cdltd_dropship_0_dsn_cart" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Price" max_length="40" name="price" type="currency"/>
+        <element label="ProductID" max_length="40" name="productid" type="string"/>
+        <element label="Product Name" max_length="40" name="product_name" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="DropshipNow Config">9d3b3c615cbd02107f44e00391646b5a</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Shopping Cart</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>shopping_cart</route_type>
+        <screen_type display_value="Shopping Cart">d15d85dd3d8602107f44ab845b21c065</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>Antoni</sys_created_by>
+        <sys_created_on>2024-05-07 17:23:32</sys_created_on>
+        <sys_id>295d09113dc602107f44ab845b21c0f6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Shopping Cart</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_app_route_295d09113dc602107f44ab845b21c0f6</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-09 20:02:55</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=295d09113dc602107f44ab845b21c0f6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>27535d451b8a8e507716415fad4bcbc5</instance_id>
+        <instance_name>adf-may6-482-006</instance_name>
+        <name>sys_ux_app_route_295d09113dc602107f44ab845b21c0f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="DropshipNow Config">9d3b3c615cbd02107f44e00391646b5a</app_config><description/><extension_point/><fields/><icon/><name>Shopping Cart</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>shopping_cart</route_type><screen_type display_value="Shopping Cart">d15d85dd3d8602107f44ab845b21c065</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>Antoni</sys_created_by><sys_created_on>2024-05-07 17:23:32</sys_created_on><sys_id>295d09113dc602107f44ab845b21c0f6</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Shopping Cart</sys_name><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_ux_app_route_295d09113dc602107f44ab845b21c0f6</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-09 20:02:55</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=295d09113dc602107f44ab845b21c0f6"/></record_update>]]></payload>
+        <payload_hash>1684563228</payload_hash>
+        <record_name>Shopping Cart</record_name>
+        <reverted_from/>
+        <source>8cde7c5d3d4602107f44ab845b21c037</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-09 20:02:56</sys_created_on>
+        <sys_id>f3f4840209c602107f44cfc12638c033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f5ef3a3c70000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-09 20:02:56</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>3ff484021bc60210fdc220da111f6832</update_guid>
+        <update_guid_history>3ff484021bc60210fdc220da111f6832:1684563228,59608c460c8602100646116683f2ee85:1517106410,f84f3b79ad86021011565eb681f982b3:-920671174,e95d091130c602105376d7a229913af7:1517106410</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-13 15:52:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>13d8f35022b34ad4a32c2ab9d3b69e64</sys_id>
+        <sys_metadata>295d09113dc602107f44ab845b21c0f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shopping Cart</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_295d09113dc602107f44ab845b21c0f6</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_295d09113dc602107f44ab845b21c0f6">f3f4840209c602107f44cfc12638c033</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-13 15:52:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

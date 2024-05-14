@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputTable": "x_cdltd_dropship_0_shopping_cart",
+        "inputSysId": "",
+        "shouldDisplayFormErrorsAsPageAlerts": false
+    }
+}</macroponent_config>
+        <screen display_value="Shopping Cart">0882b3c308c202107f448feca1e91274</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-13 15:54:32</sys_created_on>
+        <sys_id>8482b3c308c202107f448feca1e91277</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_8482b3c308c202107f448feca1e91277</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-13 15:54:32</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>27535d451b8a8e507716415fad4bcbc5</instance_id>
+        <instance_name>adf-may6-482-006</instance_name>
+        <name>sys_uib_screen_test_values_8482b3c308c202107f448feca1e91277</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputTable": "x_cdltd_dropship_0_shopping_cart",
+        "inputSysId": "",
+        "shouldDisplayFormErrorsAsPageAlerts": false
+    }
+}</macroponent_config><screen display_value="Shopping Cart">0882b3c308c202107f448feca1e91274</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-13 15:54:32</sys_created_on><sys_id>8482b3c308c202107f448feca1e91277</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_uib_screen_test_values_8482b3c308c202107f448feca1e91277</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-13 15:54:32</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>1544133103</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8cde7c5d3d4602107f44ab845b21c037</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-13 15:54:32</sys_created_on>
+        <sys_id>0082b3c308c202107f448feca1e91279</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f72a9a9c20000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-13 15:54:32</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>4482b3c3acc20210002e02426522d178</update_guid>
+        <update_guid_history>4482b3c3acc20210002e02426522d178:1544133103</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-13 15:55:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>9b20334d21fc46a192ff37003b4ba689</sys_id>
+        <sys_metadata>8482b3c308c202107f448feca1e91277</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_8482b3c308c202107f448feca1e91277</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_8482b3c308c202107f448feca1e91277">0082b3c308c202107f448feca1e91279</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-13 15:55:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

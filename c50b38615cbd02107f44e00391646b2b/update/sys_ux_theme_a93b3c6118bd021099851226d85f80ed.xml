@@ -10,7 +10,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a93b3c6118bd021099851226d85f80ed</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>DSN Theme</sys_name>
         <sys_overrides/>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
@@ -18,17 +18,60 @@
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_theme_a93b3c6118bd021099851226d85f80ed</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-03 13:37:33</sys_updated_on>
+        <sys_updated_on>2024-05-14 20:52:22</sys_updated_on>
         <theme>{&#13;
-    "canvas-nav-item--main-nav-navigation--selected--box-shadow": "var(--now-color--primary-3)",&#13;
-    "canvas-menu--background-color": "var(--now-color--primary-0)",&#13;
-    "--now-button--border-radius": "4px",&#13;
-    "--now-color--primary-0": "253, 252, 245",&#13;
-	"--now-color--primary-1": "112, 145, 153",&#13;
-	"--now-color--primary-2": "159, 170, 173",&#13;
-	"--now-color--primary-3": "186, 154, 113",&#13;
-    "--now-button--border-width": "0",&#13;
-	"--now-card--border-radius": "4px"&#13;
-}</theme>
+"--now-color_selection--primary-0": "223,232,251",&#13;
+"--now-color_selection--primary-1": "141,170,242",&#13;
+"--now-color_selection--primary-2": "58,87,233",&#13;
+"--now-color_selection--primary-3": "31,66,150",&#13;
+"--now-color_selection--primary-4": "3,45,66",&#13;
+"--now-color_selection--secondary-0": "204,219,249",&#13;
+"--now-color_selection--secondary-1": "131,162,241",&#13;
+"--now-color_selection--secondary-2": "58,87,233",&#13;
+"--now-color_selection--secondary-3": "31,66,150",&#13;
+"--now-color_selection--secondary-4": "3,45,66",&#13;
+"--now-color--focus-1": "117,152,240",&#13;
+"--now-color--focus-2": "58,87,233",&#13;
+"--now-color--focus-3": "3,45,66",&#13;
+"--now-color--interactive-0": "204,219,249",&#13;
+"--now-color--interactive-1": "131,162,241",&#13;
+"--now-color--interactive-2": "58,87,233",&#13;
+"--now-color--interactive-3": "31,66,150",&#13;
+"--now-color--interactive-4": "3,45,66",&#13;
+"--now-color--link-1": "122,161,240",&#13;
+"--now-color--link-2": "58,87,233",&#13;
+"--now-color--link-3": "31,66,150",&#13;
+"--now-color--link-4": "3,45,66",&#13;
+"--now-color--primary-0": "223,232,251",&#13;
+"--now-color--primary-1": "58,87,233",&#13;
+"--now-color--primary-2": "31,66,150",&#13;
+"--now-color--primary-3": "3,45,66",&#13;
+"--now-color--secondary-0": "223,232,251",&#13;
+"--now-color--secondary-1": "58,87,233",&#13;
+"--now-color--secondary-2": "31,66,150",&#13;
+"--now-color--secondary-3": "3,45,66",&#13;
+"--now-color_brand--primary": "3,45,66",&#13;
+"--now-color_brand--secondary": "129,223,113",&#13;
+"--now-color_surface--brand-1": "235,240,253",&#13;
+"--now-color_surface--brand-2": "200,214,249",&#13;
+"--now-color_surface--brand-3": "164,187,245",&#13;
+"--now-color_surface--brand-4": "129,161,241",&#13;
+"--now-color_surface--brand-5": "93,134,237",&#13;
+"--now-color_surface--brand-6": "58,87,233",&#13;
+"--now-button--secondary--background-color--hover": "--now-color--primary-1",&#13;
+"--now-button--secondary--background-color-alpha--hover": "0.1",&#13;
+"--now-button--secondary--background-color--active": "--now-color--primary-1",&#13;
+"--now-button--secondary--background-color-alpha--active": "0.25",&#13;
+"--now-button--bare_primary--background-color--hover": "--now-color--primary-1",&#13;
+"--now-button--bare_primary--background-color-alpha--hover": "0.1",&#13;
+"--now-button--bare_primary--background-color--active": "--now-color--primary-1",&#13;
+"--now-button--bare_primary--background-color-alpha--active": "0.25",&#13;
+"--now-button--bare_secondary--background-color--hover": "--now-color--primary-1",&#13;
+"--now-button--bare_secondary--background-color-alpha--hover": "0.1",&#13;
+"--now-button--bare_secondary--background-color--active": "--now-color--primary-1",&#13;
+"--now-button--bare_secondary--background-color-alpha--active": "0.25",&#13;
+"--now-content-tree--background-color--selected": "--now-color--primary-0"&#13;
+}&#13;
+</theme>
     </sys_ux_theme>
 </record_update>

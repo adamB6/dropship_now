@@ -26,6 +26,26 @@
         "definitionId": "d6c0f4f531825510f8773d3775164e01",
         "instanceId": "form_5",
         "useByReference": false
+    },
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_6",
+        "useByReference": false
+    },
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_7",
+        "useByReference": false
+    },
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_8",
+        "useByReference": false
+    },
+    {
+        "definitionId": "d6c0f4f531825510f8773d3775164e01",
+        "instanceId": "form_9",
+        "useByReference": false
     }
 ]</bundles>
         <category>page</category>
@@ -33,322 +53,7 @@
         <composition>[
     {
         "bundleLink": {
-            "bundleInstanceId": "form_5",
-            "elementType": "member"
-        },
-        "definition": {
-            "id": "61c315e9ccb8970546c30f3e2da41a32",
-            "type": "MACROPONENT_VIEWPORT"
-        },
-        "elementId": "modalcontainerviewport_5",
-        "elementLabel": "Modal Container (Viewport) 5",
-        "eventMappings": [
-            
-        ],
-        "extensionPoints": [
-            {
-                "controllerDependencyMap": null,
-                "controllerElementId": "record",
-                "name": "Record page modals",
-                "sysId": "e38960c1c30301103581a5a1d840dd45"
-            }
-        ],
-        "isHero": false,
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "isNonDestructive": false,
-        "items": [
-            
-        ],
-        "overrides": null,
-        "preset": {
-            "controllerElementId": "record",
-            "disabledEventTargetIds": [
-                
-            ],
-            "id": "b76d5b8043432110379ea5dccbb8f297"
-        },
-        "propertyValues": {
-            "pageCollectionMode": {
-                "type": "JSON_LITERAL",
-                "value": true
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "bundleLink": {
-            "bundleInstanceId": "form_4",
-            "elementType": "member"
-        },
-        "definition": {
-            "id": "61c315e9ccb8970546c30f3e2da41a32",
-            "type": "MACROPONENT_VIEWPORT"
-        },
-        "elementId": "modalcontainerviewport_4",
-        "elementLabel": "Modal Container (Viewport) 4",
-        "eventMappings": [
-            
-        ],
-        "extensionPoints": [
-            {
-                "controllerDependencyMap": null,
-                "controllerElementId": "record",
-                "name": "Record page modals",
-                "sysId": "e38960c1c30301103581a5a1d840dd45"
-            }
-        ],
-        "isHero": false,
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "isNonDestructive": false,
-        "items": [
-            
-        ],
-        "overrides": null,
-        "preset": null,
-        "propertyValues": {
-            "bare": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "contents": {
-                "type": "JSON_LITERAL",
-                "value": {
-                    "fields": {},
-                    "route": ""
-                }
-            },
-            "disableDismiss": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "displayOptions": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "enableResizable": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "labelledby": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "pageCollectionMode": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "resizableMaxHeight": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "resizableMaxWidth": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "resizableMinHeight": {
-                "type": "JSON_LITERAL",
-                "value": 133
-            },
-            "resizableMinWidth": {
-                "type": "JSON_LITERAL",
-                "value": 420
-            },
-            "size": {
-                "type": "JSON_LITERAL",
-                "value": "md"
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "bundleLink": {
-            "bundleInstanceId": "form_3",
-            "elementType": "member"
-        },
-        "definition": {
-            "id": "61c315e9ccb8970546c30f3e2da41a32",
-            "type": "MACROPONENT_VIEWPORT"
-        },
-        "elementId": "modalcontainerviewport_3",
-        "elementLabel": "Modal Container (Viewport) 3",
-        "eventMappings": [
-            
-        ],
-        "extensionPoints": [
-            {
-                "controllerDependencyMap": null,
-                "controllerElementId": "record",
-                "name": "Record page modals",
-                "sysId": "e38960c1c30301103581a5a1d840dd45"
-            }
-        ],
-        "isHero": false,
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "isNonDestructive": false,
-        "items": [
-            
-        ],
-        "overrides": null,
-        "preset": null,
-        "propertyValues": {
-            "bare": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "contents": {
-                "type": "JSON_LITERAL",
-                "value": {
-                    "fields": {},
-                    "route": ""
-                }
-            },
-            "disableDismiss": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "displayOptions": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "enableResizable": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "labelledby": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "pageCollectionMode": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "resizableMaxHeight": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "resizableMaxWidth": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "resizableMinHeight": {
-                "type": "JSON_LITERAL",
-                "value": 133
-            },
-            "resizableMinWidth": {
-                "type": "JSON_LITERAL",
-                "value": 420
-            },
-            "size": {
-                "type": "JSON_LITERAL",
-                "value": "md"
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "bundleLink": {
-            "bundleInstanceId": "form_2",
-            "elementType": "member"
-        },
-        "definition": {
-            "id": "61c315e9ccb8970546c30f3e2da41a32",
-            "type": "MACROPONENT_VIEWPORT"
-        },
-        "elementId": "modalcontainerviewport_2",
-        "elementLabel": "Modal Container (Viewport) 2",
-        "eventMappings": [
-            
-        ],
-        "extensionPoints": [
-            {
-                "controllerDependencyMap": null,
-                "controllerElementId": "record",
-                "name": "Record page modals",
-                "sysId": "e38960c1c30301103581a5a1d840dd45"
-            }
-        ],
-        "isHero": false,
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "isNonDestructive": false,
-        "items": [
-            
-        ],
-        "overrides": null,
-        "preset": null,
-        "propertyValues": {
-            "bare": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "contents": {
-                "type": "JSON_LITERAL",
-                "value": {
-                    "fields": {},
-                    "route": ""
-                }
-            },
-            "disableDismiss": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "displayOptions": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "enableResizable": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "labelledby": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "pageCollectionMode": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "resizableMaxHeight": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "resizableMaxWidth": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "resizableMinHeight": {
-                "type": "JSON_LITERAL",
-                "value": 133
-            },
-            "resizableMinWidth": {
-                "type": "JSON_LITERAL",
-                "value": 420
-            },
-            "size": {
-                "type": "JSON_LITERAL",
-                "value": "md"
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "bundleLink": {
-            "bundleInstanceId": "form_1",
+            "bundleInstanceId": "form_9",
             "elementType": "member"
         },
         "definition": {
@@ -378,66 +83,22 @@
             
         ],
         "overrides": null,
-        "preset": null,
-        "propertyValues": {
-            "bare": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "contents": {
-                "type": "JSON_LITERAL",
-                "value": {
-                    "fields": {},
-                    "route": ""
-                }
-            },
-            "disableDismiss": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "displayOptions": {
-                "type": "JSON_LITERAL",
-                "value": {}
-            },
-            "enableResizable": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "labelledby": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "pageCollectionMode": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "resizableMaxHeight": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "resizableMaxWidth": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
-            "resizableMinHeight": {
-                "type": "JSON_LITERAL",
-                "value": 133
-            },
-            "resizableMinWidth": {
-                "type": "JSON_LITERAL",
-                "value": 420
-            },
-            "size": {
-                "type": "JSON_LITERAL",
-                "value": "md"
-            }
+        "preset": {
+            "controllerElementId": "record",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "b76d5b8043432110379ea5dccbb8f297"
         },
+        "propertyValues": {},
         "slot": null,
-        "styles": null
+        "styles": {
+            "width": "100%"
+        }
     },
     {
         "bundleLink": {
-            "bundleInstanceId": "form_5",
+            "bundleInstanceId": "form_9",
             "elementType": "root"
         },
         "definition": {
@@ -462,341 +123,27 @@
             
         ],
         "overrides": null,
-        "preset": null,
+        "preset": {
+            "controllerElementId": "record",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "187b98f917f400e17ab765dee8b4fb04"
+        },
         "propertyValues": {
-            "config": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
             "disableCollapse": {
                 "type": "JSON_LITERAL",
                 "value": false
             },
-            "encodedRecord": {
-                "type": "JSON_LITERAL",
-                "value": null
-            },
             "fields": {
-                "type": "JSON_LITERAL",
-                "value": {
-                    "caller_id": {
-                        "declarativeUiActions": [
-                            {
-                                "actionAttributes": "",
-                                "actionComponent": "",
-                                "actionDispatch": "REFERENCE_INFO_CLICK",
-                                "actionPayload": "",
-                                "actionType": "uxf_client_action",
-                                "assignmentId": "172e2043534310108135ddeeff7b12dd",
-                                "conditions": "",
-                                "confirmationMessage": "",
-                                "confirmationRequired": false,
-                                "dependency": "",
-                                "group": "",
-                                "groupBy": false,
-                                "icon": "circle-info-outline",
-                                "label": "Open Record",
-                                "modelConditions": [
-                                    {
-                                        "field": "value",
-                                        "newQuery": false,
-                                        "operator": "ISNOTEMPTY",
-                                        "or": false,
-                                        "value": ""
-                                    },
-                                    {
-                                        "field": null,
-                                        "newQuery": false,
-                                        "operator": "=",
-                                        "or": false,
-                                        "value": null
-                                    }
-                                ],
-                                "name": "open_record",
-                                "order": 0,
-                                "payloadMap": [
-                                    {
-                                        "name": "referenceInfoClick@referencetable",
-                                        "value": "{{referenceTable}}"
-                                    },
-                                    {
-                                        "name": "referenceInfoClick@sys_id",
-                                        "value": "{{value}}"
-                                    },
-                                    {
-                                        "name": "referenceInfoClick@field",
-                                        "value": "{{fieldName}}"
-                                    },
-                                    {
-                                        "name": "referenceInfoClick@table",
-                                        "value": "{{tableName}}"
-                                    },
-                                    {
-                                        "name": "referenceInfoClick@name",
-                                        "value": "{{name}}"
-                                    }
-                                ],
-                                "requiresValue": true,
-                                "tooltip": "Open Record"
-                            },
-                            {
-                                "actionAttributes": "",
-                                "actionComponent": "",
-                                "actionDispatch": "REF_SEARCH_REQUESTED",
-                                "actionPayload": "",
-                                "actionType": "uxf_client_action",
-                                "assignmentId": "c6542741ff13101035be517f793bf1bb",
-                                "conditions": "",
-                                "confirmationMessage": "",
-                                "confirmationRequired": false,
-                                "dependency": "",
-                                "group": "",
-                                "groupBy": false,
-                                "icon": "magnifying-glass-outline",
-                                "label": "Search For Record",
-                                "modelConditions": [
-                                    {
-                                        "field": "readonly",
-                                        "newQuery": false,
-                                        "operator": "=",
-                                        "or": false,
-                                        "value": "false"
-                                    },
-                                    {
-                                        "field": null,
-                                        "newQuery": false,
-                                        "operator": "=",
-                                        "or": false,
-                                        "value": null
-                                    }
-                                ],
-                                "name": "ref_search",
-                                "order": 0,
-                                "payloadMap": [
-                                    {
-                                        "name": "parentSysId",
-                                        "value": "{{recordSysId}}"
-                                    },
-                                    {
-                                        "name": "encodedRecord",
-                                        "value": "{{encodedRecord}}"
-                                    },
-                                    {
-                                        "name": "referenceField",
-                                        "value": "{{fieldName}}"
-                                    },
-                                    {
-                                        "name": "fieldLabel",
-                                        "value": "{{label}}"
-                                    },
-                                    {
-                                        "name": "serializedChanges",
-                                        "value": "{{serializedChanges}}"
-                                    },
-                                    {
-                                        "name": "parentTable",
-                                        "value": "{{tableName}}"
-                                    }
-                                ],
-                                "requiresValue": false,
-                                "tooltip": "Search for record"
-                            }
-                        ],
-                        "dependent": "company",
-                        "dependentField": "company",
-                        "dependentOnField": "company",
-                        "dependentTable": "core_company",
-                        "dictionary": {
-                            "attributes": [
-                                {
-                                    "name": "encode_utf8",
-                                    "value": "false"
-                                },
-                                {
-                                    "name": "ref_contributions",
-                                    "value": "user_show_incidents"
-                                }
-                            ],
-                            "canCreate": true,
-                            "canRead": true,
-                            "canWrite": true,
-                            "dependentField": "company",
-                            "dependentFieldLabel": "Company",
-                            "dependentTable": "core_company",
-                            "encryptionContext": "",
-                            "fieldHint": "Personwhoreportedorisaffectedbythisincident",
-                            "internalType": "reference",
-                            "isEncrypted": false,
-                            "isMandatory": false,
-                            "label": "Caller",
-                            "name": "caller_id",
-                            "sys_readonly": false,
-                            "type": "reference"
-                        },
-                        "displayValue": null,
-                        "display_value_list": [
-                            
-                        ],
-                        "internalType": "reference",
-                        "isDynamicCreate": false,
-                        "isReferenceScriptableTable": false,
-                        "label": "Caller",
-                        "mandatory": true,
-                        "messages": [
-                            
-                        ],
-                        "name": "caller_id",
-                        "originalValue": "",
-                        "readonly": false,
-                        "refAcColumns": null,
-                        "refAcColumnsSearch": false,
-                        "refAcDisplayValue": false,
-                        "refAcOrderBy": null,
-                        "refAutoCompleter": null,
-                        "refContributions": "user_show_incidents",
-                        "refQualElements": null,
-                        "reference": "sys_user",
-                        "referenceError": null,
-                        "referenceKey": null,
-                        "referenceQualifier": null,
-                        "referringRecordId": "2bf7f3b4c7132010840c625788c260c9",
-                        "referringTable": "incident",
-                        "sys_readonly": false,
-                        "type": "reference",
-                        "useReferenceQualifier": "simple",
-                        "value": "",
-                        "valuesList": [
-                            
-                        ],
-                        "visible": true
-                    },
-                    "number": {
-                        "defaultRows": null,
-                        "dependentField": null,
-                        "dependentTable": null,
-                        "dictionary": {
-                            "attributes": [
-                                {
-                                    "name": "edge_encryption_enabled",
-                                    "value": "true"
-                                },
-                                {
-                                    "name": "ignore_filter_on_new",
-                                    "value": "true"
-                                },
-                                {
-                                    "name": "ts_weight",
-                                    "value": "50"
-                                }
-                            ],
-                            "canCreate": true,
-                            "canRead": true,
-                            "canWrite": true,
-                            "dependentField": null,
-                            "dependentFieldLabel": null,
-                            "dependentTable": null,
-                            "encryptionContext": "",
-                            "fieldHint": "",
-                            "internalType": "string",
-                            "isEncrypted": false,
-                            "isMandatory": false,
-                            "label": "Number",
-                            "name": "number",
-                            "sys_readonly": false,
-                            "type": "string"
-                        },
-                        "displayValue": "EXAMPLE007",
-                        "display_value_list": [
-                            
-                        ],
-                        "encryptionContext": "",
-                        "internalType": "string",
-                        "isEncrypted": false,
-                        "label": "Number",
-                        "mandatory": false,
-                        "maxLength": 40,
-                        "name": "number",
-                        "originalValue": "INC0010059",
-                        "readonly": false,
-                        "referringRecordId": "2bf7f3b4c7132010840c625788c260c9",
-                        "referringTable": "incident",
-                        "sys_readonly": false,
-                        "type": "string",
-                        "value": "EXAMPLE007",
-                        "valuesList": [
-                            
-                        ],
-                        "visible": true
-                    },
-                    "short_description": {
-                        "defaultRows": null,
-                        "dependentField": null,
-                        "dependentTable": null,
-                        "dictionary": {
-                            "attributes": [
-                                {
-                                    "name": "edge_encryption_enabled",
-                                    "value": "true"
-                                },
-                                {
-                                    "name": "knowledge_search",
-                                    "value": "true"
-                                },
-                                {
-                                    "name": "no_truncate",
-                                    "value": "true"
-                                },
-                                {
-                                    "name": "ts_weight",
-                                    "value": "10"
-                                }
-                            ],
-                            "canCreate": true,
-                            "canRead": true,
-                            "canWrite": true,
-                            "dependentField": null,
-                            "dependentFieldLabel": null,
-                            "dependentTable": null,
-                            "encryptionContext": "",
-                            "fieldHint": "",
-                            "internalType": "string",
-                            "isEncrypted": false,
-                            "isMandatory": false,
-                            "label": "Short Description",
-                            "name": "short_description",
-                            "sys_readonly": false,
-                            "type": "string"
-                        },
-                        "displayValue": null,
-                        "display_value_list": [
-                            
-                        ],
-                        "encryptionContext": "",
-                        "internalType": "string",
-                        "isEncrypted": false,
-                        "label": "Short Description",
-                        "mandatory": true,
-                        "maxLength": 160,
-                        "name": "short_description",
-                        "originalValue": "",
-                        "readonly": false,
-                        "referringRecordId": "2bf7f3b4c7132010840c625788c260c9",
-                        "referringTable": "incident",
-                        "sys_readonly": false,
-                        "type": "string",
-                        "value": "",
-                        "valuesList": [
-                            
-                        ],
-                        "visible": true
-                    }
-                }
-            },
-            "formMessages": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
+                "binding": {
+                    "address": [
+                        "glide_form_1",
+                        "nowRecordFormBlob",
+                        "fields"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
             },
             "inRecordPageTab": {
                 "type": "JSON_LITERAL",
@@ -807,10 +154,6 @@
                 "value": true
             },
             "isContextMenuHidden": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "isFirstSectionTitleHidden": {
                 "type": "JSON_LITERAL",
                 "value": false
             },
@@ -830,95 +173,33 @@
                 "type": "JSON_LITERAL",
                 "value": false
             },
-            "relatedLists": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
             "scrollableHost": {
                 "type": "JSON_LITERAL",
                 "value": null
             },
-            "sectionHeadingLevel": {
-                "type": "JSON_LITERAL",
-                "value": "2"
-            },
             "sections": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    {
-                        "caption": "example",
-                        "captionDisplay": "Example Section",
-                        "defaultSection": false,
-                        "expanded": true,
-                        "id": 0,
-                        "label": "Example Section",
-                        "rows": [
-                            [
-                                {
-                                    "fields": [
-                                        "number",
-                                        "caller_id",
-                                        "category",
-                                        "subcategory",
-                                        "business_service",
-                                        "service_offering",
-                                        "cmdb_ci",
-                                        "universal_request",
-                                        "route_reason"
-                                    ]
-                                },
-                                {
-                                    "fields": [
-                                        "contact_type",
-                                        "state",
-                                        "hold_reason",
-                                        "impact",
-                                        "urgency",
-                                        "priority",
-                                        "assignment_group",
-                                        "assigned_to"
-                                    ]
-                                }
-                            ],
-                            [
-                                {
-                                    "fields": [
-                                        "short_description",
-                                        "description"
-                                    ]
-                                }
-                            ]
-                        ],
-                        "sysId": "bf1d96e3c0a801640190725e63f8ac80"
-                    }
-                ]
-            },
-            "serializedChanges": {
-                "type": "JSON_LITERAL",
-                "value": [
-                    
-                ]
+                "binding": {
+                    "address": [
+                        "glide_form_1",
+                        "nowRecordFormBlob",
+                        "sections"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
             },
             "sysId": {
-                "type": "JSON_LITERAL",
-                "value": "ed617a17607d02107f44b4f7aba5bd2e"
+                "binding": {
+                    "address": [
+                        "glide_form_1",
+                        "nowRecordFormBlob",
+                        "sysId"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
             },
             "table": {
                 "type": "JSON_LITERAL",
                 "value": "x_cdltd_dropship_0_shopping_cart"
-            },
-            "userSession": {
-                "binding": {
-                    "address": [
-                        "user"
-                    ],
-                    "category": "session"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "view": {
-                "type": "JSON_LITERAL",
-                "value": null
             }
         },
         "slot": null,
@@ -928,9 +209,89 @@
         <da_relay_models/>
         <data>[
     {
+        "definition": {
+            "id": "dc6e87a5232200100e4bc50947bf654b",
+            "type": "CLIENT_STATE"
+        },
+        "dependencies": {},
+        "elementId": "glide_form_1",
+        "elementLabel": "Glide Form 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "actionConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "detailsContext": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "formParams": {
+                "type": "JSON_LITERAL",
+                "value": "{}"
+            },
+            "headerConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "highlightedValueConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "oneExtendConfig": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "ribbonConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "shouldDisplayFormErrorsAsPageAlerts": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showActivityStreamInDetails": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "sysId": {
+                "type": "JSON_LITERAL",
+                "value": "240ce7cb088202107f448feca1e912d7"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_cdltd_dropship_0_shopping_cart"
+            },
+            "view": {
+                "type": "JSON_LITERAL",
+                "value": "Default view"
+            },
+            "viewRuleConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
         "bundleLinks": [
             {
-                "bundleInstanceId": "form_5",
+                "bundleInstanceId": "form_9",
                 "elementType": "controller"
             }
         ],
@@ -959,7 +320,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_5",
+                                "bundleInstanceId": "form_9",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1006,7 +367,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_5",
+                                "bundleInstanceId": "form_9",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1052,7 +413,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_5",
+                                "bundleInstanceId": "form_9",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1086,7 +447,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_5",
+                                "bundleInstanceId": "form_9",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1132,7 +493,7 @@
                         "broker": null,
                         "bundleLinks": [
                             {
-                                "bundleInstanceId": "form_5",
+                                "bundleInstanceId": "form_9",
                                 "elementType": "eventMappingTarget"
                             }
                         ],
@@ -1335,14 +696,13 @@
     {
         "description": "",
         "fieldType": "string",
-        "id": "clvznhoqtaaaaiibccahhndjjrjsbez",
+        "id": "sysId",
         "inherited": false,
         "label": "sysId",
         "mandatory": false,
         "name": "sysId",
         "readOnly": false,
         "selectable": false,
-        "typeMetadata": null,
         "valueType": "string"
     },
     {
@@ -1450,25 +810,7 @@
         "valueType": "string"
     }
 ]</props>
-        <required_translations>[ {
-  "message" : "Caller",
-  "comment" : ""
-}, {
-  "message" : "Example Section",
-  "comment" : ""
-}, {
-  "message" : "Number",
-  "comment" : ""
-}, {
-  "message" : "Open Record",
-  "comment" : ""
-}, {
-  "message" : "Search For Record",
-  "comment" : ""
-}, {
-  "message" : "Short Description",
-  "comment" : ""
-} ]</required_translations>
+        <required_translations>[ ]</required_translations>
         <root_component/>
         <root_component_config/>
         <root_component_definition/>
@@ -1478,14 +820,14 @@
         <sys_created_by>Antoni</sys_created_by>
         <sys_created_on>2024-05-07 17:23:32</sys_created_on>
         <sys_id>2d5d09113dc602107f44ab845b21c0f8</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_2d5d09113dc602107f44ab845b21c0f8</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-10 18:10:41</sys_updated_on>
+        <sys_updated_on>2024-05-13 15:41:25</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=2d5d09113dc602107f44ab845b21c0f8"/>
 </record_update>
