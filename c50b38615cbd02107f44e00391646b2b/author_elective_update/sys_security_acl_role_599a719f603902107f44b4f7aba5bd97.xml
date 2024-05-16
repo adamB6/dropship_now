@@ -41,7 +41,7 @@
         <update_guid_history>999a719fd33902100769c114a03a9b9b:1480102207</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_cdltd_dropship_0_shopping_cart.x_cdltd_dropship_0.admin">0d0b125760f902107f44b4f7aba5bd77</sys_audit_delete>
+        <sys_audit_delete display_value="">0d0b125760f902107f44b4f7aba5bd77</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-01 17:55:05</sys_created_on>

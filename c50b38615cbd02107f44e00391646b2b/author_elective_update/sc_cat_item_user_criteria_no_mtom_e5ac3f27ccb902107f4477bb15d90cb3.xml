@@ -41,7 +41,7 @@
         <update_guid_history>31ecb76739b902105501877858d0cc53:-1730005370</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="test.SNC External">71ecb767ccb902107f4477bb15d90c55</sys_audit_delete>
+        <sys_audit_delete display_value="">71ecb767ccb902107f4477bb15d90c55</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-02 19:41:15</sys_created_on>

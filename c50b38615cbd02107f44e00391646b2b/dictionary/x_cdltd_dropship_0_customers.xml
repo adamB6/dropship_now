@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d7e1353be9c202107f4412e2b6ca8b21" label="Customers" max_length="40" name="x_cdltd_dropship_0_customers" type="collection">
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Password" max_length="40" name="password" type="string"/>
+        <element label="Username" max_length="40" name="username" type="string"/>
+    </element>
+</database>

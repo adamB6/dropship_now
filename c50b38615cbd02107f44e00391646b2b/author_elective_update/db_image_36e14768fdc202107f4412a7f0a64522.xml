@@ -48,7 +48,7 @@
         <update_guid_history>c5638fa827c20210fd27a68f152eca45:-842160522,fb52cf68bac20210a83d646eab28e829:-1485140697,ae52cf686fc20210415a6289b383af25:-8697242,c1528f68e7c20210cef386d12e11700a:-8697242,a7428f68cac202107157dc36bc5acf06:-17935032,f5424f680ac202104e5fe5d9f1a59733:-17935032,58424f68e6c20210339739ddb4baa22f:-569720213,a6320f688ac202101f0c7cc83c1a1bce:-569720213,d5328b68e3c20210c368a980d6080ee5:708969480,bb22cb6821c20210391545d9e2f8e743:708969480,0e22cb6894c202102c07a3eef815d13f:1098679206,dc228b6861c202103134c382fb9f9ddc:1098679206,8b12076896c20210489c091c57eab594:-558917141,8e120768b7c20210612f9df6470d6991:-558917141,8c02076c368202102badddbf446267c2:-1926116089</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_cdltd_dropship_0.dropship-banner.svg">f66387e8fdc202107f4412a7f0a64519</sys_audit_delete>
+        <sys_audit_delete display_value="">f66387e8fdc202107f4412a7f0a64519</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-05 18:04:01</sys_created_on>

@@ -65,7 +65,7 @@
         <update_guid_history>52cf78760b790210806b96fe2329a651:-2066816686</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="View/Add Products">944b5a5760f902107f44b4f7aba5bd60</sys_audit_delete>
+        <sys_audit_delete display_value="">944b5a5760f902107f44b4f7aba5bd60</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-01 17:56:07</sys_created_on>

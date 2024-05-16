@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">47d2bbc308c202107f448feca1e912ab</macroponent>
+        <name>label_value_2/value</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperties({api, helpers}) {
+
+  var results = api.data.look_up_records_1.results;
+  var total = 0;
+  var n = results.length;
+
+  for (var i = 0; i < n; i++) {
+    total += parseFloat(results[i].price.value) * parseInt(results[i].quantity.value);
+  }
+
+  return total.toFixed(2);
+}
+
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-16 19:06:41</sys_created_on>
+        <sys_id>7f72374cd19602107f4458555dba8c68</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>label_value_2/value</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_client_script_7f72374cd19602107f4458555dba8c68</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-16 19:19:47</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>
