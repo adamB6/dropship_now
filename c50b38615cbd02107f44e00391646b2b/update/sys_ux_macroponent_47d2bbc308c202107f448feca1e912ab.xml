@@ -1268,44 +1268,7 @@
                                                                     "elementId": "input_1",
                                                                     "elementLabel": "Input 1",
                                                                     "eventMappings": [
-                                                                        {
-                                                                            "eventMappingId": "clwggmciifaaabbbbhddffhhseklccbbaavn",
-                                                                            "isConfiguration": false,
-                                                                            "offRowStorageId": null,
-                                                                            "sourceEventApiName": "sn_input.NOW_INPUT#INPUT",
-                                                                            "sourceEventCorrelationId": null,
-                                                                            "sourceEventDefinition": {
-                                                                                "apiName": "sn_input.NOW_INPUT#INPUT",
-                                                                                "id": null,
-                                                                                "type": "UXEVENT"
-                                                                            },
-                                                                            "sourceEventSysId": null,
-                                                                            "targets": [
-                                                                                {
-                                                                                    "broker": null,
-                                                                                    "clientScript": null,
-                                                                                    "conditional": null,
-                                                                                    "declarativeAction": null,
-                                                                                    "event": null,
-                                                                                    "operation": {
-                                                                                        "dataBrokerId": "9b4b978353211010cbc2ddeeff7b1245",
-                                                                                        "operationName": "EXECUTE",
-                                                                                        "parentResourceId": "update_record_1",
-                                                                                        "payload": {
-                                                                                            "type": "JSON_LITERAL",
-                                                                                            "value": {
-                                                                                                "recordId": "2e3ef86f918202107f4427bd9333459c",
-                                                                                                "table": "x_cdltd_dropship_0_dsn_cart",
-                                                                                                "templateFields": "",
-                                                                                                "useSetDisplayValue": true
-                                                                                            }
-                                                                                        }
-                                                                                    },
-                                                                                    "targetId": "clwggmciifaaabbbbiddffhhspwqakzmc",
-                                                                                    "type": "DATABROKER_OP"
-                                                                                }
-                                                                            ]
-                                                                        }
+                                                                        
                                                                     ],
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
@@ -1949,8 +1912,8 @@
                                         "script": {
                                             "apiVersion": "2.0.0",
                                             "controllerElementId": null,
-                                            "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperties({api, helpers}) {\n\n  var results = api.data.look_up_records_1.results;\n  var total = 0;\n  var n = results.length;\n\n  for (var i = 0; i &lt; n; i++) {\n    total += (results[i].price.value * results[i].quantity.value);\n  }\n\n  return 'Grand Total:  ' + total.toFixed(2);\n}\n\n",
-                                            "scriptSysId": "bf72374cd19602107f4458555dba8c68",
+                                            "inlineScript": "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {TransformApiHelpers} params.helpers\n  */\nfunction evaluateProperties({api, helpers}) {\n\n  var results = api.data.look_up_records_1.results;\n  var total = 0;\n  var n = results.length;\n\n  for (var i = 0; i &lt; n; i++) {\n    total += (results[i].price.value * results[i].quantity.value);\n  }\n  return \"Grand Total: \" + total;\n}",
+                                            "scriptSysId": "aa03d395c09202107f441432a4fe9c27",
                                             "target": null
                                         },
                                         "type": "CLIENT_TRANSFORM_SCRIPT"
@@ -1961,11 +1924,103 @@
                                     },
                                     "variant": {
                                         "type": "JSON_LITERAL",
-                                        "value": "header-tertiary"
+                                        "value": "header-primary"
                                     },
                                     "wontWrap": {
                                         "type": "JSON_LITERAL",
-                                        "value": true
+                                        "value": false
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            },
+                            {
+                                "definition": {
+                                    "id": "d37ce8abca89d02905fed903c8e34d8e",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "button_3",
+                                "elementLabel": "Button 3",
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "clwfayimeaaaaeejjddffhhttsdpccyol",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": null,
+                                                "operation": {
+                                                    "dataBrokerId": "beda4252770300108d070d74c810618f",
+                                                    "operationName": "EXECUTE",
+                                                    "parentResourceId": "create_record_1",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {
+                                                            "table": "x_cdltd_dropship_0_orders",
+                                                            "templateFields": "",
+                                                            "useSetDisplayValue": null
+                                                        }
+                                                    }
+                                                },
+                                                "targetId": "clwfayimeaaaaeeaddffhhteesmaaaaddie",
+                                                "type": "DATABROKER_OP"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {}
+                                    },
+                                    "disabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Place Order"
+                                        }
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "lg"
+                                    },
+                                    "tooltipContent": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Enter a label"
+                                        }
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "secondary"
                                     }
                                 },
                                 "slot": null,
@@ -1983,6 +2038,12 @@
                                             "border-color": "RGB(var(--now-color--neutral-5))",
                                             "border-style": "solid",
                                             "border-width": "var(--now-static-space--xxs)"
+                                        }
+                                    },
+                                    {
+                                        "element_id": "button_3",
+                                        "styles": {
+                                            "align-self": "flex-end"
                                         }
                                     }
                                 ],
@@ -2099,6 +2160,92 @@
         },
         "slot": null,
         "styles": null
+    },
+    {
+        "definition": {
+            "id": "d37ce8abca89d02905fed903c8e34d8e",
+            "type": "MACROPONENT"
+        },
+        "elementId": "button_4",
+        "elementLabel": "Button 4",
+        "eventMappings": [
+            {
+                "eventMappingId": "clwffffkggggaaaafjjddffhhsddvaamqccdj",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_button.NOW_BUTTON#CLICKED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": {
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {}
+                            },
+                            "sysId": "917daa6b91ca02107f4427bd93334587"
+                        },
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": null,
+                        "operation": null,
+                        "targetId": "clwffffkggggaaaafaddffhhsfftgcceuffg",
+                        "type": "CLIENT_SCRIPT"
+                    }
+                ]
+            }
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "configAria": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "disabled": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "icon": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "label": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Button"
+                }
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            },
+            "tooltipContent": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Enter a label"
+                }
+            },
+            "variant": {
+                "type": "JSON_LITERAL",
+                "value": "secondary"
+            }
+        },
+        "slot": null,
+        "styles": null
     }
 ]</composition>
         <da_relay_models/>
@@ -2176,6 +2323,33 @@
     },
     {
         "definition": {
+            "id": "beda4252770300108d070d74c810618f",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "create_record_1",
+        "elementLabel": "Create Record 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "templateFields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "useSetDisplayValue": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    },
+    {
+        "definition": {
             "id": "9b4b978353211010cbc2ddeeff7b1245",
             "type": "GRAPHQL"
         },
@@ -2244,6 +2418,10 @@
             {
                 "element_id": "container_3",
                 "styles": {}
+            },
+            {
+                "element_id": "button_4",
+                "styles": {}
             }
         ],
         "root": null,
@@ -2278,7 +2456,13 @@
   "message" : "&lt;p&gt;Total&lt;/p&gt;",
   "comment" : ""
 }, {
+  "message" : "Button",
+  "comment" : ""
+}, {
   "message" : "Enter a label",
+  "comment" : ""
+}, {
+  "message" : "Place Order",
   "comment" : ""
 }, {
   "message" : "Quantity",
@@ -2297,27 +2481,30 @@
         <state_properties>[
     {
         "fieldType": "number",
-        "initialValue": {
-            "type": "JSON_LITERAL",
-            "value": 0
-        },
+        "initialValue": null,
         "name": "CartTotal",
         "shape": "",
         "valueType": "number"
+    },
+    {
+        "initialValue": null,
+        "name": "Order ID",
+        "shape": "",
+        "valueType": "string"
     }
 ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-13 15:56:07</sys_created_on>
         <sys_id>47d2bbc308c202107f448feca1e912ab</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>100</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_47d2bbc308c202107f448feca1e912ab</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-16 19:26:26</sys_updated_on>
+        <sys_updated_on>2024-05-20 20:37:49</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=47d2bbc308c202107f448feca1e912ab"/>
 </record_update>

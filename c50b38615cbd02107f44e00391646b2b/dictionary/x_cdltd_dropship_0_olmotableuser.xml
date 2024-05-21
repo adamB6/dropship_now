@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4483f71dc01602107f441432a4fe9c4c" extends="sys_user" label="olmotableuser" max_length="40" name="x_cdltd_dropship_0_olmotableuser" type="collection"/>
+</database>

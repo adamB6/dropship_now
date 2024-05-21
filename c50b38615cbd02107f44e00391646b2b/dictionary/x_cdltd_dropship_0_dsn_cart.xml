@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a96dd95f088a02107f448feca1e91206" label="Shopping Cart" max_length="40" name="x_cdltd_dropship_0_dsn_cart" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Price" max_length="40" name="price" type="currency"/>
+        <element choice="3" label="Phase" max_length="40" name="phase" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Loaded" sequence="1" value="loaded"/>
+            </choice>
+        </element>
+        <element label="Price" max_length="40" name="price" type="decimal"/>
         <element label="ProductID" max_length="40" name="productid" type="string"/>
         <element label="Product Name" max_length="40" name="product_name" type="string"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>

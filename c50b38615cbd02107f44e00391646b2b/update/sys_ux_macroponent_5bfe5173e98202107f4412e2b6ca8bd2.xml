@@ -740,7 +740,7 @@
                                                                         },
                                                                         "useSetDisplayValue": {
                                                                             "type": "JSON_LITERAL",
-                                                                            "value": null
+                                                                            "value": true
                                                                         }
                                                                     },
                                                                     "type": "MAP_CONTAINER"
@@ -1487,14 +1487,14 @@
         <sys_created_by>dylan.ragsdale</sys_created_by>
         <sys_created_on>2024-05-15 13:05:29</sys_created_on>
         <sys_id>5bfe5173e98202107f4412e2b6ca8bd2</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Registration Sandbox</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_5bfe5173e98202107f4412e2b6ca8bd2</sys_update_name>
-        <sys_updated_by>dylan.ragsdale</sys_updated_by>
-        <sys_updated_on>2024-05-16 14:29:36</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 15:14:48</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=5bfe5173e98202107f4412e2b6ca8bd2"/>
 </record_update>

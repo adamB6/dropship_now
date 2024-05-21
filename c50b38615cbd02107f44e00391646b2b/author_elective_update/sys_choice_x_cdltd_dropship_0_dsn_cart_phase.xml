@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="phase" table="x_cdltd_dropship_0_dsn_cart" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>phase</element>
+            <name>x_cdltd_dropship_0_dsn_cart</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-05-20 19:16:55</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>phase</sys_name>
+            <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_dropship_0_dsn_cart_phase</sys_update_name>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-05-20 19:16:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_cdltd_dropship_0_dsn_cart</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-05-20 20:49:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-05-20 20:49:59</sys_updated_on>
+            <value>new</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>phase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loaded</label>
+            <language>en</language>
+            <name>x_cdltd_dropship_0_dsn_cart</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>adam.botens</sys_created_by>
+            <sys_created_on>2024-05-20 20:49:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>adam.botens</sys_updated_by>
+            <sys_updated_on>2024-05-20 20:49:59</sys_updated_on>
+            <value>loaded</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

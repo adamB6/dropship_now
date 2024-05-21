@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Number</column_label>
+        <column_label>Order ID</column_label>
         <comments/>
         <create_roles/>
         <default_value>javascript:global.getNextObjNumberPadded();</default_value>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-01 18:07:15</sys_created_on>
-        <sys_name>Number</sys_name>
+        <sys_name>Order ID</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_dictionary_x_cdltd_dropship_0_orders_number</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-01 18:07:15</sys_updated_on>
+        <sys_updated_on>2024-05-20 19:09:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
