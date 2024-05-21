@@ -2034,6 +2034,34 @@
                                                 },
                                                 "targetId": "clwfayimeaaaaeeaddffhhteesmaaaaddie",
                                                 "type": "DATABROKER_OP"
+                                            },
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_cdltd_dropship_0.NAV_ITEM_SELECTED_RELAY_47d2bbc308c202107f448feca1e912ab",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {
+                                                            "external": null,
+                                                            "fields": null,
+                                                            "multiInstField": null,
+                                                            "navigationOptions": null,
+                                                            "params": null,
+                                                            "passiveNavigation": null,
+                                                            "redirect": null,
+                                                            "route": "check_out",
+                                                            "targetRoute": null,
+                                                            "title": null
+                                                        }
+                                                    },
+                                                    "sysId": "4b4979312c5a02107f44ca7f8af7c49d"
+                                                },
+                                                "operation": null,
+                                                "targetId": "clwguhhtjjnaaaaddxddffhhsddlhattfi",
+                                                "type": "EVENT"
                                             }
                                         ]
                                     }
@@ -2353,7 +2381,7 @@
     }
 ]</data>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>4b4979312c5a02107f44ca7f8af7c49d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -2462,14 +2490,14 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-13 15:56:07</sys_created_on>
         <sys_id>47d2bbc308c202107f448feca1e912ab</sys_id>
-        <sys_mod_count>102</sys_mod_count>
+        <sys_mod_count>103</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_47d2bbc308c202107f448feca1e912ab</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-21 15:24:55</sys_updated_on>
+        <sys_updated_on>2024-05-21 20:18:35</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=47d2bbc308c202107f448feca1e912ab"/>
 </record_update>
