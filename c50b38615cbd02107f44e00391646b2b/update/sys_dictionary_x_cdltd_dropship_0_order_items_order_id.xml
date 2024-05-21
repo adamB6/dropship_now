@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="quantity" table="x_cdltd_dropship_0_orders">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="order_id" table="x_cdltd_dropship_0_order_items">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -8,7 +8,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Quantity</column_label>
+        <column_label>Order ID</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,16 +21,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>quantity</element>
+        <element>order_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_cdltd_dropship_0_orders</name>
+        <name>x_cdltd_dropship_0_order_items</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-01 18:09:44</sys_created_on>
-        <sys_name>Quantity</sys_name>
+        <sys_created_on>2024-05-21 21:23:00</sys_created_on>
+        <sys_name>Order ID</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
-        <sys_update_name>sys_dictionary_x_cdltd_dropship_0_orders_quantity</sys_update_name>
+        <sys_update_name>sys_dictionary_x_cdltd_dropship_0_order_items_order_id</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-01 18:09:44</sys_updated_on>
+        <sys_updated_on>2024-05-21 21:23:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

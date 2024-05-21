@@ -51,11 +51,11 @@
                 },
                 {
                     "definition": {
-                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "id": "15fe506403f8a98575b6df59008ea8f1",
                         "type": "MACROPONENT"
                     },
-                    "elementId": "rich_text_2",
-                    "elementLabel": "Rich text 2",
+                    "elementId": "image_7",
+                    "elementLabel": "Image 7",
                     "eventMappings": [
                         
                     ],
@@ -65,13 +65,35 @@
                     },
                     "preset": null,
                     "propertyValues": {
-                        "html": {
-                            "type": "TRANSLATION_LITERAL",
-                            "value": {
-                                "code": null,
-                                "comment": "",
-                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 24pt;\"&gt;Who we are!&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
-                            }
+                        "alt": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "fit": {
+                            "type": "JSON_LITERAL",
+                            "value": "scale-down"
+                        },
+                        "height": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "position": {
+                            "type": "JSON_LITERAL",
+                            "value": "center center"
+                        },
+                        "sources": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "src": {
+                            "type": "JSON_LITERAL",
+                            "value": "x_cdltd_dropship_0..png"
+                        },
+                        "width": {
+                            "type": "JSON_LITERAL",
+                            "value": null
                         }
                     },
                     "slot": null,
@@ -89,8 +111,13 @@
                             }
                         },
                         {
-                            "element_id": "rich_text_2",
-                            "styles": {}
+                            "element_id": "image_7",
+                            "styles": {
+                                "align-self": "center",
+                                "flex": "none",
+                                "height": "500px",
+                                "width": "500px"
+                            }
                         }
                     ],
                     "root": null,
@@ -161,6 +188,342 @@
             "composition": [
                 {
                     "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_2",
+                    "elementLabel": "Rich text 2",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 24pt;\"&gt;About Us&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_3",
+                    "elementLabel": "Rich text 3",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Welcome to DropshipNow, your Premier online destination for high-end bourbon and cigars. At DropshipNow, we believe in providing connoisseurs and enthusiasts with an unparalleled selection of luxury products, curated with a passion for quality and craftsmanship.&lt;/span&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_4",
+                    "elementLabel": "Rich text 4",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 24pt;\"&gt;Our Story&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_5",
+                    "elementLabel": "Rich text 5",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;DropshipNow was founded with a simple mission: to bring the finest bourbons and cigars directly to your doorstep.&amp;nbsp; We recognized a gap in the market for a reliable shipping service that caters to the sophisticated tastes of discerning consumers. With our deep appreciation for the finer things in life, we set out to create a platform that not only meets but exceeds the expectations of bourbon and cigar aficionados.&lt;/span&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_6",
+                    "elementLabel": "Rich text 6",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 24pt;\"&gt;Our Commitment&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_7",
+                    "elementLabel": "Rich text 7",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Quality is at the heart of everything we do. We partner with renowned distilleries and cigar manufacturers to ensure that each product we offer is of the highest standard. From rare, small-batch bourbons to meticulously crafted cigars, our collection is curated to provide you with an extraordinary sensory experience.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Transparency and customer satisfaction are also core to our values. Our shipping model allows us to offer competitive prices and a seamless shopping experience. We handle all the logistics, so you can focus on enjoying your purchases.&lt;/span&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_8",
+                    "elementLabel": "Rich text 8",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;strong&gt;Why Choose DropshipNow&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_9",
+                    "elementLabel": "Rich text 9",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;ul&gt;\n&lt;li style=\"font-size: 18pt;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Exclusive Selection&lt;/span&gt;&lt;/strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;: We offer a handpicked range of premium bourbons and cigars that you wont find in your local store.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=\"font-size: 18pt;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Expert&lt;/span&gt;&lt;/strong&gt;&lt;span style=\"font-size: 18pt;\"&gt; &lt;strong&gt;Curation&lt;/strong&gt;: Our team of enthusiasts and experts personally selects each product, ensuring it meets our stringent quality standards.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=\"font-size: 18pt;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Convenience&lt;/span&gt;&lt;/strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;: With our user-friendly online platform, you can browse, select, and purchase your favorite items with ease, knowing they will be delivered directly to you.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=\"font-size: 18pt;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Customer&lt;/span&gt;&lt;/strong&gt;&lt;span style=\"font-size: 18pt;\"&gt; &lt;strong&gt;Service&lt;/strong&gt;: Our dedicated support team is here to assist you with any inquiries or issues, ensuring a smooth and satisfying shopping experience.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_10",
+                    "elementLabel": "Rich text 10",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;strong&gt;Join Our Community&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_11",
+                    "elementLabel": "Rich text 11",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;At DropshipNow, we are more than just an online store; we are a community of like-minded individuals who appreciate the artistry and tradition behind every bottle and cigar. Join our community to stay updated on the lastest arrivals, exclusive deals, and insider tips on enjoying your purchases to the fullest.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Thank you for choosing DropshipNow. We look forward to serving you and heling you indulge in the luxury you deserve!&lt;/span&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_12",
+                    "elementLabel": "Rich text 12",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;strong&gt;Cheers&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "2d56f06d55f46bbd4e79b5e624beb940",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "rich_text_13",
+                    "elementLabel": "Rich text 13",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "html": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;The DropshipNow Team&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;"
+                            }
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                },
+                {
+                    "definition": {
                         "id": "d356d14b6e293a3020a244b63d278d8f",
                         "type": "MACROPONENT"
                     },
@@ -180,8 +543,8 @@
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "__clwffzhhdggaaaajjnddjhhqraacjjcufi__column_1",
-                                "elementLabel": "__clwffzhhdggaaaajjnddjhhqraacjjcufi__Column 1",
+                                "elementId": "__clwgxgeeuhhaaaaohhddjhhqljjymcceejju__column_1",
+                                "elementLabel": "__clwgxgeeuhhaaaaohhddjhhqljjymcceejju__Column 1",
                                 "eventMappings": [
                                     
                                 ],
@@ -193,11 +556,11 @@
                                     "composition": [
                                         {
                                             "definition": {
-                                                "id": "15fe506403f8a98575b6df59008ea8f1",
+                                                "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "image_1",
-                                            "elementLabel": "Image 1",
+                                            "elementId": "rich_text_14",
+                                            "elementLabel": "Rich text 14",
                                             "eventMappings": [
                                                 
                                             ],
@@ -207,35 +570,13 @@
                                             },
                                             "preset": null,
                                             "propertyValues": {
-                                                "alt": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "fit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "fill"
-                                                },
-                                                "height": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "position": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "center center"
-                                                },
-                                                "sources": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": [
-                                                        
-                                                    ]
-                                                },
-                                                "src": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": ""
-                                                },
-                                                "width": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
+                                                "html": {
+                                                    "type": "TRANSLATION_LITERAL",
+                                                    "value": {
+                                                        "code": null,
+                                                        "comment": "",
+                                                        "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Antoni Olmo&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+                                                    }
                                                 }
                                             },
                                             "slot": null,
@@ -247,8 +588,11 @@
                                             "children": null,
                                             "items": [
                                                 {
-                                                    "element_id": "image_1",
-                                                    "styles": {}
+                                                    "element_id": "rich_text_14",
+                                                    "styles": {
+                                                        "align-self": "center",
+                                                        "margin-bottom": "0"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -257,6 +601,7 @@
                                             },
                                             "styles": {
                                                 "align-items": "flex-start",
+                                                "background": "#FCFBF2",
                                                 "box-sizing": "border-box",
                                                 "flex-direction": "column",
                                                 "height": "100%",
@@ -286,6 +631,7 @@
                                                     },
                                                     "internal": {
                                                         "align-items": "flex-start",
+                                                        "background": "#FCFBF2",
                                                         "box-sizing": "border-box",
                                                         "flex-direction": "column",
                                                         "height": "100%",
@@ -307,8 +653,8 @@
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "__clwffzhhdggaaaajjoddjhhqeffffzcatj__column_2",
-                                "elementLabel": "__clwffzhhdggaaaajjoddjhhqeffffzcatj__Column 2",
+                                "elementId": "__clwgxgeeuhhaaaaoiiddjhhqeueggqehdd__column_2",
+                                "elementLabel": "__clwgxgeeuhhaaaaoiiddjhhqeueggqehdd__Column 2",
                                 "eventMappings": [
                                     
                                 ],
@@ -320,11 +666,11 @@
                                     "composition": [
                                         {
                                             "definition": {
-                                                "id": "15fe506403f8a98575b6df59008ea8f1",
+                                                "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "image_2",
-                                            "elementLabel": "Image 2",
+                                            "elementId": "rich_text_15",
+                                            "elementLabel": "Rich text 15",
                                             "eventMappings": [
                                                 
                                             ],
@@ -332,40 +678,15 @@
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
+                                            "preset": null,
                                             "propertyValues": {
-                                                "alt": {
+                                                "html": {
                                                     "type": "TRANSLATION_LITERAL",
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": ""
+                                                        "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Dylan Ragsdale&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
                                                     }
-                                                },
-                                                "fit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "fill"
-                                                },
-                                                "height": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "position": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "center center"
-                                                },
-                                                "sources": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": [
-                                                        
-                                                    ]
-                                                },
-                                                "src": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "/now-image-placeholder.jpg"
-                                                },
-                                                "width": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
                                                 }
                                             },
                                             "slot": null,
@@ -377,8 +698,10 @@
                                             "children": null,
                                             "items": [
                                                 {
-                                                    "element_id": "image_2",
-                                                    "styles": {}
+                                                    "element_id": "rich_text_15",
+                                                    "styles": {
+                                                        "align-self": "center"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -387,6 +710,7 @@
                                             },
                                             "styles": {
                                                 "align-items": "flex-start",
+                                                "background": "#FCFBF2",
                                                 "box-sizing": "border-box",
                                                 "flex-direction": "column",
                                                 "height": "100%",
@@ -416,6 +740,7 @@
                                                     },
                                                     "internal": {
                                                         "align-items": "flex-start",
+                                                        "background": "#FCFBF2",
                                                         "box-sizing": "border-box",
                                                         "flex-direction": "column",
                                                         "height": "100%",
@@ -437,8 +762,8 @@
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "__clwffzhhdggaaaajjpddjhhqhkziaaxjje__column_3",
-                                "elementLabel": "__clwffzhhdggaaaajjpddjhhqhkziaaxjje__Column 3",
+                                "elementId": "__clwgxgeeuhhaaaaojjddjhhqzehupyffhh__column_3",
+                                "elementLabel": "__clwgxgeeuhhaaaaojjddjhhqzehupyffhh__Column 3",
                                 "eventMappings": [
                                     
                                 ],
@@ -450,11 +775,11 @@
                                     "composition": [
                                         {
                                             "definition": {
-                                                "id": "15fe506403f8a98575b6df59008ea8f1",
+                                                "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "image_3",
-                                            "elementLabel": "Image 3",
+                                            "elementId": "rich_text_16",
+                                            "elementLabel": "Rich text 16",
                                             "eventMappings": [
                                                 
                                             ],
@@ -462,40 +787,15 @@
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
+                                            "preset": null,
                                             "propertyValues": {
-                                                "alt": {
+                                                "html": {
                                                     "type": "TRANSLATION_LITERAL",
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": ""
+                                                        "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Adam Botens&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
                                                     }
-                                                },
-                                                "fit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "fill"
-                                                },
-                                                "height": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "position": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "center center"
-                                                },
-                                                "sources": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": [
-                                                        
-                                                    ]
-                                                },
-                                                "src": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "/now-image-placeholder.jpg"
-                                                },
-                                                "width": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
                                                 }
                                             },
                                             "slot": null,
@@ -507,8 +807,10 @@
                                             "children": null,
                                             "items": [
                                                 {
-                                                    "element_id": "image_3",
-                                                    "styles": {}
+                                                    "element_id": "rich_text_16",
+                                                    "styles": {
+                                                        "align-self": "center"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -517,6 +819,7 @@
                                             },
                                             "styles": {
                                                 "align-items": "flex-start",
+                                                "background": "#FCFBF2",
                                                 "box-sizing": "border-box",
                                                 "flex-direction": "column",
                                                 "height": "100%",
@@ -546,6 +849,7 @@
                                                     },
                                                     "internal": {
                                                         "align-items": "flex-start",
+                                                        "background": "#FCFBF2",
                                                         "box-sizing": "border-box",
                                                         "flex-direction": "column",
                                                         "height": "100%",
@@ -567,8 +871,8 @@
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "__clwffzhhdhhaaaajjqddjhhqguaahhffmth__column_4",
-                                "elementLabel": "__clwffzhhdhhaaaajjqddjhhqguaahhffmth__Column 4",
+                                "elementId": "__clwgxgeeuhhaaaaoaddjhhqaaaauiimuek__column_4",
+                                "elementLabel": "__clwgxgeeuhhaaaaoaddjhhqaaaauiimuek__Column 4",
                                 "eventMappings": [
                                     
                                 ],
@@ -580,11 +884,11 @@
                                     "composition": [
                                         {
                                             "definition": {
-                                                "id": "15fe506403f8a98575b6df59008ea8f1",
+                                                "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "image_4",
-                                            "elementLabel": "Image 4",
+                                            "elementId": "rich_text_17",
+                                            "elementLabel": "Rich text 17",
                                             "eventMappings": [
                                                 
                                             ],
@@ -592,40 +896,15 @@
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
+                                            "preset": null,
                                             "propertyValues": {
-                                                "alt": {
+                                                "html": {
                                                     "type": "TRANSLATION_LITERAL",
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": ""
+                                                        "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Patrick Lane&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
                                                     }
-                                                },
-                                                "fit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "fill"
-                                                },
-                                                "height": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "position": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "center center"
-                                                },
-                                                "sources": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": [
-                                                        
-                                                    ]
-                                                },
-                                                "src": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "/now-image-placeholder.jpg"
-                                                },
-                                                "width": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
                                                 }
                                             },
                                             "slot": null,
@@ -637,8 +916,10 @@
                                             "children": null,
                                             "items": [
                                                 {
-                                                    "element_id": "image_4",
-                                                    "styles": {}
+                                                    "element_id": "rich_text_17",
+                                                    "styles": {
+                                                        "align-self": "center"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -647,6 +928,7 @@
                                             },
                                             "styles": {
                                                 "align-items": "flex-start",
+                                                "background": "#FCFBF2",
                                                 "box-sizing": "border-box",
                                                 "flex-direction": "column",
                                                 "height": "100%",
@@ -676,6 +958,7 @@
                                                     },
                                                     "internal": {
                                                         "align-items": "flex-start",
+                                                        "background": "#FCFBF2",
                                                         "box-sizing": "border-box",
                                                         "flex-direction": "column",
                                                         "height": "100%",
@@ -697,8 +980,8 @@
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "__clwffzhhdhhaaaajjrddjhhqhhuhmddddcce__column_5",
-                                "elementLabel": "__clwffzhhdhhaaaajjrddjhhqhhuhmddddcce__Column 5",
+                                "elementId": "__clwgxgeeuhhaaaaobddjhhqbbfiiccfvddd__column_5",
+                                "elementLabel": "__clwgxgeeuhhaaaaobddjhhqbbfiiccfvddd__Column 5",
                                 "eventMappings": [
                                     
                                 ],
@@ -710,11 +993,11 @@
                                     "composition": [
                                         {
                                             "definition": {
-                                                "id": "15fe506403f8a98575b6df59008ea8f1",
+                                                "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "image_5",
-                                            "elementLabel": "Image 5",
+                                            "elementId": "rich_text_18",
+                                            "elementLabel": "Rich text 18",
                                             "eventMappings": [
                                                 
                                             ],
@@ -722,40 +1005,15 @@
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
+                                            "preset": null,
                                             "propertyValues": {
-                                                "alt": {
+                                                "html": {
                                                     "type": "TRANSLATION_LITERAL",
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": ""
+                                                        "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Christina Bloss&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
                                                     }
-                                                },
-                                                "fit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "fill"
-                                                },
-                                                "height": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "position": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "center center"
-                                                },
-                                                "sources": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": [
-                                                        
-                                                    ]
-                                                },
-                                                "src": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "/now-image-placeholder.jpg"
-                                                },
-                                                "width": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
                                                 }
                                             },
                                             "slot": null,
@@ -767,8 +1025,10 @@
                                             "children": null,
                                             "items": [
                                                 {
-                                                    "element_id": "image_5",
-                                                    "styles": {}
+                                                    "element_id": "rich_text_18",
+                                                    "styles": {
+                                                        "align-self": "center"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -777,6 +1037,7 @@
                                             },
                                             "styles": {
                                                 "align-items": "flex-start",
+                                                "background": "#FCFBF2",
                                                 "box-sizing": "border-box",
                                                 "flex-direction": "column",
                                                 "height": "100%",
@@ -806,6 +1067,7 @@
                                                     },
                                                     "internal": {
                                                         "align-items": "flex-start",
+                                                        "background": "#FCFBF2",
                                                         "box-sizing": "border-box",
                                                         "flex-direction": "column",
                                                         "height": "100%",
@@ -827,8 +1089,8 @@
                                     "id": "d356d14b6e293a3020a244b63d278d8f",
                                     "type": "MACROPONENT"
                                 },
-                                "elementId": "__clwffzhhdhhaaaajjsddjhhqpgpcddshhc__column_6",
-                                "elementLabel": "__clwffzhhdhhaaaajjsddjhhqpgpcddshhc__Column 6",
+                                "elementId": "__clwgxgeeuhhaaaaocddjhhqjccwgkjjod__column_6",
+                                "elementLabel": "__clwgxgeeuhhaaaaocddjhhqjccwgkjjod__Column 6",
                                 "eventMappings": [
                                     
                                 ],
@@ -840,11 +1102,11 @@
                                     "composition": [
                                         {
                                             "definition": {
-                                                "id": "15fe506403f8a98575b6df59008ea8f1",
+                                                "id": "2d56f06d55f46bbd4e79b5e624beb940",
                                                 "type": "MACROPONENT"
                                             },
-                                            "elementId": "image_6",
-                                            "elementLabel": "Image 6",
+                                            "elementId": "rich_text_19",
+                                            "elementLabel": "Rich text 19",
                                             "eventMappings": [
                                                 
                                             ],
@@ -852,40 +1114,15 @@
                                                 "type": "JSON_LITERAL",
                                                 "value": null
                                             },
+                                            "preset": null,
                                             "propertyValues": {
-                                                "alt": {
+                                                "html": {
                                                     "type": "TRANSLATION_LITERAL",
                                                     "value": {
                                                         "code": null,
                                                         "comment": "",
-                                                        "message": ""
+                                                        "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Wesley Stephens&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
                                                     }
-                                                },
-                                                "fit": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "fill"
-                                                },
-                                                "height": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
-                                                },
-                                                "position": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "center center"
-                                                },
-                                                "sources": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": [
-                                                        
-                                                    ]
-                                                },
-                                                "src": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": "/now-image-placeholder.jpg"
-                                                },
-                                                "width": {
-                                                    "type": "JSON_LITERAL",
-                                                    "value": null
                                                 }
                                             },
                                             "slot": null,
@@ -897,8 +1134,10 @@
                                             "children": null,
                                             "items": [
                                                 {
-                                                    "element_id": "image_6",
-                                                    "styles": {}
+                                                    "element_id": "rich_text_19",
+                                                    "styles": {
+                                                        "align-self": "center"
+                                                    }
                                                 }
                                             ],
                                             "root": null,
@@ -907,6 +1146,7 @@
                                             },
                                             "styles": {
                                                 "align-items": "flex-start",
+                                                "background": "#FCFBF2",
                                                 "box-sizing": "border-box",
                                                 "flex-direction": "column",
                                                 "height": "100%",
@@ -936,6 +1176,7 @@
                                                     },
                                                     "internal": {
                                                         "align-items": "flex-start",
+                                                        "background": "#FCFBF2",
                                                         "box-sizing": "border-box",
                                                         "flex-direction": "column",
                                                         "height": "100%",
@@ -959,42 +1200,42 @@
                                 "isInline": null,
                                 "items": [
                                     {
-                                        "element_id": "__clwffzhhdggaaaajjnddjhhqraacjjcufi__column_1",
+                                        "element_id": "__clwgxgeeuhhaaaaohhddjhhqljjymcceejju__column_1",
                                         "styles": {
                                             "display": "contents",
                                             "width": "100%"
                                         }
                                     },
                                     {
-                                        "element_id": "__clwffzhhdggaaaajjoddjhhqeffffzcatj__column_2",
+                                        "element_id": "__clwgxgeeuhhaaaaoiiddjhhqeueggqehdd__column_2",
                                         "styles": {
                                             "display": "contents",
                                             "width": "100%"
                                         }
                                     },
                                     {
-                                        "element_id": "__clwffzhhdggaaaajjpddjhhqhkziaaxjje__column_3",
+                                        "element_id": "__clwgxgeeuhhaaaaojjddjhhqzehupyffhh__column_3",
                                         "styles": {
                                             "display": "contents",
                                             "width": "100%"
                                         }
                                     },
                                     {
-                                        "element_id": "__clwffzhhdhhaaaajjqddjhhqguaahhffmth__column_4",
+                                        "element_id": "__clwgxgeeuhhaaaaoaddjhhqaaaauiimuek__column_4",
                                         "styles": {
                                             "display": "contents",
                                             "width": "100%"
                                         }
                                     },
                                     {
-                                        "element_id": "__clwffzhhdhhaaaajjrddjhhqhhuhmddddcce__column_5",
+                                        "element_id": "__clwgxgeeuhhaaaaobddjhhqbbfiiccfvddd__column_5",
                                         "styles": {
                                             "display": "contents",
                                             "width": "100%"
                                         }
                                     },
                                     {
-                                        "element_id": "__clwffzhhdhhaaaajjsddjhhqpgpcddshhc__column_6",
+                                        "element_id": "__clwgxgeeuhhaaaaocddjhhqjccwgkjjod__column_6",
                                         "styles": {
                                             "display": "contents",
                                             "width": "100%"
@@ -1125,6 +1366,84 @@
                     "children": null,
                     "items": [
                         {
+                            "element_id": "rich_text_2",
+                            "styles": {
+                                "background": "#FCFBF2"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_3",
+                            "styles": {
+                                "align-self": "center",
+                                "margin-left": "var(--now-scalable-space--3xl)",
+                                "margin-right": "var(--now-scalable-space--3xl)"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_4",
+                            "styles": {
+                                "background": "#FCFBF2"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_5",
+                            "styles": {
+                                "margin-left": "var(--now-scalable-space--3xl)",
+                                "margin-right": "var(--now-scalable-space--3xl)"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_6",
+                            "styles": {
+                                "background": "#FCFBF2"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_7",
+                            "styles": {
+                                "margin-left": "var(--now-scalable-space--3xl)",
+                                "margin-right": "var(--now-scalable-space--3xl)"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_8",
+                            "styles": {
+                                "background": "#FCFBF2"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_9",
+                            "styles": {
+                                "margin-left": "var(--now-scalable-space--3xl)",
+                                "margin-right": "var(--now-scalable-space--3xl)"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_10",
+                            "styles": {
+                                "background": "#FCFBF2"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_11",
+                            "styles": {
+                                "margin-left": "var(--now-scalable-space--3xl)",
+                                "margin-right": "var(--now-scalable-space--3xl)"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_12",
+                            "styles": {
+                                "background": "#FCFBF2"
+                            }
+                        },
+                        {
+                            "element_id": "rich_text_13",
+                            "styles": {
+                                "background": "#FCFBF2"
+                            }
+                        },
+                        {
                             "element_id": "column_layout_1",
                             "styles": {
                                 "display": "contents",
@@ -1181,1464 +1500,6 @@
         },
         "slot": null,
         "styles": null
-    },
-    {
-        "definition": {
-            "id": "d356d14b6e293a3020a244b63d278d8f",
-            "type": "MACROPONENT"
-        },
-        "elementId": "column_layout_2",
-        "elementLabel": "Column layout 2",
-        "eventMappings": [
-            
-        ],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "overrides": {
-            "composition": [
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhfaeepaaaadhhddjhhqdhhaajnffzjj__column_1",
-                    "elementLabel": "__clwfhfaeepaaaadhhddjhhqdhhaajnffzjj__Column 1",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            {
-                                "definition": {
-                                    "id": "2d56f06d55f46bbd4e79b5e624beb940",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "rich_text_3",
-                                "elementLabel": "Rich text 3",
-                                "eventMappings": [
-                                    
-                                ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "html": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Dylan Ragsdale&lt;/strong&gt;&lt;/p&gt;"
-                                        }
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            }
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    {
-                                        "element_id": "rich_text_3",
-                                        "styles": {
-                                            "align-self": "center"
-                                        }
-                                    }
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhfaeepaaaadiiddjhhqchhoqjjcec__column_2",
-                    "elementLabel": "__clwfhfaeepaaaadiiddjhhqchhoqjjcec__Column 2",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            {
-                                "definition": {
-                                    "id": "2d56f06d55f46bbd4e79b5e624beb940",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "rich_text_4",
-                                "elementLabel": "Rich text 4",
-                                "eventMappings": [
-                                    
-                                ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "html": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Antoni Olmo&lt;/strong&gt;&lt;/p&gt;"
-                                        }
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            }
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    {
-                                        "element_id": "rich_text_4",
-                                        "styles": {
-                                            "align-self": "center"
-                                        }
-                                    }
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhfaeepaaaadjjddjhhqffxzccztbc__column_3",
-                    "elementLabel": "__clwfhfaeepaaaadjjddjhhqffxzccztbc__Column 3",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            {
-                                "definition": {
-                                    "id": "2d56f06d55f46bbd4e79b5e624beb940",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "rich_text_5",
-                                "elementLabel": "Rich text 5",
-                                "eventMappings": [
-                                    
-                                ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "html": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Adam Botens&lt;/strong&gt;&lt;/p&gt;"
-                                        }
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            }
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    {
-                                        "element_id": "rich_text_5",
-                                        "styles": {
-                                            "align-self": "center"
-                                        }
-                                    }
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhfaeeqaaaadaddjhhqimxeetvucc__column_4",
-                    "elementLabel": "__clwfhfaeeqaaaadaddjhhqimxeetvucc__Column 4",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            {
-                                "definition": {
-                                    "id": "2d56f06d55f46bbd4e79b5e624beb940",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "rich_text_6",
-                                "elementLabel": "Rich text 6",
-                                "eventMappings": [
-                                    
-                                ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "html": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Patrick Lane&lt;/strong&gt;&lt;/p&gt;"
-                                        }
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            }
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    {
-                                        "element_id": "rich_text_6",
-                                        "styles": {
-                                            "align-self": "center"
-                                        }
-                                    }
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhfaeeqaaaadbddjhhqjjbbhhhifgo__column_5",
-                    "elementLabel": "__clwfhfaeeqaaaadbddjhhqjjbbhhhifgo__Column 5",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            {
-                                "definition": {
-                                    "id": "2d56f06d55f46bbd4e79b5e624beb940",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "rich_text_7",
-                                "elementLabel": "Rich text 7",
-                                "eventMappings": [
-                                    
-                                ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "html": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Christina Bloss&lt;/strong&gt;&lt;/p&gt;"
-                                        }
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            }
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    {
-                                        "element_id": "rich_text_7",
-                                        "styles": {
-                                            "align-self": "center"
-                                        }
-                                    }
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhfaeeqaaaadcddjhhqtlhfggyrh__column_6",
-                    "elementLabel": "__clwfhfaeeqaaaadcddjhhqtlhfggyrh__Column 6",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            {
-                                "definition": {
-                                    "id": "2d56f06d55f46bbd4e79b5e624beb940",
-                                    "type": "MACROPONENT"
-                                },
-                                "elementId": "rich_text_8",
-                                "elementLabel": "Rich text 8",
-                                "eventMappings": [
-                                    
-                                ],
-                                "isHidden": {
-                                    "type": "JSON_LITERAL",
-                                    "value": null
-                                },
-                                "preset": null,
-                                "propertyValues": {
-                                    "html": {
-                                        "type": "TRANSLATION_LITERAL",
-                                        "value": {
-                                            "code": null,
-                                            "comment": "",
-                                            "message": "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Wesley Stephens&lt;/strong&gt;&lt;/p&gt;"
-                                        }
-                                    }
-                                },
-                                "slot": null,
-                                "styles": null
-                            }
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    {
-                                        "element_id": "rich_text_8",
-                                        "styles": {
-                                            "align-self": "center"
-                                        }
-                                    }
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                }
-            ],
-            "layout": {
-                "default": {
-                    "children": null,
-                    "isInline": null,
-                    "items": [
-                        {
-                            "element_id": "__clwfhfaeepaaaadhhddjhhqdhhaajnffzjj__column_1",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhfaeepaaaadiiddjhhqchhoqjjcec__column_2",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhfaeepaaaadjjddjhhqffxzccztbc__column_3",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhfaeeqaaaadaddjhhqimxeetvucc__column_4",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhfaeeqaaaadbddjhhqjjbbhhhifgo__column_5",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhfaeeqaaaadcddjhhqtlhfggyrh__column_6",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        }
-                    ],
-                    "root": null,
-                    "rules": null,
-                    "styles": {
-                        "box-sizing": "border-box",
-                        "grid-template-columns": "16.66fr 16.66fr 16.66fr 16.66fr 16.66fr 16.66fr",
-                        "grid-template-rows": "1fr",
-                        "width": "100%"
-                    },
-                    "type": "grid"
-                },
-                "queries": [
-                    {
-                        "layout": {
-                            "children": null,
-                            "isInline": null,
-                            "items": [
-                                
-                            ],
-                            "root": null,
-                            "rules": null,
-                            "styles": {
-                                "box-sizing": "border-box",
-                                "grid-template-columns": "1fr",
-                                "grid-template-rows": "1fr",
-                                "height": "fit-content",
-                                "max-height": "max-content",
-                                "min-height": "min-content",
-                                "width": "100%"
-                            },
-                            "type": "grid"
-                        },
-                        "query": {
-                            "max-width": 640
-                        }
-                    }
-                ],
-                "version": "3.0.0"
-            }
-        },
-        "preset": null,
-        "propertyValues": {
-            "slotWrapperBehavior": {
-                "type": "JSON_LITERAL",
-                "value": "contents"
-            }
-        },
-        "scratchPad": {
-            "uib": {
-                "layout": {
-                    "columnSection": {
-                        "breakpoints": [
-                            {
-                                "behavior": "stack",
-                                "max-width": 640,
-                                "styles": {
-                                    "box-sizing": "border-box",
-                                    "grid-template-columns": "1fr",
-                                    "grid-template-rows": "1fr",
-                                    "height": "fit-content",
-                                    "max-height": "max-content",
-                                    "min-height": "min-content",
-                                    "width": "100%"
-                                }
-                            }
-                        ],
-                        "children": [
-                            {
-                                "columnNumber": 1,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 2,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 3,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 4,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 5,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 6,
-                                "unit": "%",
-                                "width": 16.66
-                            }
-                        ],
-                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
-                        "styleConfig": {
-                            "external": {
-                                "display": "contents",
-                                "width": "100%"
-                            },
-                            "internal": {
-                                "box-sizing": "border-box",
-                                "grid-template-rows": "1fr",
-                                "width": "100%"
-                            }
-                        }
-                    },
-                    "type": "columnSection"
-                },
-                "version": "1.0.0"
-            }
-        },
-        "slot": null,
-        "styles": null
-    },
-    {
-        "definition": {
-            "id": "d356d14b6e293a3020a244b63d278d8f",
-            "type": "MACROPONENT"
-        },
-        "elementId": "column_layout_3",
-        "elementLabel": "Column layout 3",
-        "eventMappings": [
-            
-        ],
-        "isHidden": {
-            "type": "JSON_LITERAL",
-            "value": null
-        },
-        "overrides": {
-            "composition": [
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhsiiixaaaahlddjhhqjgzuggggay__column_1",
-                    "elementLabel": "__clwfhsiiixaaaahlddjhhqjgzuggggay__Column 1",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhsiiiyaaaahmddjhhqiidgnddepdd__column_2",
-                    "elementLabel": "__clwfhsiiiyaaaahmddjhhqiidgnddepdd__Column 2",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhsiiiyaaaahnddjhhqoccfyhwsi__column_3",
-                    "elementLabel": "__clwfhsiiiyaaaahnddjhhqoccfyhwsi__Column 3",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhsiiiyaaaahoddjhhqgghhwrzljjw__column_4",
-                    "elementLabel": "__clwfhsiiiyaaaahoddjhhqgghhwrzljjw__Column 4",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhsiiiyaaaahpddjhhqrddojjqogz__column_5",
-                    "elementLabel": "__clwfhsiiiyaaaahpddjhhqrddojjqogz__Column 5",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                },
-                {
-                    "definition": {
-                        "id": "d356d14b6e293a3020a244b63d278d8f",
-                        "type": "MACROPONENT"
-                    },
-                    "elementId": "__clwfhsiiiyaaaahqddjhhqhffrnjapt__column_6",
-                    "elementLabel": "__clwfhsiiiyaaaahqddjhhqhffrnjapt__Column 6",
-                    "eventMappings": [
-                        
-                    ],
-                    "isHidden": {
-                        "type": "JSON_LITERAL",
-                        "value": null
-                    },
-                    "overrides": {
-                        "composition": [
-                            
-                        ],
-                        "layout": {
-                            "default": {
-                                "children": null,
-                                "items": [
-                                    
-                                ],
-                                "root": null,
-                                "rules": {
-                                    "flex-direction": "row"
-                                },
-                                "styles": {
-                                    "align-items": "flex-start",
-                                    "box-sizing": "border-box",
-                                    "flex-direction": "column",
-                                    "height": "100%",
-                                    "justify-content": "flex-start",
-                                    "overflow": "auto"
-                                },
-                                "type": "flex"
-                            },
-                            "version": "3.0.0"
-                        }
-                    },
-                    "preset": null,
-                    "propertyValues": {
-                        "slotWrapperBehavior": {
-                            "type": "JSON_LITERAL",
-                            "value": "contents"
-                        }
-                    },
-                    "scratchPad": {
-                        "uib": {
-                            "layout": {
-                                "column": {
-                                    "styleConfig": {
-                                        "external": {
-                                            "display": "contents",
-                                            "width": "100%"
-                                        },
-                                        "internal": {
-                                            "align-items": "flex-start",
-                                            "box-sizing": "border-box",
-                                            "flex-direction": "column",
-                                            "height": "100%",
-                                            "justify-content": "flex-start",
-                                            "overflow": "auto"
-                                        }
-                                    }
-                                },
-                                "type": "column"
-                            },
-                            "version": "1.0.0"
-                        }
-                    },
-                    "slot": null,
-                    "styles": null
-                }
-            ],
-            "layout": {
-                "default": {
-                    "children": null,
-                    "isInline": null,
-                    "items": [
-                        {
-                            "element_id": "__clwfhsiiixaaaahlddjhhqjgzuggggay__column_1",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhsiiiyaaaahmddjhhqiidgnddepdd__column_2",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhsiiiyaaaahnddjhhqoccfyhwsi__column_3",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhsiiiyaaaahoddjhhqgghhwrzljjw__column_4",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhsiiiyaaaahpddjhhqrddojjqogz__column_5",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        },
-                        {
-                            "element_id": "__clwfhsiiiyaaaahqddjhhqhffrnjapt__column_6",
-                            "styles": {
-                                "display": "contents",
-                                "width": "100%"
-                            }
-                        }
-                    ],
-                    "root": null,
-                    "rules": null,
-                    "styles": {
-                        "box-sizing": "border-box",
-                        "grid-template-columns": "16.66fr 16.66fr 16.66fr 16.66fr 16.66fr 16.66fr",
-                        "grid-template-rows": "1fr",
-                        "width": "100%"
-                    },
-                    "type": "grid"
-                },
-                "queries": [
-                    {
-                        "layout": {
-                            "children": null,
-                            "isInline": null,
-                            "items": [
-                                
-                            ],
-                            "root": null,
-                            "rules": null,
-                            "styles": {
-                                "box-sizing": "border-box",
-                                "grid-template-columns": "1fr",
-                                "grid-template-rows": "1fr",
-                                "height": "fit-content",
-                                "max-height": "max-content",
-                                "min-height": "min-content",
-                                "width": "100%"
-                            },
-                            "type": "grid"
-                        },
-                        "query": {
-                            "max-width": 640
-                        }
-                    }
-                ],
-                "version": "3.0.0"
-            }
-        },
-        "preset": null,
-        "propertyValues": {
-            "slotWrapperBehavior": {
-                "type": "JSON_LITERAL",
-                "value": "contents"
-            }
-        },
-        "scratchPad": {
-            "uib": {
-                "layout": {
-                    "columnSection": {
-                        "breakpoints": [
-                            {
-                                "behavior": "stack",
-                                "max-width": 640,
-                                "styles": {
-                                    "box-sizing": "border-box",
-                                    "grid-template-columns": "1fr",
-                                    "grid-template-rows": "1fr",
-                                    "height": "fit-content",
-                                    "max-height": "max-content",
-                                    "min-height": "min-content",
-                                    "width": "100%"
-                                }
-                            }
-                        ],
-                        "children": [
-                            {
-                                "columnNumber": 1,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 2,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 3,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 4,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 5,
-                                "unit": "%",
-                                "width": 16.66
-                            },
-                            {
-                                "columnNumber": 6,
-                                "unit": "%",
-                                "width": 16.66
-                            }
-                        ],
-                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
-                        "styleConfig": {
-                            "external": {
-                                "display": "contents",
-                                "width": "100%"
-                            },
-                            "internal": {
-                                "box-sizing": "border-box",
-                                "grid-template-rows": "1fr",
-                                "width": "100%"
-                            }
-                        }
-                    },
-                    "type": "columnSection"
-                },
-                "version": "1.0.0"
-            }
-        },
-        "slot": null,
-        "styles": null
     }
 ]</composition>
         <da_relay_models/>
@@ -2661,27 +1522,13 @@
             {
                 "element_id": "container_1",
                 "styles": {
-                    "background": "rgb(var(--now-color--neutral-1)) url('x_cdltd_dropship_0.dsnBanner.jpg') no-repeat center center",
-                    "background-size": "100%80%",
-                    "height": "500px"
+                    "height": "550px"
                 }
             },
             {
                 "element_id": "container_2",
-                "styles": {}
-            },
-            {
-                "element_id": "column_layout_2",
                 "styles": {
-                    "display": "contents",
-                    "width": "100%"
-                }
-            },
-            {
-                "element_id": "column_layout_3",
-                "styles": {
-                    "display": "contents",
-                    "width": "100%"
+                    "height": "1350px"
                 }
             }
         ],
@@ -2702,28 +1549,61 @@
     
 ]</props>
         <required_translations>[ {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Adam Botens&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Antoni Olmo&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Christina Bloss&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Dylan Ragsdale&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Patrick Lane&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Wesley Stephens&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;At DropshipNow, we are more than just an online store; we are a community of like-minded individuals who appreciate the artistry and tradition behind every bottle and cigar. Join our community to stay updated on the lastest arrivals, exclusive deals, and insider tips on enjoying your purchases to the fullest.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Thank you for choosing DropshipNow. We look forward to serving you and heling you indulge in the luxury you deserve!&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;DropshipNow was founded with a simple mission: to bring the finest bourbons and cigars directly to your doorstep.&amp;nbsp; We recognized a gap in the market for a reliable shipping service that caters to the sophisticated tastes of discerning consumers. With our deep appreciation for the finer things in life, we set out to create a platform that not only meets but exceeds the expectations of bourbon and cigar aficionados.&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Quality is at the heart of everything we do. We partner with renowned distilleries and cigar manufacturers to ensure that each product we offer is of the highest standard. From rare, small-batch bourbons to meticulously crafted cigars, our collection is curated to provide you with an extraordinary sensory experience.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Transparency and customer satisfaction are also core to our values. Our shipping model allows us to offer competitive prices and a seamless shopping experience. We handle all the logistics, so you can focus on enjoying your purchases.&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Welcome to DropshipNow, your Premier online destination for high-end bourbon and cigars. At DropshipNow, we believe in providing connoisseurs and enthusiasts with an unparalleled selection of luxury products, curated with a passion for quality and craftsmanship.&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;strong&gt;Cheers&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;strong&gt;Join Our Community&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 24pt;\"&gt;&lt;strong&gt;Why Choose DropshipNow&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
+  "comment" : ""
+}, {
   "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 36pt;\"&gt;&lt;strong&gt;DropshipNow&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 24pt;\"&gt;Who we are!&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;The DropshipNow Team&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Adam Botens&lt;/strong&gt;&lt;/p&gt;",
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 24pt;\"&gt;About Us&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Antoni Olmo&lt;/strong&gt;&lt;/p&gt;",
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 24pt;\"&gt;Our Commitment&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Christina Bloss&lt;/strong&gt;&lt;/p&gt;",
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 24pt;\"&gt;Our Story&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Dylan Ragsdale&lt;/strong&gt;&lt;/p&gt;",
-  "comment" : ""
-}, {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Patrick Lane&lt;/strong&gt;&lt;/p&gt;",
-  "comment" : ""
-}, {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;strong&gt;Wesley Stephens&lt;/strong&gt;&lt;/p&gt;",
+  "message" : "&lt;ul&gt;\n&lt;li style=\"font-size: 18pt;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Exclusive Selection&lt;/span&gt;&lt;/strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;: We offer a handpicked range of premium bourbons and cigars that you wont find in your local store.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=\"font-size: 18pt;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Expert&lt;/span&gt;&lt;/strong&gt;&lt;span style=\"font-size: 18pt;\"&gt; &lt;strong&gt;Curation&lt;/strong&gt;: Our team of enthusiasts and experts personally selects each product, ensuring it meets our stringent quality standards.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=\"font-size: 18pt;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Convenience&lt;/span&gt;&lt;/strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;: With our user-friendly online platform, you can browse, select, and purchase your favorite items with ease, knowing they will be delivered directly to you.&lt;/span&gt;&lt;/li&gt;\n&lt;li style=\"font-size: 18pt;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 18pt;\"&gt;Customer&lt;/span&gt;&lt;/strong&gt;&lt;span style=\"font-size: 18pt;\"&gt; &lt;strong&gt;Service&lt;/strong&gt;: Our dedicated support team is here to assist you with any inquiries or issues, ensuring a smooth and satisfying shopping experience.&lt;/span&gt;&lt;/li&gt;\n&lt;/ul&gt;",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -2735,14 +1615,14 @@
         <sys_created_by>wesley.stephens</sys_created_by>
         <sys_created_on>2024-05-20 20:22:57</sys_created_on>
         <sys_id>d41378e5c05a02107f441432a4fe9c2f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_d41378e5c05a02107f441432a4fe9c2f</sys_update_name>
         <sys_updated_by>wesley.stephens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:43:05</sys_updated_on>
+        <sys_updated_on>2024-05-21 22:19:01</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d41378e5c05a02107f441432a4fe9c2f"/>
 </record_update>
