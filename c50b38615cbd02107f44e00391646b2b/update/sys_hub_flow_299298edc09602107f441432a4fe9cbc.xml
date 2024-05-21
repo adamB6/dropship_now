@@ -4,20 +4,20 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=12936000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=78552000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>creates order with items records</description>
         <internal_name>create_order_with_items</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Orders Record","reference":"x_cdltd_dropship_0_orders","reference_display":"Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item","label":"2 - For Each➛Shopping Cart Record","reference":"x_cdltd_dropship_0_dsn_cart","reference_display":"Shopping Cart","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid","label":"2 - For Each➛Shopping Cart Record➛ProductID","reference":"","reference_display":"ProductID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"productid"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.quantity","label":"2 - For Each➛Shopping Cart Record➛Quantity","reference":"","reference_display":"Quantity","type":"integer","base_type":"integer","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"quantity"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.price","label":"2 - For Each➛Shopping Cart Record➛Price","reference":"","reference_display":"Price","type":"decimal","base_type":"decimal","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"price"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Orders Record➛Order ID","reference":"","reference_display":"Order ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_orders","column_name":"number"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.sys_created_by","label":"2 - For Each➛Shopping Cart Record➛CustomerID","reference":"","reference_display":"CustomerID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"sys_created_by"},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Orders Record➛Customer ID","reference":"","reference_display":"Customer ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_orders","column_name":"sys_created_by"},{"name":"3ac47117-a76e-43f2-9327-5c60e5f1f10a.Records","label":"1 - Look Up Records➛Shopping Cart Records","reference":"x_cdltd_dropship_0_dsn_cart","reference_display":"Shopping Cart","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.phase","label":"2 - For Each➛Shopping Cart Record➛Phase","reference":"","reference_display":"Phase","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"phase","choices":[{"rawLabel":"New","selected":false,"label":"New","missing":false,"image":"","reference":false,"used":false,"value":"new","parameters":{"name":"x_cdltd_dropship_0_dsn_cart"}},{"rawLabel":"Loaded","selected":false,"label":"Loaded","missing":false,"image":"","reference":false,"used":false,"value":"loaded","parameters":{"name":"x_cdltd_dropship_0_dsn_cart"}}]},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.number","label":"2 - For Each➛Shopping Cart Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"number"}]</label_cache>
+        <label_cache>[{"name":"fcf989eb-e257-4065-a11b-9596010d187c.item","label":"8 - For Each➛Order Items Record","reference":"x_cdltd_dropship_0_order_items","reference_display":"Order Items","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"fcf989eb-e257-4065-a11b-9596010d187c.item.product_id","label":"8 - For Each➛Order Items Record➛Product ID","reference":"","reference_display":"Product ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_order_items","column_name":"product_id"},{"name":"df075f11-fb2e-4d5a-974f-4d3227b99aee.Records","label":"2 - Look Up Records➛Order Items Records","reference":"x_cdltd_dropship_0_order_items","reference_display":"Order Items","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.product_id","label":"Trigger - Record Created➛Order Items Record➛Product ID","reference":"","reference_display":"Product ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_order_items","column_name":"product_id"},{"name":"Created_1.current","label":"Trigger - Record Created➛Order Items Record","reference":"x_cdltd_dropship_0_order_items","reference_display":"Order Items","type":"reference","base_type":"reference","attributes":{}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item","label":"3 - For Each➛Shopping Cart Record","reference":"x_cdltd_dropship_0_dsn_cart","reference_display":"Shopping Cart","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid","label":"3 - For Each➛Shopping Cart Record➛ProductID","reference":"","reference_display":"ProductID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"productid"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.quantity","label":"3 - For Each➛Shopping Cart Record➛Quantity","reference":"","reference_display":"Quantity","type":"integer","base_type":"integer","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"quantity"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.price","label":"3 - For Each➛Shopping Cart Record➛Price","reference":"","reference_display":"Price","type":"decimal","base_type":"decimal","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"price"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Orders Record➛Order ID","reference":"","reference_display":"Order ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_orders","column_name":"number"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.sys_created_by","label":"3 - For Each➛Shopping Cart Record➛CustomerID","reference":"","reference_display":"CustomerID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"sys_created_by"},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Orders Record➛Customer ID","reference":"","reference_display":"Customer ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_orders","column_name":"sys_created_by"},{"name":"3ac47117-a76e-43f2-9327-5c60e5f1f10a.Records","label":"1 - Look Up Records➛Shopping Cart Records","reference":"x_cdltd_dropship_0_dsn_cart","reference_display":"Shopping Cart","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.phase","label":"3 - For Each➛Shopping Cart Record➛Phase","reference":"","reference_display":"Phase","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"phase","choices":[{"rawLabel":"New","selected":false,"label":"New","missing":false,"image":"","reference":false,"used":false,"value":"new","parameters":{"name":"x_cdltd_dropship_0_dsn_cart"}},{"rawLabel":"Loaded","selected":false,"label":"Loaded","missing":false,"image":"","reference":false,"used":false,"value":"loaded","parameters":{"name":"x_cdltd_dropship_0_dsn_cart"}}]},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.number","label":"3 - For Each➛Shopping Cart Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"number"}]</label_cache>
         <master_snapshot>ba3958e5c0d602107f441432a4fe9c67</master_snapshot>
         <name>Create Order with Items</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>5c484d80444e02107f445645091764e1</remote_trigger_id>
+        <remote_trigger_id>501478312c1602107f44ca7f8af7c495</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>299298edc09602107f441432a4fe9cbc</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Create Order with Items</sys_name>
         <sys_overrides/>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
@@ -38,14 +38,14 @@
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_hub_flow_299298edc09602107f441432a4fe9cbc</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:43</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:29</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=299298edc09602107f441432a4fe9cbc"/>
     <sys_variable_value action="delete_multiple" query="document_key=299298edc09602107f441432a4fe9cbc"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_cdltd_dropship_0_orders">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_cdltd_dropship_0_order_items">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -58,16 +58,16 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-03 19:48:56</sys_created_on>
+        <sys_created_on>2024-05-21 15:05:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>5c484d80444e02107f445645091764e1</sys_id>
+        <sys_id>501478312c1602107f44ca7f8af7c495</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-03 19:48:56</sys_updated_on>
-        <table>x_cdltd_dropship_0_orders</table>
+        <sys_updated_on>2024-05-21 15:05:48</sys_updated_on>
+        <table>x_cdltd_dropship_0_order_items</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -75,14 +75,14 @@
         <identifier>299298edc09602107f441432a4fe9cbc</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 21:36:43</sys_created_on>
-        <sys_id>a0f3c52dc09a02107f441432a4fe9c65</sys_id>
+        <sys_created_on>2024-05-21 15:50:27</sys_created_on>
+        <sys_id>924e30bd2c1602107f44ca7f8af7c4dd</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:43</sys_updated_on>
-        <trigger display_value="">5c484d80444e02107f445645091764e1</trigger>
+        <sys_updated_on>2024-05-21 15:50:27</sys_updated_on>
+        <trigger display_value="">501478312c1602107f44ca7f8af7c495</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=299298edc09602107f441432a4fe9cbc^sys_idNOT INa0f3c52dc09a02107f441432a4fe9c65"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=299298edc09602107f441432a4fe9cbc^sys_idNOT IN924e30bd2c1602107f44ca7f8af7c4dd"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=299298edc09602107f441432a4fe9cbc^sys_idNOT IN1a6510e1c0d602107f441432a4fe9c0b"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -93,10 +93,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:13:24</sys_created_on>
         <sys_id>1a6510e1c0d602107f441432a4fe9c0b</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:43</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -111,10 +111,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:13:24</sys_created_on>
         <sys_id>626510e1c0d602107f441432a4fe9c0d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 18:13:24</sys_updated_on>
-        <value>x_cdltd_dropship_0_orders</value>
+        <sys_updated_on>2024-05-21 15:05:09</sys_updated_on>
+        <value>x_cdltd_dropship_0_order_items</value>
         <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -209,14 +209,14 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:13:24</sys_created_on>
         <sys_id>926510e1c0d602107f441432a4fe9c07</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:43</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -293,14 +293,14 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:13:23</sys_created_on>
         <sys_id>9e6510e1c0d602107f441432a4fe9c02</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:43</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -316,7 +316,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9e6510e1c0d602107f441432a4fe9c02"/>
     <sys_hub_flow_output action="delete_multiple" query="model=299298edc09602107f441432a4fe9cbc"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=299298edc09602107f441432a4fe9cbc"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=299298edc09602107f441432a4fe9cbc^sys_idNOT IN2ae3052dc09a02107f441432a4fe9c8a,9ae3052dc09a02107f441432a4fe9c83,e26510e1c0d602107f441432a4fe9c14"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=299298edc09602107f441432a4fe9cbc^sys_idNOT IN283e387d2c1602107f44ca7f8af7c45e,603e387d2c1602107f44ca7f8af7c43e,9ae3052dc09a02107f441432a4fe9c83,a83e387d2c1602107f44ca7f8af7c47c,b03e387d2c1602107f44ca7f8af7c48f,e26510e1c0d602107f441432a4fe9c14"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -326,60 +326,98 @@
         <comment/>
         <display_text/>
         <flow display_value="Create Order with Items">299298edc09602107f441432a4fe9cbc</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>5ec8e05b-4540-49ac-9d8f-cae95652fdd0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 21:36:34</sys_created_on>
-        <sys_id>2ae3052dc09a02107f441432a4fe9c8a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>283e387d2c1602107f44ca7f8af7c45e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:56</sys_updated_on>
-        <ui_id>4db4fda9-dc3a-487a-a1c1-714dc402d379</ui_id>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
+        <ui_id>f55980a3-79ee-4edc-8eac-ca59b62eb7fb</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=2ae3052dc09a02107f441432a4fe9c8a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=283e387d2c1602107f44ca7f8af7c45e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>2ae3052dc09a02107f441432a4fe9c8a</document_key>
+        <document_key>283e387d2c1602107f44ca7f8af7c45e</document_key>
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 21:36:34</sys_created_on>
-        <sys_id>22e3052dc09a02107f441432a4fe9c8c</sys_id>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>603e387d2c1602107f44ca7f8af7c460</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:34</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
         <value>x_cdltd_dropship_0_order_items</value>
         <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2ae3052dc09a02107f441432a4fe9c8a"/>
+    <sys_element_mapping action="delete_multiple" query="id=283e387d2c1602107f44ca7f8af7c45e"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
-        <id>2ae3052dc09a02107f441432a4fe9c8a</id>
+        <id>283e387d2c1602107f44ca7f8af7c45e</id>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 21:36:34</sys_created_on>
-        <sys_id>eae3052dc09a02107f441432a4fe9c8b</sys_id>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>2c3e387d2c1602107f44ca7f8af7c45f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:34</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
-        <id>2ae3052dc09a02107f441432a4fe9c8a</id>
+        <id>283e387d2c1602107f44ca7f8af7c45e</id>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 21:36:34</sys_created_on>
-        <sys_id>aee3052dc09a02107f441432a4fe9c8b</sys_id>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>ec3e387d2c1602107f44ca7f8af7c45f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:34</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>order_id={{Created_1.current.number}}^product_id={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid}}^price={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.price}}^quantity={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.quantity}}</value>
+        <value>product_id={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid}}^price={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.price}}^quantity={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.quantity}}</value>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=2ae3052dc09a02107f441432a4fe9c8a"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2ae3052dc09a02107f441432a4fe9c8a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=283e387d2c1602107f44ca7f8af7c45e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=283e387d2c1602107f44ca7f8af7c45e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Order with Items">299298edc09602107f441432a4fe9cbc</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>603e387d2c1602107f44ca7f8af7c43e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
+        <ui_id>df075f11-fb2e-4d5a-974f-4d3227b99aee</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=603e387d2c1602107f44ca7f8af7c43e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>603e387d2c1602107f44ca7f8af7c43e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>203e387d2c1602107f44ca7f8af7c440</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
+        <value>x_cdltd_dropship_0_order_items</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=603e387d2c1602107f44ca7f8af7c43e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=603e387d2c1602107f44ca7f8af7c43e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=603e387d2c1602107f44ca7f8af7c43e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -389,16 +427,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Create Order with Items">299298edc09602107f441432a4fe9cbc</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>5ec8e05b-4540-49ac-9d8f-cae95652fdd0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 21:36:33</sys_created_on>
         <sys_id>9ae3052dc09a02107f441432a4fe9c83</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:56</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
         <ui_id>4069d035-2c01-4189-9e9d-7bcd9798a2b5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ae3052dc09a02107f441432a4fe9c83"/>
@@ -472,6 +510,144 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Order with Items">299298edc09602107f441432a4fe9cbc</flow>
+        <order>10</order>
+        <parent_ui_id>5808af0a-9a94-4831-9cb7-cc882348ac6b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>a83e387d2c1602107f44ca7f8af7c47c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:29</sys_updated_on>
+        <ui_id>65ea9884-e2c0-48a8-8fb6-c729d97d763a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a83e387d2c1602107f44ca7f8af7c47c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a83e387d2c1602107f44ca7f8af7c47c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>383e387d2c1602107f44ca7f8af7c48b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
+        <value>x_cdltd_dropship_0_order_items</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a83e387d2c1602107f44ca7f8af7c47c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>743e387d2c1602107f44ca7f8af7c48b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
+        <value>quantity=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a83e387d2c1602107f44ca7f8af7c47c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a83e387d2c1602107f44ca7f8af7c47c</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>e03e387d2c1602107f44ca7f8af7c48b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{fcf989eb-e257-4065-a11b-9596010d187c.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a83e387d2c1602107f44ca7f8af7c47c</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>a43e387d2c1602107f44ca7f8af7c47e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a83e387d2c1602107f44ca7f8af7c47c</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>683e387d2c1602107f44ca7f8af7c47e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a83e387d2c1602107f44ca7f8af7c47c^sys_idNOT INa83e387d2c1602107f44ca7f8af7c47d"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>a83e387d2c1602107f44ca7f8af7c47c</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"quantity":{"scriptActive":true,"script":"var ordersQuantity \u003d fd_data._8__for_each.item.quantity;\nvar cartQuantity \u003d fd_data._3__for_each.item.quantity;\n\nreturn ordersQuantity + cartQuantity;","savedValue":""}}</script>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>a83e387d2c1602107f44ca7f8af7c47d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a83e387d2c1602107f44ca7f8af7c47c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Order with Items">299298edc09602107f441432a4fe9cbc</flow>
+        <order>11</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>b03e387d2c1602107f44ca7f8af7c48f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:29</sys_updated_on>
+        <ui_id>715f0de9-55ff-4d56-903f-219f3d953c70</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b03e387d2c1602107f44ca7f8af7c48f"/>
+    <sys_element_mapping action="delete_multiple" query="id=b03e387d2c1602107f44ca7f8af7c48f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b03e387d2c1602107f44ca7f8af7c48f</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:05</sys_created_on>
+        <sys_id>f43e387d2c1602107f44ca7f8af7c490</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b03e387d2c1602107f44ca7f8af7c48f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b03e387d2c1602107f44ca7f8af7c48f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <attributes/>
@@ -484,10 +660,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:13:24</sys_created_on>
         <sys_id>e26510e1c0d602107f441432a4fe9c14</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:56</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
         <ui_id>3ac47117-a76e-43f2-9327-5c60e5f1f10a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e26510e1c0d602107f441432a4fe9c14"/>
@@ -499,41 +675,17 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:13:24</sys_created_on>
         <sys_id>a26510e1c0d602107f441432a4fe9c17</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 18:13:24</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
         <value>x_cdltd_dropship_0_dsn_cart</value>
         <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=e26510e1c0d602107f441432a4fe9c14"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>e26510e1c0d602107f441432a4fe9c14</id>
-        <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 18:13:24</sys_created_on>
-        <sys_id>2a6510e1c0d602107f441432a4fe9c16</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:26:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value>sys_created_by={{Created_1.current.sys_created_by}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>e26510e1c0d602107f441432a4fe9c14</id>
-        <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 18:13:24</sys_created_on>
-        <sys_id>226510e1c0d602107f441432a4fe9c17</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 18:13:24</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value/>
-    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=e26510e1c0d602107f441432a4fe9c14"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e26510e1c0d602107f441432a4fe9c14"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=e26510e1c0d602107f441432a4fe9c14"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=299298edc09602107f441432a4fe9cbc"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=299298edc09602107f441432a4fe9cbc^sys_idNOT IN12e3052dc09a02107f441432a4fe9c7c,e26510e1c0d602107f441432a4fe9c18"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=299298edc09602107f441432a4fe9cbc^sys_idNOT IN12e3052dc09a02107f441432a4fe9c7c,283e387d2c1602107f44ca7f8af7c475,3ae3b0312c1602107f44ca7f8af7c495,e26510e1c0d602107f441432a4fe9c18,e83e387d2c1602107f44ca7f8af7c465"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">56e3052dc09a02107f441432a4fe9c7b</block>
@@ -549,7 +701,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>7fdbb0b5-a3ea-40d4-a758-a01badfb65fb</parent_ui_id>
@@ -557,10 +709,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 21:36:33</sys_created_on>
         <sys_id>12e3052dc09a02107f441432a4fe9c7c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:43</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
         <ui_id>5ec8e05b-4540-49ac-9d8f-cae95652fdd0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -583,6 +735,86 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=12e3052dc09a02107f441432a4fe9c7c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
+        <block display_value="">603e387d2c1602107f44ca7f8af7c475</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Order with Items">299298edc09602107f441432a4fe9cbc</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fcf989eb-e257-4065-a11b-9596010d187c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>283e387d2c1602107f44ca7f8af7c475</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
+        <ui_id>5808af0a-9a94-4831-9cb7-cc882348ac6b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=283e387d2c1602107f44ca7f8af7c475"/>
+    <sys_element_mapping action="delete_multiple" query="id=283e387d2c1602107f44ca7f8af7c475"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>283e387d2c1602107f44ca7f8af7c475</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>e03e387d2c1602107f44ca7f8af7c478</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid}}={{fcf989eb-e257-4065-a11b-9596010d187c.item.product_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=283e387d2c1602107f44ca7f8af7c475"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=283e387d2c1602107f44ca7f8af7c475"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bee3b0312c1602107f44ca7f8af7c494</block>
+        <comment/>
+        <connected_to>5ec8e05b-4540-49ac-9d8f-cae95652fdd0</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Order with Items">299298edc09602107f441432a4fe9cbc</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7fdbb0b5-a3ea-40d4-a758-a01badfb65fb</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:05:09</sys_created_on>
+        <sys_id>3ae3b0312c1602107f44ca7f8af7c495</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
+        <ui_id>99a6a76f-1cd4-4869-bdcf-dc9befc330a9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3ae3b0312c1602107f44ca7f8af7c495"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3ae3b0312c1602107f44ca7f8af7c495"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ae3b0312c1602107f44ca7f8af7c495"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
         <block display_value="">2a6510e1c0d602107f441432a4fe9c17</block>
         <comment/>
         <connected_to/>
@@ -596,7 +828,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -604,10 +836,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:13:24</sys_created_on>
         <sys_id>e26510e1c0d602107f441432a4fe9c18</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:43</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
         <ui_id>7fdbb0b5-a3ea-40d4-a758-a01badfb65fb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -628,6 +860,53 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e26510e1c0d602107f441432a4fe9c18"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e26510e1c0d602107f441432a4fe9c18"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">203e387d2c1602107f44ca7f8af7c465</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Order with Items">299298edc09602107f441432a4fe9cbc</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>99a6a76f-1cd4-4869-bdcf-dc9befc330a9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>e83e387d2c1602107f44ca7f8af7c465</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:28</sys_updated_on>
+        <ui_id>fcf989eb-e257-4065-a11b-9596010d187c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e83e387d2c1602107f44ca7f8af7c465"/>
+    <sys_element_mapping action="delete_multiple" query="id=e83e387d2c1602107f44ca7f8af7c465"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e83e387d2c1602107f44ca7f8af7c465</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:04</sys_created_on>
+        <sys_id>2c3e387d2c1602107f44ca7f8af7c474</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:04</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{df075f11-fb2e-4d5a-974f-4d3227b99aee.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e83e387d2c1602107f44ca7f8af7c465"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e83e387d2c1602107f44ca7f8af7c465"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=299298edc09602107f441432a4fe9cbc^sys_idNOT IN7e7e14adc0d602107f441432a4fe9cb6,b67e14adc0d602107f441432a4fe9cb7"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>299298edc09602107f441432a4fe9cbc</attached_to>
@@ -726,7 +1005,7 @@
         <copied_from_name/>
         <description>creates order with items records</description>
         <internal_name>create_order_with_items</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Orders Record","reference":"x_cdltd_dropship_0_orders","reference_display":"Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item","label":"2 - For Each➛Shopping Cart Record","reference":"x_cdltd_dropship_0_dsn_cart","reference_display":"Shopping Cart","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid","label":"2 - For Each➛Shopping Cart Record➛ProductID","reference":"","reference_display":"ProductID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"productid"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.quantity","label":"2 - For Each➛Shopping Cart Record➛Quantity","reference":"","reference_display":"Quantity","type":"integer","base_type":"integer","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"quantity"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.price","label":"2 - For Each➛Shopping Cart Record➛Price","reference":"","reference_display":"Price","type":"decimal","base_type":"decimal","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"price"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Orders Record➛Order ID","reference":"","reference_display":"Order ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_orders","column_name":"number"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.sys_created_by","label":"2 - For Each➛Shopping Cart Record➛CustomerID","reference":"","reference_display":"CustomerID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"sys_created_by"},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Orders Record➛Customer ID","reference":"","reference_display":"Customer ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_orders","column_name":"sys_created_by"},{"name":"3ac47117-a76e-43f2-9327-5c60e5f1f10a.Records","label":"1 - Look Up Records➛Shopping Cart Records","reference":"x_cdltd_dropship_0_dsn_cart","reference_display":"Shopping Cart","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.phase","label":"2 - For Each➛Shopping Cart Record➛Phase","reference":"","reference_display":"Phase","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"phase","choices":[{"rawLabel":"New","selected":false,"label":"New","missing":false,"image":"","reference":false,"used":false,"value":"new","parameters":{"name":"x_cdltd_dropship_0_dsn_cart"}},{"rawLabel":"Loaded","selected":false,"label":"Loaded","missing":false,"image":"","reference":false,"used":false,"value":"loaded","parameters":{"name":"x_cdltd_dropship_0_dsn_cart"}}]},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.number","label":"2 - For Each➛Shopping Cart Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"number"}]</label_cache>
+        <label_cache>[{"name":"fcf989eb-e257-4065-a11b-9596010d187c.item","label":"8 - For Each➛Order Items Record","reference":"x_cdltd_dropship_0_order_items","reference_display":"Order Items","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"fcf989eb-e257-4065-a11b-9596010d187c.item.product_id","label":"8 - For Each➛Order Items Record➛Product ID","reference":"","reference_display":"Product ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_order_items","column_name":"product_id"},{"name":"df075f11-fb2e-4d5a-974f-4d3227b99aee.Records","label":"2 - Look Up Records➛Order Items Records","reference":"x_cdltd_dropship_0_order_items","reference_display":"Order Items","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.product_id","label":"Trigger - Record Created➛Order Items Record➛Product ID","reference":"","reference_display":"Product ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_order_items","column_name":"product_id"},{"name":"Created_1.current","label":"Trigger - Record Created➛Order Items Record","reference":"x_cdltd_dropship_0_order_items","reference_display":"Order Items","type":"reference","base_type":"reference","attributes":{}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item","label":"3 - For Each➛Shopping Cart Record","reference":"x_cdltd_dropship_0_dsn_cart","reference_display":"Shopping Cart","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid","label":"3 - For Each➛Shopping Cart Record➛ProductID","reference":"","reference_display":"ProductID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"productid"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.quantity","label":"3 - For Each➛Shopping Cart Record➛Quantity","reference":"","reference_display":"Quantity","type":"integer","base_type":"integer","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"quantity"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.price","label":"3 - For Each➛Shopping Cart Record➛Price","reference":"","reference_display":"Price","type":"decimal","base_type":"decimal","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"price"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Orders Record➛Order ID","reference":"","reference_display":"Order ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_orders","column_name":"number"},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.sys_created_by","label":"3 - For Each➛Shopping Cart Record➛CustomerID","reference":"","reference_display":"CustomerID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"sys_created_by"},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Orders Record➛Customer ID","reference":"","reference_display":"Customer ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_orders","column_name":"sys_created_by"},{"name":"3ac47117-a76e-43f2-9327-5c60e5f1f10a.Records","label":"1 - Look Up Records➛Shopping Cart Records","reference":"x_cdltd_dropship_0_dsn_cart","reference_display":"Shopping Cart","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.phase","label":"3 - For Each➛Shopping Cart Record➛Phase","reference":"","reference_display":"Phase","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"phase","choices":[{"rawLabel":"New","selected":false,"label":"New","missing":false,"image":"","reference":false,"used":false,"value":"new","parameters":{"name":"x_cdltd_dropship_0_dsn_cart"}},{"rawLabel":"Loaded","selected":false,"label":"Loaded","missing":false,"image":"","reference":false,"used":false,"value":"loaded","parameters":{"name":"x_cdltd_dropship_0_dsn_cart"}}]},{"name":"7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.number","label":"3 - For Each➛Shopping Cart Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_cdltd_dropship_0_dsn_cart","column_name":"number"}]</label_cache>
         <master>true</master>
         <name>Create Order with Items</name>
         <natlang/>
@@ -743,7 +1022,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ba3958e5c0d602107f441432a4fe9c67</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -751,7 +1030,7 @@
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:42</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:24</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=ba3958e5c0d602107f441432a4fe9c67"/>
@@ -766,10 +1045,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:30:06</sys_created_on>
         <sys_id>4f3958e5c0d602107f441432a4fe9cfa</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:43</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:27</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -784,10 +1063,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:30:06</sys_created_on>
         <sys_id>4b3958e5c0d602107f441432a4fe9cfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 18:30:06</sys_updated_on>
-        <value>x_cdltd_dropship_0_orders</value>
+        <sys_updated_on>2024-05-21 15:05:45</sys_updated_on>
+        <value>x_cdltd_dropship_0_order_items</value>
         <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -882,14 +1161,14 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:30:05</sys_created_on>
         <sys_id>473958e5c0d602107f441432a4fe9cb4</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:42</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -966,14 +1245,14 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:30:05</sys_created_on>
         <sys_id>be3958e5c0d602107f441432a4fe9c69</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name/>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:42</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -989,7 +1268,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=be3958e5c0d602107f441432a4fe9c69"/>
     <sys_hub_flow_output action="delete_multiple" query="model=ba3958e5c0d602107f441432a4fe9c67"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ba3958e5c0d602107f441432a4fe9c67"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=ba3958e5c0d602107f441432a4fe9c67^sys_idNOT IN10f3852dc09a02107f441432a4fe9ce8,98f3852dc09a02107f441432a4fe9cef,cb3958e5c0d602107f441432a4fe9cf0"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ba3958e5c0d602107f441432a4fe9c67^sys_idNOT IN10f3852dc09a02107f441432a4fe9ce8,344ebc7d2c1602107f44ca7f8af7c4b3,384ebc7d2c1602107f44ca7f8af7c4ac,3c4ebc7d2c1602107f44ca7f8af7c48c,b04ebc7d2c1602107f44ca7f8af7c477,cb3958e5c0d602107f441432a4fe9cf0"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -999,16 +1278,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Create Order with Items">ba3958e5c0d602107f441432a4fe9c67</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>5ec8e05b-4540-49ac-9d8f-cae95652fdd0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 21:36:41</sys_created_on>
         <sys_id>10f3852dc09a02107f441432a4fe9ce8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:42</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:23</sys_updated_on>
         <ui_id>4069d035-2c01-4189-9e9d-7bcd9798a2b5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=10f3852dc09a02107f441432a4fe9ce8"/>
@@ -1082,68 +1361,244 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
+        <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Order with Items">ba3958e5c0d602107f441432a4fe9c67</flow>
+        <order>11</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:22</sys_created_on>
+        <sys_id>344ebc7d2c1602107f44ca7f8af7c4b3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:23</sys_updated_on>
+        <ui_id>715f0de9-55ff-4d56-903f-219f3d953c70</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=344ebc7d2c1602107f44ca7f8af7c4b3"/>
+    <sys_element_mapping action="delete_multiple" query="id=344ebc7d2c1602107f44ca7f8af7c4b3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>344ebc7d2c1602107f44ca7f8af7c4b3</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:22</sys_created_on>
+        <sys_id>f04ebc7d2c1602107f44ca7f8af7c4b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c3e09916c31332002841b63b12d3aedf</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=344ebc7d2c1602107f44ca7f8af7c4b3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=344ebc7d2c1602107f44ca7f8af7c4b3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Order with Items">ba3958e5c0d602107f441432a4fe9c67</flow>
+        <order>10</order>
+        <parent_ui_id>5808af0a-9a94-4831-9cb7-cc882348ac6b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>384ebc7d2c1602107f44ca7f8af7c4ac</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:23</sys_updated_on>
+        <ui_id>65ea9884-e2c0-48a8-8fb6-c729d97d763a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=384ebc7d2c1602107f44ca7f8af7c4ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>384ebc7d2c1602107f44ca7f8af7c4ac</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>344ebc7d2c1602107f44ca7f8af7c4ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
+        <value>quantity=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>384ebc7d2c1602107f44ca7f8af7c4ac</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>f44ebc7d2c1602107f44ca7f8af7c4ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
+        <value>x_cdltd_dropship_0_order_items</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=384ebc7d2c1602107f44ca7f8af7c4ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>384ebc7d2c1602107f44ca7f8af7c4ac</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>b04ebc7d2c1602107f44ca7f8af7c4ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{fcf989eb-e257-4065-a11b-9596010d187c.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>384ebc7d2c1602107f44ca7f8af7c4ac</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>3c4ebc7d2c1602107f44ca7f8af7c4ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>384ebc7d2c1602107f44ca7f8af7c4ac</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>fc4ebc7d2c1602107f44ca7f8af7c4ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=384ebc7d2c1602107f44ca7f8af7c4ac^sys_idNOT IN384ebc7d2c1602107f44ca7f8af7c4ad"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>384ebc7d2c1602107f44ca7f8af7c4ac</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"quantity":{"scriptActive":true,"script":"var ordersQuantity \u003d fd_data._8__for_each.item.quantity;\nvar cartQuantity \u003d fd_data._3__for_each.item.quantity;\n\nreturn ordersQuantity + cartQuantity;","savedValue":""}}</script>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>384ebc7d2c1602107f44ca7f8af7c4ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=384ebc7d2c1602107f44ca7f8af7c4ac"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
         <comment/>
         <display_text/>
         <flow display_value="Create Order with Items">ba3958e5c0d602107f441432a4fe9c67</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>5ec8e05b-4540-49ac-9d8f-cae95652fdd0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 21:36:41</sys_created_on>
-        <sys_id>98f3852dc09a02107f441432a4fe9cef</sys_id>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>3c4ebc7d2c1602107f44ca7f8af7c48c</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:42</sys_updated_on>
-        <ui_id>4db4fda9-dc3a-487a-a1c1-714dc402d379</ui_id>
+        <sys_updated_on>2024-05-21 15:50:23</sys_updated_on>
+        <ui_id>f55980a3-79ee-4edc-8eac-ca59b62eb7fb</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=98f3852dc09a02107f441432a4fe9cef"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3c4ebc7d2c1602107f44ca7f8af7c48c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>98f3852dc09a02107f441432a4fe9cef</document_key>
+        <document_key>3c4ebc7d2c1602107f44ca7f8af7c48c</document_key>
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 21:36:41</sys_created_on>
-        <sys_id>54f3852dc09a02107f441432a4fe9cfd</sys_id>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>304ebc7d2c1602107f44ca7f8af7c48e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:41</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
         <value>x_cdltd_dropship_0_order_items</value>
         <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=98f3852dc09a02107f441432a4fe9cef"/>
+    <sys_element_mapping action="delete_multiple" query="id=3c4ebc7d2c1602107f44ca7f8af7c48c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
-        <id>98f3852dc09a02107f441432a4fe9cef</id>
+        <id>3c4ebc7d2c1602107f44ca7f8af7c48c</id>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 21:36:41</sys_created_on>
-        <sys_id>10f3852dc09a02107f441432a4fe9cfd</sys_id>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>f84ebc7d2c1602107f44ca7f8af7c48d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:41</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
-        <id>98f3852dc09a02107f441432a4fe9cef</id>
+        <id>3c4ebc7d2c1602107f44ca7f8af7c48c</id>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 21:36:41</sys_created_on>
-        <sys_id>d0f3852dc09a02107f441432a4fe9cfd</sys_id>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>bc4ebc7d2c1602107f44ca7f8af7c48d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:41</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>order_id={{Created_1.current.number}}^product_id={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid}}^price={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.price}}^quantity={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.quantity}}</value>
+        <value>product_id={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid}}^price={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.price}}^quantity={{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.quantity}}</value>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=98f3852dc09a02107f441432a4fe9cef"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=98f3852dc09a02107f441432a4fe9cef"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3c4ebc7d2c1602107f44ca7f8af7c48c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3c4ebc7d2c1602107f44ca7f8af7c48c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Order with Items">ba3958e5c0d602107f441432a4fe9c67</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>b04ebc7d2c1602107f44ca7f8af7c477</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:22</sys_updated_on>
+        <ui_id>df075f11-fb2e-4d5a-974f-4d3227b99aee</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b04ebc7d2c1602107f44ca7f8af7c477"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b04ebc7d2c1602107f44ca7f8af7c477</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:21</sys_created_on>
+        <sys_id>304ebc7d2c1602107f44ca7f8af7c485</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
+        <value>x_cdltd_dropship_0_order_items</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=b04ebc7d2c1602107f44ca7f8af7c477"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b04ebc7d2c1602107f44ca7f8af7c477"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b04ebc7d2c1602107f44ca7f8af7c477"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
@@ -1157,10 +1612,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:30:06</sys_created_on>
         <sys_id>cb3958e5c0d602107f441432a4fe9cf0</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:42</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:22</sys_updated_on>
         <ui_id>3ac47117-a76e-43f2-9327-5c60e5f1f10a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cb3958e5c0d602107f441432a4fe9cf0"/>
@@ -1172,41 +1627,50 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:30:06</sys_created_on>
         <sys_id>4f3958e5c0d602107f441432a4fe9cf2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 18:30:06</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:21</sys_updated_on>
         <value>x_cdltd_dropship_0_dsn_cart</value>
         <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=cb3958e5c0d602107f441432a4fe9cf0"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>cb3958e5c0d602107f441432a4fe9cf0</id>
-        <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 18:30:06</sys_created_on>
-        <sys_id>0b3958e5c0d602107f441432a4fe9cf2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:26:14</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value>sys_created_by={{Created_1.current.sys_created_by}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>cb3958e5c0d602107f441432a4fe9cf0</id>
-        <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 18:30:06</sys_created_on>
-        <sys_id>cb3958e5c0d602107f441432a4fe9cf2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 18:30:06</sys_updated_on>
-        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
-        <value/>
-    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=cb3958e5c0d602107f441432a4fe9cf0"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cb3958e5c0d602107f441432a4fe9cf0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cb3958e5c0d602107f441432a4fe9cf0"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ba3958e5c0d602107f441432a4fe9c67"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=ba3958e5c0d602107f441432a4fe9c67^sys_idNOT IN5cf3c52dc09a02107f441432a4fe9c03,8b3958e5c0d602107f441432a4fe9ccb"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ba3958e5c0d602107f441432a4fe9c67^sys_idNOT IN270438312c1602107f44ca7f8af7c46a,5cf3c52dc09a02107f441432a4fe9c03,8b3958e5c0d602107f441432a4fe9ccb,8d4ebc7d2c1602107f44ca7f8af7c4ea,8d4ebc7d2c1602107f44ca7f8af7c4ed"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bee3b0312c1602107f44ca7f8af7c494</block>
+        <comment/>
+        <connected_to>5ec8e05b-4540-49ac-9d8f-cae95652fdd0</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Order with Items">ba3958e5c0d602107f441432a4fe9c67</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7fdbb0b5-a3ea-40d4-a758-a01badfb65fb</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:05:45</sys_created_on>
+        <sys_id>270438312c1602107f44ca7f8af7c46a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:23</sys_updated_on>
+        <ui_id>99a6a76f-1cd4-4869-bdcf-dc9befc330a9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=270438312c1602107f44ca7f8af7c46a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=270438312c1602107f44ca7f8af7c46a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=270438312c1602107f44ca7f8af7c46a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">56e3052dc09a02107f441432a4fe9c7b</block>
@@ -1222,7 +1686,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>7fdbb0b5-a3ea-40d4-a758-a01badfb65fb</parent_ui_id>
@@ -1230,10 +1694,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 21:36:42</sys_created_on>
         <sys_id>5cf3c52dc09a02107f441432a4fe9c03</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:42</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:23</sys_updated_on>
         <ui_id>5ec8e05b-4540-49ac-9d8f-cae95652fdd0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1269,7 +1733,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1277,10 +1741,10 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:30:06</sys_created_on>
         <sys_id>8b3958e5c0d602107f441432a4fe9ccb</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:42</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:50:23</sys_updated_on>
         <ui_id>7fdbb0b5-a3ea-40d4-a758-a01badfb65fb</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1301,6 +1765,100 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8b3958e5c0d602107f441432a4fe9ccb"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8b3958e5c0d602107f441432a4fe9ccb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">203e387d2c1602107f44ca7f8af7c465</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Order with Items">ba3958e5c0d602107f441432a4fe9c67</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>99a6a76f-1cd4-4869-bdcf-dc9befc330a9</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:22</sys_created_on>
+        <sys_id>8d4ebc7d2c1602107f44ca7f8af7c4ea</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:23</sys_updated_on>
+        <ui_id>fcf989eb-e257-4065-a11b-9596010d187c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8d4ebc7d2c1602107f44ca7f8af7c4ea"/>
+    <sys_element_mapping action="delete_multiple" query="id=8d4ebc7d2c1602107f44ca7f8af7c4ea"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>8d4ebc7d2c1602107f44ca7f8af7c4ea</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:22</sys_created_on>
+        <sys_id>c14ebc7d2c1602107f44ca7f8af7c4ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:22</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{df075f11-fb2e-4d5a-974f-4d3227b99aee.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8d4ebc7d2c1602107f44ca7f8af7c4ea"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8d4ebc7d2c1602107f44ca7f8af7c4ea"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">603e387d2c1602107f44ca7f8af7c475</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create Order with Items">ba3958e5c0d602107f441432a4fe9c67</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fcf989eb-e257-4065-a11b-9596010d187c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:22</sys_created_on>
+        <sys_id>8d4ebc7d2c1602107f44ca7f8af7c4ed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:23</sys_updated_on>
+        <ui_id>5808af0a-9a94-4831-9cb7-cc882348ac6b</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8d4ebc7d2c1602107f44ca7f8af7c4ed"/>
+    <sys_element_mapping action="delete_multiple" query="id=8d4ebc7d2c1602107f44ca7f8af7c4ed"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>8d4ebc7d2c1602107f44ca7f8af7c4ed</id>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-21 15:50:22</sys_created_on>
+        <sys_id>454ebc7d2c1602107f44ca7f8af7c4f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-21 15:50:22</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7fdbb0b5-a3ea-40d4-a758-a01badfb65fb.item.productid}}={{fcf989eb-e257-4065-a11b-9596010d187c.item.product_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8d4ebc7d2c1602107f44ca7f8af7c4ed"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8d4ebc7d2c1602107f44ca7f8af7c4ed"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=ba3958e5c0d602107f441432a4fe9c67^sys_idNOT IN3027a069c01a02107f441432a4fe9c67,7827a069c01a02107f441432a4fe9c66"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>ba3958e5c0d602107f441432a4fe9c67</attached_to>
@@ -1397,18 +1955,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"073998e5c0d602107f441432a4fe9c1e","name":"plan","plan_signature":null}}</plan>
         <plan_id>299298edc09602107f441432a4fe9cbc</plan_id>
-        <snapshot>7bf3892dc09a02107f441432a4fe9c67</snapshot>
+        <snapshot>ba3958e5c0d602107f441432a4fe9c67</snapshot>
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-20 18:30:06</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>073998e5c0d602107f441432a4fe9c1e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 21:36:43</sys_updated_on>
-        <trigger display_value="">5c484d80444e02107f445645091764e1</trigger>
+        <sys_updated_on>2024-05-21 15:05:49</sys_updated_on>
+        <trigger display_value="">501478312c1602107f44ca7f8af7c495</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=299298edc09602107f441432a4fe9cbc"/>
 </record_update>

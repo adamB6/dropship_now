@@ -2,17 +2,17 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 13:47:15</sys_created_on>
-        <sys_id>b378571dc09202107f441432a4fe9c46</sys_id>
+        <sys_created_on>2024-05-21 15:15:29</sys_created_on>
+        <sys_id>f946fcf12c1602107f44ca7f8af7c411</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_cdltd_dropship_0_order_items.x_cdltd_dropship_0.admin</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
-        <sys_security_acl display_value="x_cdltd_dropship_0_order_items">3b78571dc09202107f441432a4fe9c43</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_b378571dc09202107f441432a4fe9c46</sys_update_name>
+        <sys_security_acl display_value="x_cdltd_dropship_0_order_items">f546bcf12c1602107f44ca7f8af7c4c4</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f946fcf12c1602107f44ca7f8af7c411</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 13:47:15</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:15:29</sys_updated_on>
         <sys_user_role display_value="x_cdltd_dropship_0.admin" name="x_cdltd_dropship_0.admin">d90b38615cbd02107f44e00391646b56</sys_user_role>
     </sys_security_acl_role>
 </record_update>

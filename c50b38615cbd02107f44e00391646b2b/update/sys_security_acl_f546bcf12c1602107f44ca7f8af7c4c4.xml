@@ -7,21 +7,21 @@
         <description/>
         <local_or_existing>Local</local_or_existing>
         <name>x_cdltd_dropship_0_order_items</name>
-        <operation display_value="create">create</operation>
+        <operation display_value="read">read</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 13:47:14</sys_created_on>
-        <sys_id>2378571dc09202107f441432a4fe9c0c</sys_id>
+        <sys_created_on>2024-05-21 15:15:29</sys_created_on>
+        <sys_id>f546bcf12c1602107f44ca7f8af7c4c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_cdltd_dropship_0_order_items</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
-        <sys_update_name>sys_security_acl_2378571dc09202107f441432a4fe9c0c</sys_update_name>
+        <sys_update_name>sys_security_acl_f546bcf12c1602107f44ca7f8af7c4c4</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 13:47:14</sys_updated_on>
+        <sys_updated_on>2024-05-21 15:15:29</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
