@@ -177,32 +177,11 @@
                     "propertyValues": {
                         "columns": {
                             "type": "JSON_LITERAL",
-                            "value": "number,sys_created_on,product_name,quantity"
+                            "value": "order_id,sys_created_on,product_name,quantity,price"
                         },
                         "fixedQuery": {
-                            "transform": {
-                                "operands": {
-                                    "container": [
-                                        {
-                                            "type": "JSON_LITERAL",
-                                            "value": "sys_created_by="
-                                        },
-                                        {
-                                            "binding": {
-                                                "address": [
-                                                    "user",
-                                                    "userName"
-                                                ],
-                                                "category": "session"
-                                            },
-                                            "type": "CONTEXT_BINDING"
-                                        }
-                                    ],
-                                    "type": "LIST_CONTAINER"
-                                },
-                                "operator": "CONCAT"
-                            },
-                            "type": "CLIENT_TRANSFORM"
+                            "type": "JSON_LITERAL",
+                            "value": ""
                         },
                         "groupByField": {
                             "type": "JSON_LITERAL",
@@ -299,7 +278,7 @@
                         },
                         "limit": {
                             "type": "JSON_LITERAL",
-                            "value": null
+                            "value": 10
                         },
                         "listTitle": {
                             "type": "TRANSLATION_LITERAL",
@@ -331,7 +310,7 @@
                         },
                         "table": {
                             "type": "JSON_LITERAL",
-                            "value": "x_cdltd_dropship_0_orders"
+                            "value": "x_cdltd_dropship_0_order_items"
                         },
                         "wordWrap": {
                             "type": "JSON_LITERAL",
@@ -690,14 +669,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-04-26 00:27:13</sys_created_on>
         <sys_id>693b3c6108bd02106c837a5d1d030be4</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_693b3c6108bd02106c837a5d1d030be4</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-09 19:11:13</sys_updated_on>
+        <sys_updated_on>2024-05-22 21:49:10</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=693b3c6108bd02106c837a5d1d030be4"/>
 </record_update>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_menu_actions2</name>
+        <page display_value="DropshipNow">993b3c615cbd02107f44e00391646b5a</page>
+        <required_translations>[ {
+  "message" : "Shopping Cart",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-22 21:53:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>580b138ad59a02107f44af3a90feebba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu_actions2</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_ux_page_property_580b138ad59a02107f44af3a90feebba</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-22 21:53:56</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_cdltd_dropship_0.993b3c615cbd02107f44e00391646b5a.root.chrome_menu_actions2</unique_name>
+        <value>{&#13;
+    "label": {"translatable":true, "message":"Shopping Cart"},&#13;
+    "value": {&#13;
+  		"route":"shopping_cart",&#13;
+          "leftIcon": "shopping-cart-fill",&#13;
+        "reload":true&#13;
+	}&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=580b138ad59a02107f44af3a90feebba"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>27535d451b8a8e507716415fad4bcbc5</instance_id>
+        <instance_name>adf-may6-482-006</instance_name>
+        <name>sys_ux_page_property_580b138ad59a02107f44af3a90feebba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_menu_actions2</name><page display_value="DropshipNow">993b3c615cbd02107f44e00391646b5a</page><required_translations>[ {
+  "message" : "Shopping Cart",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-22 21:53:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>580b138ad59a02107f44af3a90feebba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_menu_actions2</sys_name><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_ux_page_property_580b138ad59a02107f44af3a90feebba</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-22 21:53:56</sys_updated_on><type>json</type><unique_name>x_cdltd_dropship_0.993b3c615cbd02107f44e00391646b5a.root.chrome_menu_actions2</unique_name><value>{&#13;
+    "label": {"translatable":true, "message":"Shopping Cart"},&#13;
+    "value": {&#13;
+  		"route":"shopping_cart",&#13;
+          "leftIcon": "shopping-cart-fill",&#13;
+        "reload":true&#13;
+	}&#13;
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=580b138ad59a02107f44af3a90feebba"/></record_update>]]></payload>
+        <payload_hash>190611673</payload_hash>
+        <record_name>chrome_menu_actions2</record_name>
+        <reverted_from/>
+        <source>8cde7c5d3d4602107f44ab845b21c037</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-22 21:53:57</sys_created_on>
+        <sys_id>741b138ad59a02107f44af3a90feeb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fa24bf21e0000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-22 21:53:57</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>b81b138ac29a02103a969038e6b08223</update_guid>
+        <update_guid_history>b81b138ac29a02103a969038e6b08223:190611673</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-22 21:55:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>549c5d59f7e940c0b3ee870289f21a90</sys_id>
+        <sys_metadata>580b138ad59a02107f44af3a90feebba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu_actions2</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_580b138ad59a02107f44af3a90feebba</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_580b138ad59a02107f44af3a90feebba">741b138ad59a02107f44af3a90feeb24</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-22 21:55:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

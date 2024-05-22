@@ -334,7 +334,7 @@
                                             "elementLabel": "Button 1",
                                             "eventMappings": [
                                                 {
-                                                    "eventMappingId": "clwffiipccoraaaaddddddjiiddqasjhjjjjl",
+                                                    "eventMappingId": "clwialyqhhaaaaffaddffiiffipqbjhey",
                                                     "isConfiguration": false,
                                                     "offRowStorageId": null,
                                                     "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -352,61 +352,24 @@
                                                             "conditional": null,
                                                             "declarativeAction": null,
                                                             "event": {
-                                                                "apiName": "x_cdltd_dropship_0.NAV_ITEM_SELECTED_RELAY_9be96e9b603d02107f44b4f7aba5bd0c",
+                                                                "apiName": "x_cdltd_dropship_0.MODAL_SELECTED_RELAY_9be96e9b603d02107f44b4f7aba5bd0c",
                                                                 "payload": {
-                                                                    "container": {
-                                                                        "external": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
-                                                                        },
-                                                                        "fields": {
-                                                                            "container": {
-                                                                                "table": {
-                                                                                    "type": "JSON_LITERAL",
-                                                                                    "value": "sys_user"
-                                                                                }
-                                                                            },
-                                                                            "type": "MAP_CONTAINER"
-                                                                        },
-                                                                        "multiInstField": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
-                                                                        },
-                                                                        "navigationOptions": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
-                                                                        },
-                                                                        "params": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
-                                                                        },
-                                                                        "passiveNavigation": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
-                                                                        },
-                                                                        "redirect": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
-                                                                        },
-                                                                        "route": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": "registration"
-                                                                        },
-                                                                        "targetRoute": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
-                                                                        },
-                                                                        "title": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
-                                                                        }
-                                                                    },
-                                                                    "type": "MAP_CONTAINER"
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": {
+                                                                        "bare": true,
+                                                                        "displayOptions": null,
+                                                                        "modalId": "[component-id$='custom_1']",
+                                                                        "showModal": null,
+                                                                        "viewportElementId": null,
+                                                                        "viewportFields": null,
+                                                                        "viewportParams": null,
+                                                                        "viewportRoute": null
+                                                                    }
                                                                 },
-                                                                "sysId": "5836ff7f44b102107f445645091764c4"
+                                                                "sysId": "378acb86d55a02107f44af3a90feeb27"
                                                             },
                                                             "operation": null,
-                                                            "targetId": "clwffiipccosaaaaddeeddjiiddreitdggiihh",
+                                                            "targetId": "clwialyqiiaaaaffbddffiiffvlkwaaunaa",
                                                             "type": "EVENT"
                                                         }
                                                     ]
@@ -710,6 +673,172 @@
         },
         "slot": null,
         "styles": null
+    },
+    {
+        "definition": {
+            "id": "9c2e3b0978b3250ef3081204f151026a",
+            "type": "MACROPONENT"
+        },
+        "elementId": "custom_1",
+        "elementLabel": "Custom 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "afeef20635001010f877265d86f080df",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "catalog_item_1",
+                    "elementLabel": "Catalog Item 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "bare": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "engagementChannel": {
+                            "type": "JSON_LITERAL",
+                            "value": "seismic"
+                        },
+                        "headerLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": "1"
+                        },
+                        "headingOnlyVisibleToScreenReaders": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideOptionsLabel": {
+                            "type": "JSON_LITERAL",
+                            "value": "false"
+                        },
+                        "interceptNotifications": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "label": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "propagateNotifications": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "referrer": {
+                            "type": "JSON_LITERAL",
+                            "value": "default"
+                        },
+                        "requestedForId": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "scrollable": {
+                            "type": "JSON_LITERAL",
+                            "value": "y"
+                        },
+                        "showRequestForHeader": {
+                            "type": "JSON_LITERAL",
+                            "value": "true"
+                        },
+                        "submitPosition": {
+                            "type": "JSON_LITERAL",
+                            "value": "right"
+                        },
+                        "sysId": {
+                            "type": "JSON_LITERAL",
+                            "value": "85794346d55a02107f44af3a90feebb2"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "items": [
+                        {
+                            "element_id": "catalog_item_1",
+                            "styles": {}
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "display": "flex",
+                        "flex-direction": "column",
+                        "gap": "var(--now-static-space--lg)",
+                        "overflow": "hidden"
+                    },
+                    "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type": "flex"
+                },
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "defer": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "disableDismiss": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "labelledby": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
     }
 ]</composition>
         <da_relay_models/>
@@ -717,7 +846,7 @@
     
 ]</data>
         <description/>
-        <dispatched_events>5836ff7f44b102107f445645091764c4</dispatched_events>
+        <dispatched_events>5836ff7f44b102107f445645091764c4,378acb86d55a02107f44af3a90feeb27</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -782,14 +911,14 @@
         <sys_created_by>dylan.ragsdale</sys_created_by>
         <sys_created_on>2024-05-01 19:00:13</sys_created_on>
         <sys_id>9be96e9b603d02107f44b4f7aba5bd0c</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_9be96e9b603d02107f44b4f7aba5bd0c</sys_update_name>
-        <sys_updated_by>dylan.ragsdale</sys_updated_by>
-        <sys_updated_on>2024-05-15 14:08:48</sys_updated_on>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-22 21:35:29</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=9be96e9b603d02107f44b4f7aba5bd0c"/>
 </record_update>
