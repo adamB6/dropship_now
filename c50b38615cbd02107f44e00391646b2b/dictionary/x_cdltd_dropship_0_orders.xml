@@ -2,6 +2,7 @@
     <element db_object_id="76cdde5b60f902107f44b4f7aba5bdc2" label="Orders" max_length="40" name="x_cdltd_dropship_0_orders" type="collection">
         <element label="City" max_length="40" name="city" type="string"/>
         <element label="Email Address" max_length="40" name="email_address" type="string"/>
+        <element label="Full Name" max_length="40" name="full_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Order ID" max_length="40" name="number" type="string"/>
         <element active="false" label="Shipping Address" max_length="40" name="shipping_address" type="string"/>
         <element label="State" max_length="40" name="state" type="string"/>
