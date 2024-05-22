@@ -459,7 +459,7 @@
                             "value": {
                                 "code": null,
                                 "comment": "",
-                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;At DropshipNow, we are more than just an online store; we are a community of like-minded individuals who appreciate the artistry and tradition behind every bottle and cigar. Join our community to stay updated on the lastest arrivals, exclusive deals, and insider tips on enjoying your purchases to the fullest.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Thank you for choosing DropshipNow. We look forward to serving you and heling you indulge in the luxury you deserve!&lt;/span&gt;&lt;/p&gt;"
+                                "message": "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;At DropshipNow, we are more than just an online store; we are a community of like-minded individuals who appreciate the artistry and tradition behind every bottle and cigar. Join our community to stay updated on the lastest arrivals, exclusive deals, and insider tips on enjoying your purchases to the fullest.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Thank you for choosing DropshipNow. We look forward to serving you and helping you indulge in the luxury you deserve!&lt;/span&gt;&lt;/p&gt;"
                             }
                         }
                     },
@@ -1567,7 +1567,7 @@
   "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;&lt;strong&gt;Wesley Stephens&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;At DropshipNow, we are more than just an online store; we are a community of like-minded individuals who appreciate the artistry and tradition behind every bottle and cigar. Join our community to stay updated on the lastest arrivals, exclusive deals, and insider tips on enjoying your purchases to the fullest.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Thank you for choosing DropshipNow. We look forward to serving you and heling you indulge in the luxury you deserve!&lt;/span&gt;&lt;/p&gt;",
+  "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;At DropshipNow, we are more than just an online store; we are a community of like-minded individuals who appreciate the artistry and tradition behind every bottle and cigar. Join our community to stay updated on the lastest arrivals, exclusive deals, and insider tips on enjoying your purchases to the fullest.&lt;/span&gt;&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;Thank you for choosing DropshipNow. We look forward to serving you and helping you indulge in the luxury you deserve!&lt;/span&gt;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 18pt;\"&gt;DropshipNow was founded with a simple mission: to bring the finest bourbons and cigars directly to your doorstep.&amp;nbsp; We recognized a gap in the market for a reliable shipping service that caters to the sophisticated tastes of discerning consumers. With our deep appreciation for the finer things in life, we set out to create a platform that not only meets but exceeds the expectations of bourbon and cigar aficionados.&lt;/span&gt;&lt;/p&gt;",
@@ -1615,14 +1615,14 @@
         <sys_created_by>wesley.stephens</sys_created_by>
         <sys_created_on>2024-05-20 20:22:57</sys_created_on>
         <sys_id>d41378e5c05a02107f441432a4fe9c2f</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_d41378e5c05a02107f441432a4fe9c2f</sys_update_name>
         <sys_updated_by>wesley.stephens</sys_updated_by>
-        <sys_updated_on>2024-05-21 22:19:01</sys_updated_on>
+        <sys_updated_on>2024-05-21 23:41:25</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d41378e5c05a02107f441432a4fe9c2f"/>
 </record_update>

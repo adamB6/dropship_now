@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>clear_shopping_cart</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Clear Shopping Cart</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-22 15:24:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e2e1ce4ed5d202107f44af3a90feeba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clear Shopping Cart</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_hub_flow_e2e1ce4ed5d202107f44af3a90feeba8</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-22 15:24:25</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_variable_value action="DELETE" query="document_key=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=e2e1ce4ed5d202107f44af3a90feeba8^sys_idNOT INeee1ce4ed5d202107f44af3a90feeba9"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>e2e1ce4ed5d202107f44af3a90feeba8</id>
+        <name>Clear Shopping Cart</name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-22 15:24:25</sys_created_on>
+        <sys_id>eee1ce4ed5d202107f44af3a90feeba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-22 15:24:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=eee1ce4ed5d202107f44af3a90feeba9"/>
+    <sys_hub_flow_input action="DELETE" query="model=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_hub_flow_output action="DELETE" query="model=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_hub_action_instance action="DELETE" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_hub_flow_variable action="DELETE" query="model=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=e2e1ce4ed5d202107f44af3a90feeba8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>27535d451b8a8e507716415fad4bcbc5</instance_id>
+        <instance_name>adf-may6-482-006</instance_name>
+        <name>sys_hub_flow_e2e1ce4ed5d202107f44af3a90feeba8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from><copied_from_name>FlowTemplate_Empty</copied_from_name><description/><internal_name>clear_shopping_cart</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Clear Shopping Cart</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-22 15:24:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e2e1ce4ed5d202107f44af3a90feeba8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Clear Shopping Cart</sys_name><sys_overrides/><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_hub_flow_e2e1ce4ed5d202107f44af3a90feeba8</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-22 15:24:25</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_variable_value action="delete_multiple" query="document_key=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_hub_trigger_instance action="delete_multiple" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_hub_flow_stage action="delete_multiple" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_flow_cat_variable_model action="delete_multiple" query="id=e2e1ce4ed5d202107f44af3a90feeba8^sys_idNOT INeee1ce4ed5d202107f44af3a90feeba9"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>e2e1ce4ed5d202107f44af3a90feeba8</id><name>Clear Shopping Cart</name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-22 15:24:25</sys_created_on><sys_id>eee1ce4ed5d202107f44af3a90feeba9</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-22 15:24:25</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=eee1ce4ed5d202107f44af3a90feeba9"/><sys_hub_flow_input action="delete_multiple" query="model=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_hub_flow_output action="delete_multiple" query="model=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_hub_action_instance action="delete_multiple" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_hub_flow_logic action="delete_multiple" query="flow=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_hub_flow_variable action="delete_multiple" query="model=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e2e1ce4ed5d202107f44af3a90feeba8"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e2e1ce4ed5d202107f44af3a90feeba8"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e2e1ce4ed5d202107f44af3a90feeba8"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e2e1ce4ed5d202107f44af3a90feeba8"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=e2e1ce4ed5d202107f44af3a90feeba8"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=e2e1ce4ed5d202107f44af3a90feeba8"/></record_update>]]></payload>
+        <payload_hash>589252198</payload_hash>
+        <record_name>Clear Shopping Cart</record_name>
+        <reverted_from/>
+        <source>8cde7c5d3d4602107f44ab845b21c037</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-22 15:24:25</sys_created_on>
+        <sys_id>36e1ce4ed5d202107f44af3a90feebaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fa0e752fa0000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-22 15:24:25</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>7ae1ce4ed5d202108e14ae5482eeedae</update_guid>
+        <update_guid_history>7ae1ce4ed5d202108e14ae5482eeedae:589252198</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-22 15:25:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>25056287ec2a4e42b2ef00830ce02524</sys_id>
+        <sys_metadata>e2e1ce4ed5d202107f44af3a90feeba8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clear Shopping Cart</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_e2e1ce4ed5d202107f44af3a90feeba8</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_e2e1ce4ed5d202107f44af3a90feeba8">36e1ce4ed5d202107f44af3a90feebaf</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-22 15:25:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
