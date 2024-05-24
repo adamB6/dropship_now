@@ -5,7 +5,7 @@
         <name>chrome_menu</name>
         <page display_value="DropshipNow">993b3c615cbd02107f44e00391646b5a</page>
         <required_translations>[ {
-  "message" : "About Us",
+  "message" : "About",
   "comment" : ""
 }, {
   "message" : "Bourbon",
@@ -31,14 +31,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>613b3c61ddbd0210bf226b3d0943d4bc</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>chrome_menu</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_page_property_613b3c61ddbd0210bf226b3d0943d4bc</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-22 22:13:57</sys_updated_on>
+        <sys_updated_on>2024-05-24 16:18:47</sys_updated_on>
         <type>json</type>
         <unique_name>x_cdltd_dropship_0.993b3c615cbd02107f44e00391646b5a.root.chrome_menu</unique_name>
         <value>[&#13;
@@ -95,27 +95,26 @@
                     "route": "cigars"&#13;
                   }&#13;
                 }&#13;
-              },&#13;
-              {&#13;
-                "value": {&#13;
-                  "label": {&#13;
-                    "translatable": true,&#13;
-                    "message": "About Us"&#13;
-                  },&#13;
-                  "type": "route",&#13;
-                  "value": {&#13;
-                    "route": "about-us"&#13;
-                  }&#13;
-                }&#13;
               }&#13;
             ]&#13;
           }&#13;
         }&#13;
       ]&#13;
     }&#13;
+  },&#13;
+  {&#13;
+    "value":{&#13;
+      "label":{&#13;
+        "translatable": true,&#13;
+        "message": "About"&#13;
+      },&#13;
+      "type": "route",&#13;
+      "value": {&#13;
+        "route": "about-us"&#13;
+      }&#13;
+    }&#13;
   }&#13;
-]&#13;
-</value>
+]</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=613b3c61ddbd0210bf226b3d0943d4bc"/>
 </record_update>

@@ -1043,182 +1043,6 @@
                                                                 },
                                                                 {
                                                                     "definition": {
-                                                                        "id": "d37ce8abca89d02905fed903c8e34d8e",
-                                                                        "type": "MACROPONENT"
-                                                                    },
-                                                                    "elementId": "button_1",
-                                                                    "elementLabel": "Button 1",
-                                                                    "eventMappings": [
-                                                                        {
-                                                                            "eventMappingId": "clvwoiitogaaaagdddjhhqrmrpjzbbl",
-                                                                            "isConfiguration": false,
-                                                                            "offRowStorageId": null,
-                                                                            "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
-                                                                            "sourceEventCorrelationId": null,
-                                                                            "sourceEventDefinition": {
-                                                                                "apiName": "sn_button.NOW_BUTTON#CLICKED",
-                                                                                "id": null,
-                                                                                "type": "UXEVENT"
-                                                                            },
-                                                                            "sourceEventSysId": null,
-                                                                            "targets": [
-                                                                                {
-                                                                                    "broker": null,
-                                                                                    "clientScript": null,
-                                                                                    "conditional": null,
-                                                                                    "declarativeAction": null,
-                                                                                    "event": null,
-                                                                                    "operation": {
-                                                                                        "dataBrokerId": "beda4252770300108d070d74c810618f",
-                                                                                        "operationName": "EXECUTE",
-                                                                                        "parentResourceId": "create_record_1",
-                                                                                        "payload": {
-                                                                                            "container": {
-                                                                                                "table": {
-                                                                                                    "type": "JSON_LITERAL",
-                                                                                                    "value": "x_cdltd_dropship_0_orders"
-                                                                                                },
-                                                                                                "templateFields": {
-                                                                                                    "transform": {
-                                                                                                        "operands": {
-                                                                                                            "container": [
-                                                                                                                {
-                                                                                                                    "type": "JSON_LITERAL",
-                                                                                                                    "value": "productid="
-                                                                                                                },
-                                                                                                                {
-                                                                                                                    "binding": {
-                                                                                                                        "address": [
-                                                                                                                            "number",
-                                                                                                                            "value"
-                                                                                                                        ],
-                                                                                                                        "category": "value"
-                                                                                                                    },
-                                                                                                                    "type": "REPEATER_ITEM_BINDING"
-                                                                                                                },
-                                                                                                                {
-                                                                                                                    "type": "JSON_LITERAL",
-                                                                                                                    "value": "^product_name="
-                                                                                                                },
-                                                                                                                {
-                                                                                                                    "binding": {
-                                                                                                                        "address": [
-                                                                                                                            "name",
-                                                                                                                            "value"
-                                                                                                                        ],
-                                                                                                                        "category": "value"
-                                                                                                                    },
-                                                                                                                    "type": "REPEATER_ITEM_BINDING"
-                                                                                                                },
-                                                                                                                {
-                                                                                                                    "type": "JSON_LITERAL",
-                                                                                                                    "value": "^quantity="
-                                                                                                                },
-                                                                                                                {
-                                                                                                                    "binding": {
-                                                                                                                        "address": [
-                                                                                                                            "Quantity"
-                                                                                                                        ]
-                                                                                                                    },
-                                                                                                                    "type": "STATE_BINDING"
-                                                                                                                }
-                                                                                                            ],
-                                                                                                            "type": "LIST_CONTAINER"
-                                                                                                        },
-                                                                                                        "operator": "CONCAT"
-                                                                                                    },
-                                                                                                    "type": "CLIENT_TRANSFORM"
-                                                                                                },
-                                                                                                "useSetDisplayValue": {
-                                                                                                    "type": "JSON_LITERAL",
-                                                                                                    "value": null
-                                                                                                }
-                                                                                            },
-                                                                                            "type": "MAP_CONTAINER"
-                                                                                        }
-                                                                                    },
-                                                                                    "targetId": "clvwoiitogaaaageddjhhqbbwffabaaau",
-                                                                                    "type": "DATABROKER_OP"
-                                                                                },
-                                                                                {
-                                                                                    "broker": null,
-                                                                                    "clientScript": null,
-                                                                                    "conditional": null,
-                                                                                    "declarativeAction": null,
-                                                                                    "event": {
-                                                                                        "apiName": "x_cdltd_dropship_0.NAV_ITEM_SELECTED_RELAY_3a35689d3d8202107f44ab845b21c08f",
-                                                                                        "payload": {
-                                                                                            "type": "JSON_LITERAL",
-                                                                                            "value": {
-                                                                                                "external": null,
-                                                                                                "fields": null,
-                                                                                                "multiInstField": null,
-                                                                                                "navigationOptions": null,
-                                                                                                "params": null,
-                                                                                                "passiveNavigation": null,
-                                                                                                "redirect": null,
-                                                                                                "route": "order_success",
-                                                                                                "targetRoute": null,
-                                                                                                "title": null
-                                                                                            }
-                                                                                        },
-                                                                                        "sysId": "8b1ccd5d3d8602107f44ab845b21c04b"
-                                                                                    },
-                                                                                    "operation": null,
-                                                                                    "targetId": "clvwobbnyaaaalmddjhhqwaqriithhu",
-                                                                                    "type": "EVENT"
-                                                                                }
-                                                                            ]
-                                                                        }
-                                                                    ],
-                                                                    "isHidden": {
-                                                                        "type": "JSON_LITERAL",
-                                                                        "value": null
-                                                                    },
-                                                                    "preset": null,
-                                                                    "propertyValues": {
-                                                                        "configAria": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": {}
-                                                                        },
-                                                                        "disabled": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": false
-                                                                        },
-                                                                        "icon": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": null
-                                                                        },
-                                                                        "label": {
-                                                                            "type": "TRANSLATION_LITERAL",
-                                                                            "value": {
-                                                                                "code": null,
-                                                                                "comment": "",
-                                                                                "message": "Order Now"
-                                                                            }
-                                                                        },
-                                                                        "size": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": "md"
-                                                                        },
-                                                                        "tooltipContent": {
-                                                                            "type": "TRANSLATION_LITERAL",
-                                                                            "value": {
-                                                                                "code": null,
-                                                                                "comment": "",
-                                                                                "message": "Enter a label"
-                                                                            }
-                                                                        },
-                                                                        "variant": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": "primary"
-                                                                        }
-                                                                    },
-                                                                    "slot": null,
-                                                                    "styles": null
-                                                                },
-                                                                {
-                                                                    "definition": {
                                                                         "id": "bb63b710d208796b7ceaab7812bddef1",
                                                                         "type": "MACROPONENT"
                                                                     },
@@ -1270,7 +1094,7 @@
                                                                     "elementLabel": "Button 2",
                                                                     "eventMappings": [
                                                                         {
-                                                                            "eventMappingId": "clvzjiijjjjyaaaaddtddjhhpffbbhhxddaaht",
+                                                                            "eventMappingId": "clwkwzdrkaaaaddiddffhhrtzrrqhhbj",
                                                                             "isConfiguration": false,
                                                                             "offRowStorageId": null,
                                                                             "sourceEventApiName": "sn_button.NOW_BUTTON#CLICKED",
@@ -1282,6 +1106,116 @@
                                                                             },
                                                                             "sourceEventSysId": null,
                                                                             "targets": [
+                                                                                {
+                                                                                    "broker": null,
+                                                                                    "clientScript": null,
+                                                                                    "conditional": null,
+                                                                                    "declarativeAction": null,
+                                                                                    "event": null,
+                                                                                    "operation": {
+                                                                                        "dataBrokerId": "beda4252770300108d070d74c810618f",
+                                                                                        "operationName": "EXECUTE",
+                                                                                        "parentResourceId": "create_record_1",
+                                                                                        "payload": {
+                                                                                            "container": {
+                                                                                                "table": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": "x_cdltd_dropship_0_dsn_cart"
+                                                                                                },
+                                                                                                "templateFields": {
+                                                                                                    "transform": {
+                                                                                                        "operands": {
+                                                                                                            "container": [
+                                                                                                                {
+                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                    "value": "sys_created_by="
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "binding": {
+                                                                                                                        "address": [
+                                                                                                                            "user",
+                                                                                                                            "userName"
+                                                                                                                        ],
+                                                                                                                        "category": "session"
+                                                                                                                    },
+                                                                                                                    "type": "CONTEXT_BINDING"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                    "value": "^productid="
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "binding": {
+                                                                                                                        "address": [
+                                                                                                                            "number",
+                                                                                                                            "value"
+                                                                                                                        ],
+                                                                                                                        "category": "value"
+                                                                                                                    },
+                                                                                                                    "type": "REPEATER_ITEM_BINDING"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                    "value": "^product_name="
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "binding": {
+                                                                                                                        "address": [
+                                                                                                                            "name",
+                                                                                                                            "value"
+                                                                                                                        ],
+                                                                                                                        "category": "value"
+                                                                                                                    },
+                                                                                                                    "type": "REPEATER_ITEM_BINDING"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                    "value": "^price="
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "binding": {
+                                                                                                                        "address": [
+                                                                                                                            "price",
+                                                                                                                            "value"
+                                                                                                                        ],
+                                                                                                                        "category": "value"
+                                                                                                                    },
+                                                                                                                    "type": "REPEATER_ITEM_BINDING"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                    "value": "^quantity="
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "binding": {
+                                                                                                                        "address": [
+                                                                                                                            "Quantity"
+                                                                                                                        ]
+                                                                                                                    },
+                                                                                                                    "type": "STATE_BINDING"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                    "value": "^phase=new"
+                                                                                                                }
+                                                                                                            ],
+                                                                                                            "type": "LIST_CONTAINER"
+                                                                                                        },
+                                                                                                        "operator": "CONCAT"
+                                                                                                    },
+                                                                                                    "type": "CLIENT_TRANSFORM"
+                                                                                                },
+                                                                                                "useSetDisplayValue": {
+                                                                                                    "type": "JSON_LITERAL",
+                                                                                                    "value": null
+                                                                                                }
+                                                                                            },
+                                                                                            "type": "MAP_CONTAINER"
+                                                                                        }
+                                                                                    },
+                                                                                    "targetId": "clwkwzdrkaaaaddjddffhhriiwkqeehhbbh",
+                                                                                    "type": "DATABROKER_OP"
+                                                                                },
                                                                                 {
                                                                                     "broker": null,
                                                                                     "clientScript": null,
@@ -1305,7 +1239,7 @@
                                                                                         "sysId": "aae99bfd09c202107f44cfc12638c053"
                                                                                     },
                                                                                     "operation": null,
-                                                                                    "targetId": "clvzjiijjjjyaaaadduddjhhpjjddaeuxaaq",
+                                                                                    "targetId": "clwkxddffslaaaabpddffhhrbljjppiiei",
                                                                                     "type": "EVENT"
                                                                                 }
                                                                             ]
@@ -1366,13 +1300,6 @@
                                                                             "element_id": "input_1",
                                                                             "styles": {
                                                                                 "width": "100px"
-                                                                            }
-                                                                        },
-                                                                        {
-                                                                            "element_id": "button_1",
-                                                                            "styles": {
-                                                                                "margin-top": "var(--now-scalable-space--lg)",
-                                                                                "width": "120px"
                                                                             }
                                                                         },
                                                                         {
@@ -2101,9 +2028,6 @@
   "message" : "Enter a label",
   "comment" : ""
 }, {
-  "message" : "Order Now",
-  "comment" : ""
-}, {
   "message" : "Proceed to Cart",
   "comment" : ""
 }, {
@@ -2133,14 +2057,14 @@
         <sys_created_by>wesley.stephens</sys_created_by>
         <sys_created_on>2024-05-07 14:28:19</sys_created_on>
         <sys_id>3a35689d3d8202107f44ab845b21c08f</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_3a35689d3d8202107f44ab845b21c08f</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-14 21:36:09</sys_updated_on>
+        <sys_updated_on>2024-05-24 18:53:37</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=3a35689d3d8202107f44ab845b21c08f"/>
 </record_update>

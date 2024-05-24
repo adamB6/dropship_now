@@ -29,7 +29,47 @@
                     "elementId": "catalog_item_1",
                     "elementLabel": "Catalog Item 1",
                     "eventMappings": [
-                        
+                        {
+                            "eventMappingId": "clwkwkhhihaaaacvccahhmhuojjhfsk",
+                            "isConfiguration": false,
+                            "offRowStorageId": null,
+                            "sourceEventApiName": "sn_sc_record_form.SN_CATALOG_FORM_CONNECTED#REQUEST_GENERATED",
+                            "sourceEventCorrelationId": null,
+                            "sourceEventDefinition": {
+                                "apiName": "sn_sc_record_form.SN_CATALOG_FORM_CONNECTED#REQUEST_GENERATED",
+                                "id": null,
+                                "type": "UXEVENT"
+                            },
+                            "sourceEventSysId": null,
+                            "targets": [
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": {
+                                        "apiName": "x_cdltd_dropship_0.MODAL_SELECTED_RELAY_41dba456c88602107f4448216102a376",
+                                        "payload": {
+                                            "type": "JSON_LITERAL",
+                                            "value": {
+                                                "bare": false,
+                                                "displayOptions": null,
+                                                "modalId": "[component-id$='alert_1']",
+                                                "showModal": true,
+                                                "viewportElementId": null,
+                                                "viewportFields": null,
+                                                "viewportParams": null,
+                                                "viewportRoute": null
+                                            }
+                                        },
+                                        "sysId": "9672e43a949202107f44e881c963175f"
+                                    },
+                                    "operation": null,
+                                    "targetId": "clwkwkhhihaaaacwccahhmxwccffhhuhc",
+                                    "type": "EVENT"
+                                }
+                            ]
+                        }
                     ],
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -110,18 +150,16 @@
                             "element_id": "catalog_item_1",
                             "styles": {
                                 "align-self": "center",
+                                "background": "rgb(var(--now-color--neutral-1)) url('x_cdltd_dropship_0..png') no-repeat center center",
                                 "border-color": "RGB(var(--now-color--neutral-5))",
                                 "border-style": "solid",
-                                "border-width": "var(--now-static-space--xxs)",
+                                "border-width": "var(--now-static-space--sm)",
                                 "flex": "none",
                                 "margin": "var(--now-scalable-space--3xl)",
                                 "margin-bottom": "0",
                                 "margin-left": "0",
                                 "margin-right": "0",
                                 "margin-top": "0",
-                                "max-width": "",
-                                "min-height": "",
-                                "min-width": "",
                                 "width": "800px"
                             }
                         }
@@ -179,6 +217,124 @@
         },
         "slot": null,
         "styles": null
+    },
+    {
+        "definition": {
+            "id": "05d8b1515b230010b913cbd59b81c71a",
+            "type": "MACROPONENT"
+        },
+        "elementId": "alert_1",
+        "elementLabel": "Alert 1",
+        "eventMappings": [
+            {
+                "eventMappingId": "clwkwiaxddaaaabkccahhmcdffjmeerf",
+                "isConfiguration": false,
+                "offRowStorageId": null,
+                "sourceEventApiName": "sn_canvas_core.CANVAS_MODAL#CLOSED",
+                "sourceEventCorrelationId": null,
+                "sourceEventDefinition": {
+                    "apiName": "sn_canvas_core.CANVAS_MODAL#CLOSED",
+                    "id": null,
+                    "type": "UXEVENT"
+                },
+                "sourceEventSysId": null,
+                "targets": [
+                    {
+                        "broker": null,
+                        "clientScript": null,
+                        "conditional": null,
+                        "declarativeAction": null,
+                        "event": {
+                            "apiName": "x_cdltd_dropship_0.NAV_ITEM_SELECTED_RELAY_41dba456c88602107f4448216102a376",
+                            "payload": {
+                                "type": "JSON_LITERAL",
+                                "value": {
+                                    "external": null,
+                                    "fields": null,
+                                    "multiInstField": null,
+                                    "navigationOptions": null,
+                                    "params": null,
+                                    "passiveNavigation": null,
+                                    "redirect": null,
+                                    "route": "landing",
+                                    "targetRoute": null,
+                                    "title": null
+                                }
+                            },
+                            "sysId": "5672e43a949202107f44e881c963175f"
+                        },
+                        "operation": null,
+                        "targetId": "clwkwiaxddaaaablccahhmetbkyzjjz",
+                        "type": "EVENT"
+                    }
+                ]
+            }
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "buttonLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Got it"
+                }
+            },
+            "content": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "You order has been submitted. Expect a receipt shortly."
+                }
+            },
+            "defer": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "headerLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Order Submitted"
+                }
+            },
+            "preventDefaultAction": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
     }
 ]</composition>
         <da_relay_models/>
@@ -186,7 +342,7 @@
     
 ]</data>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>5672e43a949202107f44e881c963175f,9672e43a949202107f44e881c963175f</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -221,7 +377,16 @@
         <props>[
     
 ]</props>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[ {
+  "message" : "Got it",
+  "comment" : ""
+}, {
+  "message" : "Order Submitted",
+  "comment" : ""
+}, {
+  "message" : "You order has been submitted. Expect a receipt shortly.",
+  "comment" : ""
+} ]</required_translations>
         <root_component/>
         <root_component_config/>
         <root_component_definition/>
@@ -231,14 +396,14 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-10 17:31:05</sys_created_on>
         <sys_id>41dba456c88602107f4448216102a376</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_41dba456c88602107f4448216102a376</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-10 18:01:55</sys_updated_on>
+        <sys_updated_on>2024-05-24 16:35:15</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=41dba456c88602107f4448216102a376"/>
 </record_update>

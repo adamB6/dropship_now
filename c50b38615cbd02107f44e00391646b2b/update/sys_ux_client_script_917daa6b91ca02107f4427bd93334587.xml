@@ -3,7 +3,7 @@
         <controller_preset/>
         <includes/>
         <macroponent display_value="Default">47d2bbc308c202107f448feca1e912ab</macroponent>
-        <name>Update Cart Total</name>
+        <name/>
         <preset/>
         <required_translations>[
     
@@ -22,14 +22,14 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-15 00:36:14</sys_created_on>
         <sys_id>917daa6b91ca02107f4427bd93334587</sys_id>
-        <sys_mod_count>44</sys_mod_count>
-        <sys_name>Update Cart Total</sys_name>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name/>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_client_script_917daa6b91ca02107f4427bd93334587</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-20 20:37:50</sys_updated_on>
+        <sys_updated_on>2024-05-24 19:03:46</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

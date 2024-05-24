@@ -3,41 +3,36 @@
         <controller_preset/>
         <includes/>
         <macroponent display_value="Default">47d2bbc308c202107f448feca1e912ab</macroponent>
-        <name>heading_4/label</name>
+        <name/>
         <preset/>
         <required_translations>[
     
 ]</required_translations>
         <script><![CDATA[/**
-  * @param {params} params
-  * @param {api} params.api
-  * @param {TransformApiHelpers} params.helpers
-  */
-function evaluateProperties({api, helpers}) {
-
-  var results = api.data.look_up_records_1.results;
-  var total = 0;
-  var n = results.length;
-
-  for (var i = 0; i < n; i++) {
-    total += (results[i].price.value * results[i].quantity.value);
-  }
-  return "Grand Total: " + total.toFixed(2);
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    var quantity = api.data.look_up_records_1.results.quantity.displayValue;
+    api.setState(quantity);
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
         <sys_created_by>adam.botens</sys_created_by>
-        <sys_created_on>2024-05-20 13:45:42</sys_created_on>
-        <sys_id>aa03d395c09202107f441432a4fe9c27</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>heading_4/label</sys_name>
+        <sys_created_on>2024-05-24 18:34:34</sys_created_on>
+        <sys_id>2cbb7c36941602107f44e881c9631738</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
-        <sys_update_name>sys_ux_client_script_aa03d395c09202107f441432a4fe9c27</sys_update_name>
+        <sys_update_name>sys_ux_client_script_2cbb7c36941602107f44e881c9631738</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-24 18:54:49</sys_updated_on>
+        <sys_updated_on>2024-05-24 19:03:46</sys_updated_on>
         <target>macroponent</target>
-        <type>transform</type>
+        <type>default</type>
     </sys_ux_client_script>
 </record_update>
