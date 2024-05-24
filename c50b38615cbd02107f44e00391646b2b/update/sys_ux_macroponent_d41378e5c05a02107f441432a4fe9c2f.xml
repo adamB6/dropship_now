@@ -107,7 +107,10 @@
                         {
                             "element_id": "rich_text_1",
                             "styles": {
-                                "background": "#FCFBF2"
+                                "background": "#FCFBF2",
+                                "border-color": "#71929A",
+                                "border-style": "solid",
+                                "border-width": "var(--now-static-space--xxs)"
                             }
                         },
                         {
@@ -1245,6 +1248,9 @@
                                 "root": null,
                                 "rules": null,
                                 "styles": {
+                                    "border-color": "#71929A",
+                                    "border-style": "solid",
+                                    "border-width": "var(--now-static-space--xxs)",
                                     "box-sizing": "border-box",
                                     "grid-template-columns": "16.66fr 16.66fr 16.66fr 16.66fr 16.66fr 16.66fr",
                                     "grid-template-rows": "1fr",
@@ -1263,6 +1269,9 @@
                                         "root": null,
                                         "rules": null,
                                         "styles": {
+                                            "border-color": "#71929A",
+                                            "border-style": "solid",
+                                            "border-width": "var(--now-static-space--xxs)",
                                             "box-sizing": "border-box",
                                             "grid-template-columns": "1fr",
                                             "grid-template-rows": "1fr",
@@ -1346,6 +1355,9 @@
                                             "width": "100%"
                                         },
                                         "internal": {
+                                            "border-color": "#71929A",
+                                            "border-style": "solid",
+                                            "border-width": "var(--now-static-space--xxs)",
                                             "box-sizing": "border-box",
                                             "grid-template-rows": "1fr",
                                             "width": "100%"
@@ -1368,7 +1380,10 @@
                         {
                             "element_id": "rich_text_2",
                             "styles": {
-                                "background": "#FCFBF2"
+                                "background": "#FCFBF2",
+                                "border-color": "#71929A",
+                                "border-style": "solid",
+                                "border-width": "var(--now-static-space--xxs)"
                             }
                         },
                         {
@@ -1382,7 +1397,10 @@
                         {
                             "element_id": "rich_text_4",
                             "styles": {
-                                "background": "#FCFBF2"
+                                "background": "#FCFBF2",
+                                "border-color": "#71929A",
+                                "border-style": "solid",
+                                "border-width": "var(--now-static-space--xxs)"
                             }
                         },
                         {
@@ -1395,7 +1413,10 @@
                         {
                             "element_id": "rich_text_6",
                             "styles": {
-                                "background": "#FCFBF2"
+                                "background": "#FCFBF2",
+                                "border-color": "#71929A",
+                                "border-style": "solid",
+                                "border-width": "var(--now-static-space--xxs)"
                             }
                         },
                         {
@@ -1408,7 +1429,11 @@
                         {
                             "element_id": "rich_text_8",
                             "styles": {
-                                "background": "#FCFBF2"
+                                "background": "#FCFBF2",
+                                "border-color": "#71929A",
+                                "border-style": "solid",
+                                "border-width": "var(--now-static-space--xxs)",
+                                "hex": "#71929A"
                             }
                         },
                         {
@@ -1421,7 +1446,10 @@
                         {
                             "element_id": "rich_text_10",
                             "styles": {
-                                "background": "#FCFBF2"
+                                "background": "#FCFBF2",
+                                "border-color": "#71929A",
+                                "border-style": "solid",
+                                "border-width": "var(--now-static-space--xxs)"
                             }
                         },
                         {
@@ -1434,7 +1462,10 @@
                         {
                             "element_id": "rich_text_12",
                             "styles": {
-                                "background": "#FCFBF2"
+                                "background": "#FCFBF2",
+                                "border-color": "#71929A",
+                                "border-style": "solid",
+                                "border-width": "var(--now-static-space--xxs)"
                             }
                         },
                         {
@@ -1522,6 +1553,7 @@
             {
                 "element_id": "container_1",
                 "styles": {
+                    "background": "#71929A",
                     "height": "550px"
                 }
             },
@@ -1615,14 +1647,14 @@
         <sys_created_by>wesley.stephens</sys_created_by>
         <sys_created_on>2024-05-20 20:22:57</sys_created_on>
         <sys_id>d41378e5c05a02107f441432a4fe9c2f</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_d41378e5c05a02107f441432a4fe9c2f</sys_update_name>
-        <sys_updated_by>wesley.stephens</sys_updated_by>
-        <sys_updated_on>2024-05-21 23:41:25</sys_updated_on>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-24 21:39:51</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d41378e5c05a02107f441432a4fe9c2f"/>
 </record_update>
