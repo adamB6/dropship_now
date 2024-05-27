@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Default GET</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Stripe Payment [ Default GET ]</qualified_name>
+        <rest_endpoint>https://api.stripe.com</rest_endpoint>
+        <rest_message display_value="Stripe Payment">f87488b3241602107f446704277c0546</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-27 16:46:16</sys_created_on>
+        <sys_id>6a9488b3241602107f446704277c054c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_rest_message_fn_6a9488b3241602107f446704277c054c</sys_update_name>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-27 16:46:16</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>27535d451b8a8e507716415fad4bcbc5</instance_id>
+        <instance_name>adf-may6-482-006</instance_name>
+        <name>sys_rest_message_fn_6a9488b3241602107f446704277c054c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Default GET</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Stripe Payment [ Default GET ]</qualified_name><rest_endpoint>https://api.stripe.com</rest_endpoint><rest_message display_value="Stripe Payment">f87488b3241602107f446704277c0546</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>adam.botens</sys_created_by><sys_created_on>2024-05-27 16:46:16</sys_created_on><sys_id>6a9488b3241602107f446704277c054c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Default GET</sys_name><sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package><sys_policy/><sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope><sys_update_name>sys_rest_message_fn_6a9488b3241602107f446704277c054c</sys_update_name><sys_updated_by>adam.botens</sys_updated_by><sys_updated_on>2024-05-27 16:46:16</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>912092484</payload_hash>
+        <record_name>Default GET</record_name>
+        <reverted_from/>
+        <source>8cde7c5d3d4602107f44ab845b21c037</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-27 16:46:16</sys_created_on>
+        <sys_id>aa9488b3241602107f446704277c054e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fbaf20f860000001</sys_recorded_at>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-27 16:46:16</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>ee9488b3db1602105504302697c5754d</update_guid>
+        <update_guid_history>ee9488b3db1602105504302697c5754d:912092484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-27 17:08:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>0d85d3a4eb414d3f9cdd538789b5fa79</sys_id>
+        <sys_metadata>6a9488b3241602107f446704277c054c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default GET</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_6a9488b3241602107f446704277c054c</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_6a9488b3241602107f446704277c054c">aa9488b3241602107f446704277c054e</sys_update_version>
+        <sys_updated_by>adam.botens</sys_updated_by>
+        <sys_updated_on>2024-05-27 17:08:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
