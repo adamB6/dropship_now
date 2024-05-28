@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2024-05-14 14:43:45</change_date>
-        <changed_by display_value="Christina Bloss">f010249d3d4202107f44ab845b21c0ec</changed_by>
+        <changed_by display_value="">f010249d3d4202107f44ab845b21c0ec</changed_by>
         <content display_value="Set up an instance scan cadence in Health Center">876f55ac0f382010310be3d1df767ea0</content>
         <related_change_log_entry/>
         <related_task_entry/>

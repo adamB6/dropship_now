@@ -45,7 +45,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Adam Botens">486e18d93d4202107f44ab845b21c089</owner>
+        <owner display_value="">486e18d93d4202107f44ab845b21c089</owner>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 

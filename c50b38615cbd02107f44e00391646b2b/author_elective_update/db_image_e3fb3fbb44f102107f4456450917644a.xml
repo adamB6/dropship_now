@@ -48,7 +48,7 @@
         <update_guid_history>7c3285514f860210b120d88d55a9e02d:1910795206,76ae8c198d0202100319e3563200b174:816588572</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_cdltd_dropship_0.DarkBackground.jpg">91328d513d8602107f44ab845b21c054</sys_audit_delete>
+        <sys_audit_delete display_value="">91328d513d8602107f44ab845b21c054</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-05-07 16:34:56</sys_created_on>

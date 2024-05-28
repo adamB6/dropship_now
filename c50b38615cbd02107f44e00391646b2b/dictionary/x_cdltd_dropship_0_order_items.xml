@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Order Item ID" max_length="40" name="number" type="string"/>
         <element label="Order ID" max_length="40" name="order_id" type="string"/>
         <element label="Price" max_length="38" name="price" type="decimal"/>
-        <element label="Product ID" max_length="40" name="product_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product ID" max_length="40" name="product_id" type="string"/>
         <element label="Product Name" max_length="40" name="product_name" type="string"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <element choice="3" label="Status" max_length="40" name="status" type="choice">
