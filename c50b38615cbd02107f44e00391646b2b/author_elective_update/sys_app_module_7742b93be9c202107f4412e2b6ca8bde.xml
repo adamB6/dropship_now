@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="DropshipNow">c18e78f28c7902107f44a273d461561a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Customers</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cdltd_dropship_0_customers</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_cdltd_dropship_0.customers_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>dylan.ragsdale</sys_created_by>
+        <sys_created_on>2024-05-15 14:29:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7742b93be9c202107f4412e2b6ca8bde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_app_module_7742b93be9c202107f4412e2b6ca8bde</sys_update_name>
+        <sys_updated_by>dylan.ragsdale</sys_updated_by>
+        <sys_updated_on>2024-05-15 14:29:54</sys_updated_on>
+        <timeline_page/>
+        <title>Customers</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</application>
+        <file_path/>
+        <instance_id>128355851b8a8e507716415fad4bcbfe</instance_id>
+        <instance_name>adf-may6-482-016</instance_name>
+        <name>sys_app_module_7742b93be9c202107f4412e2b6ca8bde</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="DropshipNow">c18e78f28c7902107f44a273d461561a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Customers</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cdltd_dropship_0_customers</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_cdltd_dropship_0.customers_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>dylan.ragsdale</sys_created_by>
+        <sys_created_on>2024-05-15 14:29:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7742b93be9c202107f4412e2b6ca8bde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_update_name>sys_app_module_7742b93be9c202107f4412e2b6ca8bde</sys_update_name>
+        <sys_updated_by>dylan.ragsdale</sys_updated_by>
+        <sys_updated_on>2024-05-15 14:29:54</sys_updated_on>
+        <timeline_page/>
+        <title>Customers</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>-346286080</payload_hash>
+        <record_name>Customers</record_name>
+        <reverted_from/>
+        <source>28a6414414a202107f44d3154bb9670d</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 16:14:24</sys_created_on>
+        <sys_id>9de6cd4414a202107f44d3154bb9675c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18fbffb3b240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 16:14:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5de6cd4412a202103aa96449c06fd95c</update_guid>
+        <update_guid_history>5de6cd4412a202103aa96449c06fd95c:-346286080</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customers">f9a9168414aa02107f44d3154bb9678b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-28 22:15:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>d8db1d30313e44a0a97da9616e6f0400</sys_id>
+        <sys_metadata>7742b93be9c202107f4412e2b6ca8bde</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customers</sys_name>
+        <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
+        <sys_scope_delete display_value="">85b79520725a45e1aeaab9b4276624d9</sys_scope_delete>
+        <sys_update_name>sys_app_module_7742b93be9c202107f4412e2b6ca8bde</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7742b93be9c202107f4412e2b6ca8bde">9de6cd4414a202107f44d3154bb9675c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-28 22:15:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
