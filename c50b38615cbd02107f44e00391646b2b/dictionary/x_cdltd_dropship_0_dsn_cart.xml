@@ -5,6 +5,7 @@
             <choice>
                 <element inactive_on_update="false" label="New" sequence="0" value="new"/>
                 <element inactive_on_update="false" label="Loaded" sequence="1" value="loaded"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
             </choice>
         </element>
         <element label="Price" max_length="40" name="price" type="decimal"/>
