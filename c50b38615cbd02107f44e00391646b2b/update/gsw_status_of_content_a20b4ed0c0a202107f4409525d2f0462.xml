@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
     <gsw_status_of_content action="INSERT_OR_UPDATE">
         <best_practice_allowed_ever>0</best_practice_allowed_ever>
-        <checksum>pRItTWciTNngLTll4U4pPH061yA=</checksum>
-        <content display_value="Welcome to App Engine Studio Guided Setup​">411b157f0f602010310be3d1df767e7b</content>
+        <checksum/>
+        <content display_value="Normalization Properties">cf13cf260b111200a8d7a12cf6673abe</content>
         <effective_weight>1</effective_weight>
         <more_info_visited>false</more_info_visited>
         <previous_status>0</previous_status>
         <progress>0</progress>
-        <related_log_entry display_value="2024-05-29 15:51:18">283bced0c0a202107f4409525d2f0489</related_log_entry>
-        <status>1</status>
+        <related_log_entry display_value="2024-05-29 15:50:37">6a0b4ed0c0a202107f4409525d2f0461</related_log_entry>
+        <status>0</status>
         <sys_class_name>gsw_status_of_content</sys_class_name>
-        <sys_created_by>c.bloss</sys_created_by>
-        <sys_created_on>2024-05-14 14:43:44</sys_created_on>
-        <sys_id>bceb602f914202107f4427bd93334578</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>1</sys_name>
+        <sys_created_by>adam.botens</sys_created_by>
+        <sys_created_on>2024-05-29 15:50:37</sys_created_on>
+        <sys_id>a20b4ed0c0a202107f4409525d2f0462</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
-        <sys_update_name>gsw_status_of_content_bceb602f914202107f4427bd93334578</sys_update_name>
+        <sys_update_name>gsw_status_of_content_a20b4ed0c0a202107f4409525d2f0462</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-29 15:51:18</sys_updated_on>
+        <sys_updated_on>2024-05-29 15:50:37</sys_updated_on>
     </gsw_status_of_content>
 </record_update>
