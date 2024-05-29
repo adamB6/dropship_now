@@ -67,6 +67,58 @@
                                     "operation": null,
                                     "targetId": "clwkwkhhihaaaacwccahhmxwccffhhuhc",
                                     "type": "EVENT"
+                                },
+                                {
+                                    "broker": null,
+                                    "clientScript": null,
+                                    "conditional": null,
+                                    "declarativeAction": null,
+                                    "event": null,
+                                    "operation": {
+                                        "dataBrokerId": "43f97dd2770300108d070d74c81061c2",
+                                        "operationName": "EXECUTE",
+                                        "parentResourceId": "update_multiple_records_1",
+                                        "payload": {
+                                            "container": {
+                                                "query": {
+                                                    "transform": {
+                                                        "operands": {
+                                                            "container": [
+                                                                {
+                                                                    "type": "JSON_LITERAL",
+                                                                    "value": "sys_created_by="
+                                                                },
+                                                                {
+                                                                    "binding": {
+                                                                        "address": [
+                                                                            "user",
+                                                                            "userName"
+                                                                        ],
+                                                                        "category": "session"
+                                                                    },
+                                                                    "type": "CONTEXT_BINDING"
+                                                                }
+                                                            ],
+                                                            "type": "LIST_CONTAINER"
+                                                        },
+                                                        "operator": "CONCAT"
+                                                    },
+                                                    "type": "CLIENT_TRANSFORM"
+                                                },
+                                                "table": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "x_cdltd_dropship_0_dsn_cart"
+                                                },
+                                                "templateFields": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "phase=complete"
+                                                }
+                                            },
+                                            "type": "MAP_CONTAINER"
+                                        }
+                                    },
+                                    "targetId": "clwreetdbbiiaaaaeerccahhleeffrggxccgaa",
+                                    "type": "DATABROKER_OP"
                                 }
                             ]
                         }
@@ -339,7 +391,33 @@
 ]</composition>
         <da_relay_models/>
         <data>[
-    
+    {
+        "definition": {
+            "id": "43f97dd2770300108d070d74c81061c2",
+            "type": "GRAPHQL"
+        },
+        "dependencies": {},
+        "elementId": "update_multiple_records_1",
+        "elementLabel": "Update Multiple Records 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "templateFields": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            }
+        },
+        "readEvaluationMode": "EXPLICIT"
+    }
 ]</data>
         <description/>
         <dispatched_events>5672e43a949202107f44e881c963175f,9672e43a949202107f44e881c963175f</dispatched_events>
@@ -396,14 +474,14 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-10 17:31:05</sys_created_on>
         <sys_id>41dba456c88602107f4448216102a376</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
         <sys_policy/>
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_ux_macroponent_41dba456c88602107f4448216102a376</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-24 21:43:26</sys_updated_on>
+        <sys_updated_on>2024-05-29 01:13:15</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=41dba456c88602107f4448216102a376"/>
 </record_update>

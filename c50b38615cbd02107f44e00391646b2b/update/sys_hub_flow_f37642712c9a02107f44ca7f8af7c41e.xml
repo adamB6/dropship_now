@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f37642712c9a02107f44ca7f8af7c41e</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Order record created</sys_name>
         <sys_overrides/>
         <sys_package display_value="DropshipNow" source="x_cdltd_dropship_0">c50b38615cbd02107f44e00391646b2b</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="DropshipNow">c50b38615cbd02107f44e00391646b2b</sys_scope>
         <sys_update_name>sys_hub_flow_f37642712c9a02107f44ca7f8af7c41e</sys_update_name>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-28 21:26:50</sys_updated_on>
+        <sys_updated_on>2024-05-29 00:43:05</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f37642712c9a02107f44ca7f8af7c41e"/>
@@ -77,9 +77,9 @@
         <sys_created_by>adam.botens</sys_created_by>
         <sys_created_on>2024-05-28 21:10:19</sys_created_on>
         <sys_id>44aa8604146a02107f44d3154bb9672a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>adam.botens</sys_updated_by>
-        <sys_updated_on>2024-05-28 21:36:49</sys_updated_on>
+        <sys_updated_on>2024-05-29 00:43:08</sys_updated_on>
         <trigger display_value="">5c484d80444e02107f445645091764e1</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f37642712c9a02107f44ca7f8af7c41e^sys_idNOT IN44aa8604146a02107f44d3154bb9672a"/>
